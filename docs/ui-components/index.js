@@ -9,6 +9,7 @@ import ContextualMenu from './ContextualMenu.vue';
 import DatePicker from './DatePicker.vue';
 import Dialog from './Dialog.vue';
 import Dropdown from './Dropdown.vue';
+import Icon from './Icon.vue';
 import Label from './Label.vue';
 import Link from './Link.vue';
 import MessageBanner from './MessageBanner.vue';
@@ -37,6 +38,7 @@ export default {
   DatePicker,
   Dialog,
   Dropdown,
+  Icon,
   Label,
   Link,
   MessageBanner,

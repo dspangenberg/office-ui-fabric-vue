@@ -28,13 +28,18 @@
         default() {
           return [];
         }
+      },
+      hasIcons: {
+        type: Boolean,
+        default: false
       }
     },
 
     computed: {
       contextualMenuClass() {
         return {
-          [`ms-ContextualMenu--${this.type}`]: !!this.type
+          [`ms-ContextualMenu--${this.type}`]: !!this.type,
+          'ms-ContextualMenu--hasIcons': this.hasIcons
         };
       }
     },

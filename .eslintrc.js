@@ -1,5 +1,8 @@
 module.exports = {
-  "extends": "airbnb-base",
+  "extends": [
+    "airbnb-base",
+    'plugin:vue/recommended',
+  ],
   "rules": {
     "eqeqeq": "off",
     "no-new": "off",
@@ -13,11 +16,13 @@ module.exports = {
     "no-param-reassign": "off",
     "consistent-return": "off",
     "default-case": "off",
+    "max-len": "off",
     "no-unused-expressions": ["error", { "allowTernary": true }]
   },
   "plugins": [
     "import",
-    "html"
+    "html",
+    "vue"
   ],
   "globals": {
     "fabric": true,

@@ -1,6 +1,7 @@
 export default {
   props: {
-    icon: String
+    icon: String,
+    type: String
   },
 
   computed: {

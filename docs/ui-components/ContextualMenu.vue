@@ -14,6 +14,18 @@
           </div>
         </ou-contextual-menu>
       </docs-code-block>
+      <docs-code-block title='ContextualMenu with Icons' :code='defaultCode'>
+        <ou-contextual-menu :hasIcons="true">
+          <ou-button type='primary'>Open Example</ou-button>
+          <div slot='list'>
+            <ou-contextual-menu-item icon="cat-footprint" icon-type="svg" name='Animals' />
+            <ou-contextual-menu-item icon="library" icon-type="svg"  name='Books' />
+            <ou-contextual-menu-item icon="puzzle" icon-type="svg" name='Education' />
+            <ou-contextual-menu-item icon="music" icon-type="svg" name='Music' />
+            <ou-contextual-menu-item icon="trophy" icon-type="svg" name='Sports' disabled />
+          </div>
+        </ou-contextual-menu>
+      </docs-code-block>
       <docs-code-block title='Multiselect ContextualMenu' :code='multiselectCode'>
         <ou-contextual-menu type='multiselect' v-model='select'>
           <ou-button type='primary'>Open Example</ou-button>

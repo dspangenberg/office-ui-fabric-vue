@@ -9,8 +9,15 @@ import Routes from './routes';
 import DocsContent from './components/DocsContent.vue';
 import DocsCodeBlock from './components/DocsCodeBlock.vue';
 import DocsTable from './components/DocsTable.vue';
+import svgicon from 'vue-svgicon';
 
-Vue.use(OfficeUIFabricVue);
+const svgFiles = require.context('./icons/', false, /.*\.js$/);
+
+Vue.use(OfficeUIFabricVue, {
+  svgs: svgFiles
+});
+
+Vue.use(svgicon);
 Vue.use(VueRouter);
 Vue.use(VueScrollTo);
 

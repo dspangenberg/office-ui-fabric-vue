@@ -7,8 +7,9 @@
       v-if='hasLink'>
       {{ name }}
     </a>
+    <ou-icon :disabled="disabled" v-if="icon" :icon="icon" :type="iconType" />
     <i class='ms-ContextualMenu-subMenuIcon ms-Icon ms-Icon--ChevronRight' v-if='hasMenu'></i>
-    <ul class='ms-ContextualMenu is-hidden' v-if='hasMenu'>
+    <ul class='ms-ContextualMenu is-hidden' :class="{'ms-ContextualMenu--hasIcons': $parent.hasIcons}"  v-if='hasMenu'>
       <slot />
     </ul>
   </li>
@@ -32,7 +33,12 @@
 
     props: {
       name: String,
-      value: [String, Number]
+      value: [String, Number],
+      icon: String,
+      iconType: {
+        type: String,
+        default: 'ms'
+      }
     },
 
     computed: {
@@ -50,7 +56,7 @@
         };
       },
 
-      contextualMenuLinkClass() {
+     contextualMenuLinkClass() {
         return {
           'is-disabled': this.disabled,
           'is-selected': this.selected
@@ -85,3 +91,7 @@
     }
   };
 </script>
+
+<style>
+
+</style>

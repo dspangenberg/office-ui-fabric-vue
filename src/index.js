@@ -1,9 +1,20 @@
 import fabric from '../lib/office-ui-fabric';
 import componentsInstaller from './install';
+import svgicon from 'vue-svgicon';
 
 const OfficeUIFabricVue = {
-  install(Vue) {
+  install(Vue, options = {}) {
     Vue.prototype.$fabric = fabric;
+
+    const svgs = options.svgs || null;
+
+    /* eslint-disable */
+    if (svgs !== null) {
+      svgs.keys().forEach((key) => {
+        if (key === './index.js') return;
+        svgicon.register(svgs(key).default);
+      });
+    }
     componentsInstaller(Vue);
   }
 };

@@ -9,6 +9,7 @@ import contextualMenuInstaller from './components/contextual_menu';
 import datePickerInstaller from './components/date_picker';
 import dialogInstaller from './components/dialog';
 import dropdownInstaller from './components/dropdown';
+import iconInstaller from './components/icon';
 import labelInstaller from './components/label';
 import linkInstaller from './components/link';
 import messageBannerInstaller from './components/message_banner';
@@ -37,6 +38,7 @@ export default function (Vue) {
   datePickerInstaller(Vue);
   dialogInstaller(Vue);
   dropdownInstaller(Vue);
+  iconInstaller(Vue);
   labelInstaller(Vue);
   linkInstaller(Vue);
   messageBannerInstaller(Vue);

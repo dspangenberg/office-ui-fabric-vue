@@ -3,7 +3,7 @@
     <div slot='Overview' v-html='overviewContent'></div>
     <div slot='Variants'>
       <docs-code-block title='Default CommandButton' :code='defaultCode'>
-        <ou-command-button icon='CircleRing'>Command</ou-command-button>
+        <ou-command-button icon-type="svg" icon='add-user'>Command</ou-command-button>
       </docs-code-block>
       <docs-code-block title='No Label CommandButton' :code='noLabelCode'>
         <ou-command-button icon='CircleRing' type='noLabel'></ou-command-button>
@@ -28,6 +28,13 @@
       </docs-code-block>
       <docs-code-block title='Text Only CommandButton' :code='textOnlyCode'>
         <ou-command-button>Command</ou-command-button>
+      </docs-code-block>
+
+       <docs-code-block title='Pivot CommandButton' :code='textOnlyCode'>
+        <ou-command-button icon-type="svg" icon='add-user' type="pivot">Command</ou-command-button>
+      </docs-code-block>
+       <docs-code-block title='Selected Pivot CommandButton' :code='textOnlyCode'>
+        <ou-command-button :active="true" icon-type="svg" icon='add-user' type="pivot">Command</ou-command-button>
       </docs-code-block>
     </div>
     <div slot='Implementation'>

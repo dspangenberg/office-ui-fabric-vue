@@ -3,6 +3,7 @@
     <button class='ms-CommandButton-button'>
       <span class='ms-CommandButton-icon ms-fontColor-themePrimary' v-if='icon'>
         <i class='ms-Icon' :class='iconClass'></i>
+        <ou-icon :icon="icon" :type="iconType" />
       </span>
       <span class='ms-CommandButton-label'><slot /></span>
       <span class='ms-CommandButton-dropdownIcon' v-if="type == 'dropdown'">
@@ -25,11 +26,19 @@
       icon
     ],
 
+    props: {
+      iconType: String,
+      active: Boolean,
+      pivot: Boolean
+    },
+
     computed: {
       commandButtonClass() {
         return {
           [`ms-CommandButton--${this.type}`]: !!this.type,
-          'is-disabled': this.disabled
+          'ms-CommandButton--pivot': this.pivot,
+          'is-disabled': this.disabled,
+          'is-active': this.active && this.pivot
         };
       }
     },

@@ -26,6 +26,30 @@
           </template>
         </ou-command-bar>
       </docs-code-block>
+      <docs-code-block title='Navbar CommandBar' :code='defaultCode'>
+        <ou-command-bar>
+          <template slot='main'>
+            <ou-search-box type='commandBar' placeholder='Search' />
+            <ou-contextual-menu :hasIcons="true" >
+              <ou-command-button  :pivot="true" :active="true" type='dropdown'>All Photos</ou-command-button>
+              <div slot='list'>
+                 <ou-contextual-menu-item icon="cat-footprint" icon-type="svg" name='Animals' />
+                  <ou-contextual-menu-item icon="library" icon-type="svg"  name='Books' />
+                  <ou-contextual-menu-item icon="puzzle" icon-type="svg" name='Education' />
+                  <ou-contextual-menu-item icon="music" icon-type="svg" name='Music' />
+                  <ou-contextual-menu-item icon="trophy" icon-type="svg" name='Sports' disabled />
+              </div>
+            </ou-contextual-menu>
+            <ou-command-button pivot="true">Albums</ou-command-button>
+            <ou-command-button pivot="true">Tags</ou-command-button>
+            <ou-command-button pivot="true">Places</ou-command-button>
+            <ou-command-button pivot="true">People</ou-command-button>
+          </template>
+          <template slot='side'>
+            <ou-command-button icon='CircleRing' type='noLabel'></ou-command-button>
+          </template>
+        </ou-command-bar>
+      </docs-code-block>
     </div>
     <div slot='Implementation'>
       <docs-table type='slot' :data='commandBarSlot' name='CommandBar' />
