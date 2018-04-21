@@ -5,7 +5,7 @@
         <docs-panel-nav />
         <div class='header__title--content ms-fontColor-white ms-fontSize-xl ms-fontWeight-light'>Office UI Fabric Vue</div>
       </div>
-      <a href='https://github.com/aidewoode/office-ui-fabric-vue' class='header__icon'>
+      <a href='https://github.com/dspangenberg/office-ui-fabric-vue' class='header__icon'>
         <img src='docs/assets/img/github-logo.svg' />
       </a>
     </header>
