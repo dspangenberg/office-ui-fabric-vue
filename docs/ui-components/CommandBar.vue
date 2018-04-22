@@ -3,10 +3,10 @@
     <div slot='Overview' v-html='overviewContent'></div>
     <div slot='Variants'>
       <docs-code-block title='Default CommandBar' :code='defaultCode'>
-        <ou-command-bar>
+        <ou-command-bar >
           <template slot='main'>
             <ou-search-box type='commandBar' placeholder='Search' />
-            <ou-command-button icon='CircleRing'>Command</ou-command-button>
+            <ou-command-button icon-type="svg" icon='add-user'>Command</ou-command-button>
             <ou-contextual-menu>
               <ou-command-button icon='CircleRing' type='dropdown'>New</ou-command-button>
               <div slot='list'>

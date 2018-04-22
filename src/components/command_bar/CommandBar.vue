@@ -23,7 +23,12 @@
 <script>
   export default {
     name: 'ou-command-bar',
-
+    props: {
+      svgSize: {
+        type: Number,
+        default: 20
+      }
+    },
     mounted() {
       new this.$fabric.CommandBar(this.$refs.commandBar);
     }

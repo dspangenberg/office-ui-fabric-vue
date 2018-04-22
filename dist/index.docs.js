@@ -8904,7 +8904,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'ou-command-bar',
-
+  props: {
+    svgSize: {
+      type: Number,
+      default: 20
+    }
+  },
   mounted: function mounted() {
     new this.$fabric.CommandBar(this.$refs.commandBar);
   }
@@ -8921,7 +8926,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mixins_props_icon__ = __webpack_require__(7);
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-//
 //
 //
 //
@@ -9553,13 +9557,17 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       type: Boolean,
       default: false
     },
+    svgClass: {
+      type: String,
+      default: ''
+    },
     color: {
       type: String,
       default: 'currentColor'
     },
     size: {
       type: Number,
-      default: 16
+      default: 20
     }
   },
   render: function render(h, ctx) {
@@ -9567,7 +9575,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     var classes = {
       class: ['ms-Icon--' + ctx.props.icon, { 'ms-Icon--disabled': ctx.props.disabled }]
     };
-    if (ctx.props.type !== 'svg') {
+    if (ctx.props.type === 'ms') {
       return h('i', __WEBPACK_IMPORTED_MODULE_0_babel_helper_vue_jsx_merge_props___default()([{ 'class': 'ms-Icon' }, classes, data, {
         attrs: {
           'aria-hidden': 'true' }
@@ -9584,7 +9592,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             width: size,
             height: size,
             color: color
-          }
+          },
+          'class': ctx.props.svgClass
         })]
       );
     }
@@ -12540,12 +12549,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
     staticClass: "ms-CommandButton-button"
   }, [(_vm.icon) ? _vm._c('span', {
     staticClass: "ms-CommandButton-icon ms-fontColor-themePrimary"
-  }, [_vm._c('i', {
-    staticClass: "ms-Icon",
-    class: _vm.iconClass
-  }), _vm._v(" "), _vm._c('ou-icon', {
+  }, [_vm._c('ou-icon', {
     attrs: {
-      "size": 20,
+      "size": _vm.$parent.svgSize,
       "icon": _vm.icon,
       "type": _vm.iconType
     }
@@ -26184,7 +26190,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
     }
   }), _vm._v(" "), _vm._c('ou-command-button', {
     attrs: {
-      "icon": "CircleRing"
+      "icon-type": "svg",
+      "icon": "add-user"
     }
   }, [_vm._v("Command")]), _vm._v(" "), _vm._c('ou-contextual-menu', [_vm._c('ou-command-button', {
     attrs: {

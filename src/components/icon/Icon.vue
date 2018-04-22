@@ -24,13 +24,17 @@ export default {
       type: Boolean,
       default: false
     },
+    svgClass: {
+      type: String,
+      default: ''
+    },
     color: {
       type: String,
       default: 'currentColor'
     },
     size: {
       type: Number,
-      default: 16
+      default: 20
     }
   },
   render (h, ctx) {
@@ -40,7 +44,7 @@ export default {
       {'ms-Icon--disabled': ctx.props.disabled}
       ],
     }
-    if (ctx.props.type !== 'svg') {
+    if (ctx.props.type === 'ms') {
       return (
         <i class="ms-Icon" {...classes}
           {...data}
@@ -56,6 +60,7 @@ export default {
             width={size}
             height={size}
             color={color}
+            class={ctx.props.svgClass}
           />
         </i>
       )
