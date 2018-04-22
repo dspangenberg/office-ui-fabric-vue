@@ -23,7 +23,7 @@ module.exports = function(env) {
   let uglifyPlugin = []
 
   if (env.production) {
-    uglifyPlugin.push(new webpack.optimize.UglifyJsPlugin());
+    // uglifyPlugin.push(new webpack.optimize.UglifyJsPlugin());
   }
 
   return {
