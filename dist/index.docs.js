@@ -12545,6 +12545,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
     class: _vm.iconClass
   }), _vm._v(" "), _vm._c('ou-icon', {
     attrs: {
+      "size": 20,
       "icon": _vm.icon,
       "type": _vm.iconType
     }

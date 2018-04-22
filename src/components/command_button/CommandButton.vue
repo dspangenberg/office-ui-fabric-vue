@@ -3,7 +3,7 @@
     <button class='ms-CommandButton-button'>
       <span class='ms-CommandButton-icon ms-fontColor-themePrimary' v-if='icon'>
         <i class='ms-Icon' :class='iconClass'></i>
-        <ou-icon :icon="icon" :type="iconType" />
+        <ou-icon :size="20" :icon="icon" :type="iconType" />
       </span>
       <span class='ms-CommandButton-label'><slot /></span>
       <span class='ms-CommandButton-dropdownIcon' v-if="type == 'dropdown'">
