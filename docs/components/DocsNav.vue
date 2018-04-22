@@ -3,9 +3,14 @@
     <ul class='items'>
       <li class='item ms-fontWeight-semibold ms-fontSize-xl'>
         <router-link class='ms-fontColor-neutralPrimary ms-fontColor-neutralDark--hover' to='/'>Fabric Vue</router-link>
+       <ul class='items items__submenu'>
+          <li class='item ms-fontSize-l ms-fontWeight-light'>
+            <router-link class='ms-fontColor-neutralSecondary ms-fontColor-neutralDark--hover nav_link' to='/GetStarted'>Get Started</router-link>
+          </li>
+        </ul>
       </li>
       <li class='item ms-fontSize-l ms-fontWeight-light'>
-        <router-link class='ms-fontColor-neutralSecondary ms-fontColor-neutralDark--hover nav_link' to='/GetStarted'>Get Started</router-link>
+        <router-link class='ms-fontColor-neutralSecondary ms-fontColor-neutralDark--hover nav_link' to='/ChangeLog'>Changelog</router-link>
       </li>
       <li class='item ms-fontSize-l ms-fontWeight-light'>
         <router-link class='ms-fontColor-neutralSecondary ms-fontColor-neutralDark--hover nav_link' :to="'/components/' + allComponentsName[0]">Components</router-link>
