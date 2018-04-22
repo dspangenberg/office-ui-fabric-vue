@@ -5,6 +5,9 @@
 ## Introduction
 
 Office UI Fabric implementation for Vue.js, build with [office-ui-fabric-js](https://github.com/OfficeDev/office-ui-fabric-js)
+([Documentation](https://dev.office.com/fabric-js))
+
+
 
 ## Dependencies
 
