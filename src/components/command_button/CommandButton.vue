@@ -5,7 +5,7 @@
         <ou-icon :size="$parent.svgSize" :icon="icon" :type="iconType" />
       </span>
       <span class='ms-CommandButton-label'><slot /></span>
-      <span class='ms-CommandButton-dropdownIcon' v-if="type == 'dropdown'">
+      <span class='ms-CommandButton-dropdownIcon' v-if="hasDropdown">
         <i class='ms-Icon ms-Icon--ChevronDown'></i>
       </span>
     </button>
@@ -20,7 +20,7 @@
     name: 'ou-command-button',
 
     mixins: [
-      type('noLabel', 'inline', 'dropdown'),
+      type('noLabel', 'inline', 'dropdown', 'dropdownNoLabel'),
       disabled,
       icon
     ],
@@ -32,9 +32,16 @@
     },
 
     computed: {
+      hasDropdown () {
+        return (this.type === 'dropdown' || this.type==='dropdownNoLabel')
+      },
       commandButtonClass() {
         return {
-          [`ms-CommandButton--${this.type}`]: !!this.type,
+          'ms-CommandButton--noLabel': this.type === 'noLabel',
+          'ms-CommandButton--inline': this.type === 'inline',
+          'ms-CommandButton--dropdown': this.type === 'dropdown',
+          'ms-CommandButton--dropdown': this.type === 'dropdownNoLabel',
+          'ms-CommandButton--noLabel': this.type === 'dropdownNoLabel',
           'ms-CommandButton--pivot': this.pivot,
           'is-disabled': this.disabled,
           'is-active': this.active && this.pivot

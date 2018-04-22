@@ -8904,7 +8904,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'ou-command-button',
 
-  mixins: [__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__mixins_props_type__["a" /* default */])('noLabel', 'inline', 'dropdown'), __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__["a" /* default */], __WEBPACK_IMPORTED_MODULE_2__mixins_props_icon__["a" /* default */]],
+  mixins: [__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__mixins_props_type__["a" /* default */])('noLabel', 'inline', 'dropdown', 'dropdownNoLabel'), __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__["a" /* default */], __WEBPACK_IMPORTED_MODULE_2__mixins_props_icon__["a" /* default */]],
 
   props: {
     iconType: String,
@@ -8913,10 +8913,17 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   },
 
   computed: {
+    hasDropdown: function hasDropdown() {
+      return this.type === 'dropdown' || this.type === 'dropdownNoLabel';
+    },
     commandButtonClass: function commandButtonClass() {
       var _ref;
 
-      return _ref = {}, _defineProperty(_ref, 'ms-CommandButton--' + this.type, !!this.type), _defineProperty(_ref, 'ms-CommandButton--pivot', this.pivot), _defineProperty(_ref, 'is-disabled', this.disabled), _defineProperty(_ref, 'is-active', this.active && this.pivot), _ref;
+      return _ref = {
+        'ms-CommandButton--noLabel': this.type === 'noLabel',
+        'ms-CommandButton--inline': this.type === 'inline',
+        'ms-CommandButton--dropdown': this.type === 'dropdown'
+      }, _defineProperty(_ref, 'ms-CommandButton--dropdown', this.type === 'dropdownNoLabel'), _defineProperty(_ref, 'ms-CommandButton--noLabel', this.type === 'dropdownNoLabel'), _defineProperty(_ref, 'ms-CommandButton--pivot', this.pivot), _defineProperty(_ref, 'is-disabled', this.disabled), _defineProperty(_ref, 'is-active', this.active && this.pivot), _ref;
     }
   },
 
@@ -12514,7 +12521,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
     }
   })], 1) : _vm._e(), _vm._v(" "), _vm._c('span', {
     staticClass: "ms-CommandButton-label"
-  }, [_vm._t("default")], 2), _vm._v(" "), (_vm.type == 'dropdown') ? _vm._c('span', {
+  }, [_vm._t("default")], 2), _vm._v(" "), (_vm.hasDropdown) ? _vm._c('span', {
     staticClass: "ms-CommandButton-dropdownIcon"
   }, [_vm._c('i', {
     staticClass: "ms-Icon ms-Icon--ChevronDown"
