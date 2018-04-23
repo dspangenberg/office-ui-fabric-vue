@@ -1,9 +1,10 @@
 export default {
   props: {
-    icon: String,
-    type: String
+    icon: {
+      type: String,
+      default: ''
+    },
   },
-
   computed: {
     iconClass() {
       return {

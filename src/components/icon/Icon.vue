@@ -8,7 +8,7 @@ export default {
   },
   functional: true,
   mixins: [
-    type('ms', 'svg')
+    type('*ms', 'svg')
   ],
   name: 'ou-icon',
   props: {

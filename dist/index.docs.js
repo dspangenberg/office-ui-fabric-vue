@@ -178,6 +178,20 @@ module.exports = function normalizeComponent (
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+function getDefault(types) {
+  var defaultValue = '';
+  var newValues = [];
+
+  Array.from(types).forEach(function (element) {
+    if (element.startsWith('*')) {
+      element = element.substr(1);
+      defaultValue = element;
+    }
+    newValues.push(element);
+  });
+  return { values: newValues, defaultVal: defaultValue };
+}
+
 /* harmony default export */ __webpack_exports__["a"] = (function () {
   for (var _len = arguments.length, types = Array(_len), _key = 0; _key < _len; _key++) {
     types[_key] = arguments[_key];
@@ -185,13 +199,17 @@ module.exports = function normalizeComponent (
 
   types.push('');
 
+  var _getDefault = getDefault(types),
+      values = _getDefault.values,
+      defaultVal = _getDefault.defaultVal;
+
   return {
     props: {
       type: {
         type: String,
-        default: '',
+        default: defaultVal,
         validator: function validator(value) {
-          return types.includes(value);
+          return values.includes(value);
         }
       }
     }
@@ -545,13 +563,14 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   props: {
-    icon: String,
-    type: String
+    icon: {
+      type: String,
+      default: ''
+    }
   },
-
   computed: {
     iconClass: function iconClass() {
-      return _defineProperty({}, "ms-Icon--" + this.icon, !!this.icon);
+      return _defineProperty({}, 'ms-Icon--' + this.icon, !!this.icon);
     }
   }
 });
@@ -8948,8 +8967,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_type__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mixins_props_icon__ = __webpack_require__(6);
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 //
 //
 //
@@ -8983,14 +9000,18 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     hasDropdown: function hasDropdown() {
       return this.type === 'dropdown' || this.type === 'dropdownNoLabel';
     },
+    hasLabel: function hasLabel() {
+      return this.type !== 'noLabel' && this.type !== 'dropdownNoLabel';
+    },
     commandButtonClass: function commandButtonClass() {
-      var _ref;
-
-      return _ref = {
-        'ms-CommandButton--noLabel': this.type === 'noLabel',
+      return {
+        'ms-CommandButton--noLabel': !this.hasLabel,
         'ms-CommandButton--inline': this.type === 'inline',
-        'ms-CommandButton--dropdown': this.type === 'dropdown'
-      }, _defineProperty(_ref, 'ms-CommandButton--dropdown', this.type === 'dropdownNoLabel'), _defineProperty(_ref, 'ms-CommandButton--noLabel', this.type === 'dropdownNoLabel'), _defineProperty(_ref, 'ms-CommandButton--pivot', this.pivot), _defineProperty(_ref, 'is-disabled', this.disabled), _defineProperty(_ref, 'is-active', this.active && this.pivot), _ref;
+        'ms-CommandButton--dropdown': this.hasDropdown,
+        'ms-CommandButton--pivot': this.pivot,
+        'is-disabled': this.disabled,
+        'is-active': this.active && this.pivot
+      };
     }
   },
 
@@ -9573,7 +9594,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     svgicon: __WEBPACK_IMPORTED_MODULE_1_vue_svgicon___default.a
   },
   functional: true,
-  mixins: [__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__mixins_props_type__["a" /* default */])('ms', 'svg')],
+  mixins: [__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__mixins_props_type__["a" /* default */])('*ms', 'svg')],
   name: 'ou-icon',
   props: {
     name: {
@@ -28309,7 +28330,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
     attrs: {
       "icon-type": "svg",
       "icon": "add-user",
-      "type": "pivot"
+      "pivot": true
     }
   }, [_vm._v("Command")])], 1), _vm._v(" "), _vm._c('docs-code-block', {
     attrs: {
@@ -28321,7 +28342,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
       "active": true,
       "icon-type": "svg",
       "icon": "add-user",
-      "type": "pivot"
+      "pivot": true
     }
   }, [_vm._v("Command")])], 1)], 1), _vm._v(" "), _vm._c('div', {
     slot: "Implementation"

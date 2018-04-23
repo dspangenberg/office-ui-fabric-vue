@@ -35,13 +35,14 @@
       hasDropdown () {
         return (this.type === 'dropdown' || this.type==='dropdownNoLabel')
       },
+      hasLabel () {
+        return (this.type !== 'noLabel' && this.type !== 'dropdownNoLabel')
+      },
       commandButtonClass() {
         return {
-          'ms-CommandButton--noLabel': this.type === 'noLabel',
+          'ms-CommandButton--noLabel': !this.hasLabel,
           'ms-CommandButton--inline': this.type === 'inline',
-          'ms-CommandButton--dropdown': this.type === 'dropdown',
-          'ms-CommandButton--dropdown': this.type === 'dropdownNoLabel',
-          'ms-CommandButton--noLabel': this.type === 'dropdownNoLabel',
+          'ms-CommandButton--dropdown': this.hasDropdown,
           'ms-CommandButton--pivot': this.pivot,
           'is-disabled': this.disabled,
           'is-active': this.active && this.pivot

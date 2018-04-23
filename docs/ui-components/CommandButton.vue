@@ -43,10 +43,10 @@
       </docs-code-block>
 
        <docs-code-block title='Pivot CommandButton' :code='textOnlyCode'>
-        <ou-command-button icon-type="svg" icon='add-user' type="pivot">Command</ou-command-button>
+        <ou-command-button icon-type="svg" icon='add-user' :pivot="true">Command</ou-command-button>
       </docs-code-block>
        <docs-code-block title='Selected Pivot CommandButton' :code='textOnlyCode'>
-        <ou-command-button :active="true" icon-type="svg" icon='add-user' type="pivot">Command</ou-command-button>
+        <ou-command-button :active="true" icon-type="svg" icon='add-user' :pivot="true">Command</ou-command-button>
       </docs-code-block>
     </div>
     <div slot='Implementation'>
