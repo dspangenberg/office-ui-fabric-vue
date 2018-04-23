@@ -7,6 +7,7 @@
       </docs-code-block>
       <docs-code-block title='No Label CommandButton' :code='noLabelCode'>
         <ou-command-button icon='CircleRing' type='noLabel'></ou-command-button>
+        <ou-command-button icon='add-user' icon-type="svg" type='noLabel'></ou-command-button>
       </docs-code-block>
       <docs-code-block title='Disabled CommandButton' :code='disabledCode'>
         <ou-command-button icon='CircleRing' disabled>Command</ou-command-button>

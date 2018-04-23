@@ -26,7 +26,6 @@
     ],
 
     props: {
-      iconType: String,
       active: Boolean,
       pivot: Boolean
     },

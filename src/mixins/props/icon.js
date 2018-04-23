@@ -4,6 +4,10 @@ export default {
       type: String,
       default: ''
     },
+    iconType: {
+      type: String,
+      default: 'ms'
+    }
   },
   computed: {
     iconClass() {

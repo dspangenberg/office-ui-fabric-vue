@@ -566,6 +566,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     icon: {
       type: String,
       default: ''
+    },
+    iconType: {
+      type: String,
+      default: 'ms'
     }
   },
   computed: {
@@ -8948,7 +8952,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   mixins: [__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__mixins_props_type__["a" /* default */])('noLabel', 'inline', 'dropdown', 'dropdownNoLabel'), __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__["a" /* default */], __WEBPACK_IMPORTED_MODULE_2__mixins_props_icon__["a" /* default */]],
 
   props: {
-    iconType: String,
     active: Boolean,
     pivot: Boolean
   },
