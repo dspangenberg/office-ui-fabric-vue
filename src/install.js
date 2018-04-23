@@ -12,6 +12,7 @@ import dropdownInstaller from './components/dropdown';
 import iconInstaller from './components/icon';
 import labelInstaller from './components/label';
 import linkInstaller from './components/link';
+import listInstaller from './components/list';
 import messageBannerInstaller from './components/message_banner';
 import messageBarInstaller from './components/message_bar';
 import orgChartInstaller from './components/org_chart';
@@ -41,6 +42,7 @@ export default function (Vue) {
   iconInstaller(Vue);
   labelInstaller(Vue);
   linkInstaller(Vue);
+  listInstaller(Vue);
   messageBannerInstaller(Vue);
   messageBarInstaller(Vue);
   orgChartInstaller(Vue);

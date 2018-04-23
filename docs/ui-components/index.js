@@ -12,6 +12,7 @@ import Dropdown from './Dropdown.vue';
 import Icon from './Icon.vue';
 import Label from './Label.vue';
 import Link from './Link.vue';
+import List from './List.vue';
 import MessageBanner from './MessageBanner.vue';
 import MessageBar from './MessageBar.vue';
 import OrgChart from './OrgChart.vue';
@@ -41,6 +42,7 @@ export default {
   Icon,
   Label,
   Link,
+  List,
   MessageBanner,
   MessageBar,
   OrgChart,

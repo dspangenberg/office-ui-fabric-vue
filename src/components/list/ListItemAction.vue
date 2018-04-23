@@ -1,6 +1,6 @@
 <template>
   <div class="ms-ListItem-action" @click="onClick">
-    <VabricIcon :icon="icon" :type="type" />
+    <ou-icon :icon="icon" :type="type" />
   </div>
 </template>
 

@@ -26,7 +26,7 @@
     props: {
       svgSize: {
         type: Number,
-        default: 20
+        default: 24
       }
     },
     mounted() {
