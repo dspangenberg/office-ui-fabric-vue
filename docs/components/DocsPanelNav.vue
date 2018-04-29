@@ -1,7 +1,12 @@
 <template>
-  <div class='container'>
-    <i class='ms-Icon ms-Icon--GlobalNavButton ms-fontColor-white' @click='openPanel' aria-hidden="true"></i>
-    <ou-panel left v-model='panelVisiblity'>
+  <div class="container">
+    <i
+      class="ms-Icon ms-Icon--GlobalNavButton ms-fontColor-white"
+      aria-hidden="true"
+      @click="openPanel"/>
+    <ou-panel
+      v-model="panelVisiblity"
+      left>
       <docs-nav />
     </ou-panel>
   </div>
@@ -19,31 +24,31 @@
   }
 </style>
 <script>
-  import DocsNav from './DocsNav.vue';
+import DocsNav from './DocsNav.vue'
 
-  export default {
-    data() {
-      return {
-        panelVisiblity: false
-      };
-    },
+export default {
 
-    watch: {
-      $route: 'closePanel'
-    },
-
-    components: {
-      DocsNav
-    },
-
-    methods: {
-      openPanel() {
-        this.panelVisiblity = true;
-      },
-
-      closePanel() {
-        this.panelVisiblity = false;
-      }
+  components: {
+    DocsNav
+  },
+  data () {
+    return {
+      panelVisiblity: false
     }
-  };
+  },
+
+  watch: {
+    $route: 'closePanel'
+  },
+
+  methods: {
+    openPanel () {
+      this.panelVisiblity = true
+    },
+
+    closePanel () {
+      this.panelVisiblity = false
+    }
+  }
+}
 </script>

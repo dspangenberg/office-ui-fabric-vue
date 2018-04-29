@@ -1,19 +1,21 @@
 <template>
-  <div class='ms-font-m'>
-    <header class='header'>
-      <div class='header__title'>
+  <div class="ms-font-m">
+    <header class="header">
+      <div class="header__title">
         <docs-panel-nav />
-        <div class='header__title--content ms-fontColor-white ms-fontSize-xl ms-fontWeight-light'>Office UI Fabric Vue</div>
+        <div class="header__title--content ms-fontColor-white ms-fontSize-xl ms-fontWeight-light">Office UI Fabric Vue</div>
       </div>
-      <a href='https://github.com/dspangenberg/office-ui-fabric-vue' class='header__icon'>
-        <img src='docs/assets/img/github-logo.svg' />
+      <a
+        href="https://github.com/dspangenberg/office-ui-fabric-vue"
+        class="header__icon">
+        <img src="docs/assets/img/github-logo.svg" >
       </a>
     </header>
-    <div class='wrapper'>
-      <div class='ms-u-hiddenSm ms-u-md4 ms-u-lg3 wrapper__content'>
+    <div class="wrapper">
+      <div class="ms-u-hiddenSm ms-u-md4 ms-u-lg3 wrapper__content">
         <docs-nav />
       </div>
-      <div class='ms-u-sm12 ms-u-md8 ms-u-lg9 ms-bgColor-neutralLighterAlt wrapper__content wrapper__content--main'>
+      <div class="ms-u-sm12 ms-u-md8 ms-u-lg9 ms-bgColor-neutralLighterAlt wrapper__content wrapper__content--main">
         <router-view />
       </div>
     </div>
@@ -122,13 +124,13 @@
   }
 </style>
 <script>
-  import DocsNav from './components/DocsNav.vue';
-  import DocsPanelNav from './components/DocsPanelNav.vue';
+import DocsNav from './components/DocsNav.vue'
+import DocsPanelNav from './components/DocsPanelNav.vue'
 
-  export default {
-    components: {
-      DocsNav,
-      DocsPanelNav
-    }
-  };
+export default {
+  components: {
+    DocsNav,
+    DocsPanelNav
+  }
+}
 </script>

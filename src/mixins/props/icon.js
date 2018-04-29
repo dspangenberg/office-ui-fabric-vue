@@ -10,10 +10,10 @@ export default {
     }
   },
   computed: {
-    iconClass() {
+    iconClass () {
       return {
         [`ms-Icon--${this.icon}`]: !!this.icon
-      };
+      }
     }
   }
-};
+}

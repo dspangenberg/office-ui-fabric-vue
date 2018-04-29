@@ -1,5 +1,5 @@
-import CommandButton from './CommandButton.vue';
+import CommandButton from './CommandButton.vue'
 
 export default function (Vue) {
-  Vue.component(CommandButton.name, CommandButton);
+  Vue.component(CommandButton.name, CommandButton)
 }

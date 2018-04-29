@@ -1,5 +1,5 @@
-import Dialog from './Dialog.vue';
+import Dialog from './Dialog.vue'
 
 export default function (Vue) {
-  Vue.component(Dialog.name, Dialog);
+  Vue.component(Dialog.name, Dialog)
 }

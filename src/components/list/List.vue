@@ -1,16 +1,20 @@
 <template>
-  <ul class="ms-List" ref='listItems'>
-    <slot></slot>
+  <ul
+    ref="listItems"
+    class="ms-List">
+    <slot/>
   </ul>
 </template>
 
 <script>
 import type from '../../mixins/props/type'
+import { booleans } from '../../mixins/props/defaults'
+
 export default {
-  name: 'ou-list',
-  mixins: [type('default', 'image', 'document')],
-  props: {
-    selectable: Boolean
-  }
+  name: 'OuList',
+  mixins: [
+    type('default', 'image', 'document'),
+    booleans('isSelectable')
+  ]
 }
 </script>

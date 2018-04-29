@@ -1,6 +1,10 @@
 <template>
-  <div class="ms-ListItem-action" @click="onClick">
-    <ou-icon :icon="icon" :type="type" />
+  <div
+    class="ms-ListItem-action"
+    @click="onClick">
+    <ou-icon
+      :icon="icon"
+      :type="type" />
   </div>
 </template>
 
@@ -8,7 +12,7 @@
 import icon from '../../mixins/props/icon'
 
 export default {
-  name: 'ou-list-item-action',
+  name: 'OuListItemAction',
   mixins: [icon],
   methods: {
     onClick () {

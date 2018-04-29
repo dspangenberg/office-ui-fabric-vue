@@ -1,12 +1,12 @@
-import fabric from '../lib/office-ui-fabric';
-import componentsInstaller from './install';
-import svgicon from 'vue-svgicon';
+import fabric from './lib'
+import componentsInstaller from './install'
+import svgicon from 'vue-svgicon'
 
 const OfficeUIFabricVue = {
-  install(Vue, options = {}) {
-    Vue.prototype.$fabric = fabric;
+  install (Vue, options = {}) {
+    Vue.prototype.$fabric = fabric
 
-    const svgs = options.svgs || null;
+    const svgs = options.svgs || null
 
     /* eslint-disable */
     if (svgs !== null) {

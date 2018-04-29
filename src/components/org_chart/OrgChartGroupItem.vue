@@ -1,16 +1,18 @@
 <template>
-  <li class='ms-OrgChart-listItem'>
-    <button class='ms-OrgChart-listItemBtn' @click='clickEvent'><slot /></button>
+  <li class="ms-OrgChart-listItem">
+    <button
+      class="ms-OrgChart-listItemBtn"
+      @click="clickEvent"><slot /></button>
   </li>
 </template>
 <script>
-  export default {
-    name: 'ou-org-chart-group-item',
+export default {
+  name: 'OuOrgChartGroupItem',
 
-    methods: {
-      clickEvent() {
-        this.$emit('click');
-      }
+  methods: {
+    clickEvent () {
+      this.$emit('click')
     }
-  };
+  }
+}
 </script>

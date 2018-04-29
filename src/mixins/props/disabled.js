@@ -1,8 +1,8 @@
 export default {
   props: {
-    disabled: {
+    isDisabled: {
       type: Boolean,
       default: false
     }
   }
-};
+}

@@ -1,8 +1,10 @@
 <template>
-  <div class='container'>
-    <h1 class='title ms-fontColor-neutralPrimaryAlt'>Office UI Fabric Vue</h1>
-    <p class='sub_title ms-fontColor-neutralPrimaryAlt'>Office UI Fabric implementation for Vue.js</p>
-    <router-link class='button ms-bgColor-green' to='/GetStarted'>Get Started</router-link>
+  <div class="container">
+    <h1 class="title ms-fontColor-neutralPrimaryAlt">Office UI Fabric Vue</h1>
+    <p class="sub_title ms-fontColor-neutralPrimaryAlt">Office UI Fabric implementation for Vue.js</p>
+    <router-link
+      class="button ms-bgColor-green"
+      to="/GetStarted">Get Started</router-link>
   </div>
 </template>
 <style scoped>

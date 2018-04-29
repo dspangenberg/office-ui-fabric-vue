@@ -1,5 +1,5 @@
-import TextField from './TextField.vue';
+import TextField from './TextField.vue'
 
 export default function (Vue) {
-  Vue.component(TextField.name, TextField);
+  Vue.component(TextField.name, TextField)
 }

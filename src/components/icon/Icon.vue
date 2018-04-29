@@ -3,19 +3,15 @@ import svgicon from 'vue-svgicon'
 import type from '../../mixins/props/type'
 
 export default {
+  name: 'OuIcon',
+  functional: true,
   components: {
     svgicon
   },
-  functional: true,
   mixins: [
     type('*ms', 'svg')
   ],
-  name: 'ou-icon',
   props: {
-    name: {
-      type: String,
-      default: ''
-    },
     icon: {
       type: String,
       default: ''
@@ -41,8 +37,8 @@ export default {
     const data = ctx.data
     const classes = {
       class: [`ms-Icon--${ctx.props.icon}`,
-      {'ms-Icon--disabled': ctx.props.disabled}
-      ],
+        {'ms-Icon--disabled': ctx.props.disabled}
+      ]
     }
     if (ctx.props.type === 'ms') {
       return (

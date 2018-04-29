@@ -1,5 +1,5 @@
-import MessageBanner from './MessageBanner.vue';
+import MessageBanner from './MessageBanner.vue'
 
 export default function (Vue) {
-  Vue.component(MessageBanner.name, MessageBanner);
+  Vue.component(MessageBanner.name, MessageBanner)
 }

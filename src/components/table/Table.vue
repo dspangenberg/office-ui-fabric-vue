@@ -1,13 +1,21 @@
 <template>
-  <table class='ms-Table' :class='tableClass'>
+  <table
+    :class="tableClass"
+    class="ms-Table">
     <thead>
       <tr>
-        <slot></slot>
+        <slot/>
       </tr>
     </thead>
     <tbody>
-      <tr v-for='dataItem of data'>
-        <td v-for='columnItem of tableColumnItems'>
+      <tr
+        v-for="dataItem of data"
+        :key="dataItem"
+      >
+        <td
+          v-for="columnItem of tableColumnItems"
+          :key="columnItem"
+        >
           {{ dataItem[columnItem] || defaultValue }}
         </td>
       </tr>
@@ -15,53 +23,45 @@
   </table>
 </template>
 <script>
-  // Note: The Selectable Table haven't create
-  import type from '../../mixins/props/type';
-  import eventHub from '../../mixins/eventHub';
+// Note: The Selectable Table haven't create
+import type from '../../mixins/props/type'
+import eventHub from '../../mixins/eventHub'
 
-  export default {
-    name: 'ou-table',
-
-    mixins: [type('fixed'), eventHub],
-
-    props: {
-      data: {
-        type: Array,
-        required: true
-      },
-
-      defaultValue: {
-        type: [String, Number],
-        default: ''
-      }
+export default {
+  name: 'OuTable',
+  mixins: [type('fixed'), eventHub],
+  props: {
+    data: {
+      type: Array,
+      required: true
     },
-
-    data() {
+    defaultValue: {
+      type: [String, Number],
+      default: ''
+    }
+  },
+  data () {
+    return {
+      tableColumnItems: []
+    }
+  },
+  computed: {
+    tableClass () {
       return {
-        tableColumnItems: []
-      };
-    },
-
-    computed: {
-      tableClass() {
-        return {
-          [`ms-Table--${this.type}`]: !!this.type
-        };
-      }
-    },
-
-    created() {
-      this.eventHub.$on('addTableColumnItems', this.addTableColumnItems);
-    },
-
-    beforeDestroy() {
-      this.eventHub.$off('addTableColumnItems', this.tableColumnItems);
-    },
-
-    methods: {
-      addTableColumnItems(value) {
-        this.tableColumnItems.push(value);
+        [`ms-Table--${this.type}`]: !!this.type
       }
     }
-  };
+  },
+  created () {
+    this.eventHub.$on('addTableColumnItems', this.addTableColumnItems)
+  },
+  beforeDestroy () {
+    this.eventHub.$off('addTableColumnItems', this.tableColumnItems)
+  },
+  methods: {
+    addTableColumnItems (value) {
+      this.tableColumnItems.push(value)
+    }
+  }
+}
 </script>

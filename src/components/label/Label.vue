@@ -1,28 +1,30 @@
 <template>
-  <label class='ms-Label' :class='labelClass'><slot /></label>
+  <label
+    :class="labelClass"
+    class="ms-Label"><slot /></label>
 </template>
 <script>
-  import disabled from '../../mixins/props/disabled';
+import disabled from '../../mixins/props/disabled'
 
-  export default {
-    name: 'ou-label',
+export default {
+  name: 'OuLabel',
 
-    mixins: [disabled],
+  mixins: [disabled],
 
-    props: {
-      required: {
-        type: Boolean,
-        default: false
-      }
-    },
+  props: {
+    required: {
+      type: Boolean,
+      default: false
+    }
+  },
 
-    computed: {
-      labelClass() {
-        return {
-          'is-disabled': this.disabled,
-          'is-required': this.required
-        };
+  computed: {
+    labelClass () {
+      return {
+        'is-disabled': this.disabled,
+        'is-required': this.required
       }
     }
-  };
+  }
+}
 </script>

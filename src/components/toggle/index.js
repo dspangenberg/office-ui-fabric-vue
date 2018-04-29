@@ -1,5 +1,5 @@
-import Toggle from './Toggle.vue';
+import Toggle from './Toggle.vue'
 
 export default function (Vue) {
-  Vue.component(Toggle.name, Toggle);
+  Vue.component(Toggle.name, Toggle)
 }

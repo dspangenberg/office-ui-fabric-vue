@@ -1,10 +1,10 @@
 <template>
-  <div class='ms-OrgChart'>
+  <div class="ms-OrgChart">
     <slot />
   </div>
 </template>
 <script>
-  export default {
-    name: 'ou-org-chart'
-  };
+export default {
+  name: 'OuOrgChart'
+}
 </script>

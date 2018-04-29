@@ -1,5 +1,5 @@
-import Checkbox from './Checkbox.vue';
+import Checkbox from './Checkbox.vue'
 
 export default function (Vue) {
-  Vue.component(Checkbox.name, Checkbox);
+  Vue.component(Checkbox.name, Checkbox)
 }

@@ -1,69 +1,71 @@
 <template>
-  <div class='ms-SearchBox' :class='searchBoxClass' ref='searchBox'>
+  <div
+    ref="searchBox"
+    :class="searchBoxClass"
+    class="ms-SearchBox">
     <input
-      class='ms-SearchBox-field'
-      ref='searchBoxInput'
-      type='text'
-      :value='value'
-      @input='updateValue'
-      @blur='clearValue' />
-    <label class='ms-SearchBox-label'>
-      <i class='ms-SearchBox-icon ms-Icon ms-Icon--Search'></i>
-      <span class='ms-SearchBox-text' v-if='!hasValue'>{{ placeholder }}</span>
+      ref="searchBoxInput"
+      :value="value"
+      class="ms-SearchBox-field"
+      type="text"
+      @input="updateValue"
+      @blur="clearValue" >
+    <label class="ms-SearchBox-label">
+      <i class="ms-SearchBox-icon ms-Icon ms-Icon--Search"/>
+      <span
+        v-if="!hasValue"
+        class="ms-SearchBox-text">{{ placeholder }}</span>
     </label>
-    <div class='ms-CommandButton ms-SearchBox-clear ms-CommandButton--noLabel' @mousedown='clearValue'>
-      <button class='ms-CommandButton-button'>
-        <span class='ms-CommandButton-icon'><i class='ms-Icon ms-Icon--Clear'></i></span>
-        <span class='ms-CommandButton-label'></span>
+    <div
+      class="ms-CommandButton ms-SearchBox-clear ms-CommandButton--noLabel"
+      @mousedown="clearValue">
+      <button class="ms-CommandButton-button">
+        <span class="ms-CommandButton-icon"><i class="ms-Icon ms-Icon--Clear"/></span>
+        <span class="ms-CommandButton-label"/>
       </button>
     </div>
   </div>
 </template>
 <script>
-  import type from '../../mixins/props/type';
+import type from '../../mixins/props/type'
+import { strings } from '../../mixins/props/defaults'
 
-  export default {
-    name: 'ou-search-box',
+export default {
+  name: 'OuSearchBox',
 
-    mixins: [type('commandBar')],
-
-    props: {
-      value: String,
-      placeholder: String,
-
-      collapsed: {
-        type: Boolean,
-        default: false
-      }
-    },
-
-    data() {
+  mixins: [
+    type('commandBar'),
+    strings('value', 'placeholder')
+  ],
+  props: {
+    isCollapsed: {
+      type: Boolean,
+      default: false
+    }
+  },
+  data () {
+    return {
+      hasValue: !!this.value
+    }
+  },
+  computed: {
+    searchBoxClass () {
       return {
-        hasValue: !!this.value
-      };
-    },
-
-    computed: {
-      searchBoxClass() {
-        return {
-          [`ms-SearchBox--${this.type}`]: !!this.type,
-          'is-collapsed': this.collapsed
-        };
-      }
-    },
-
-    mounted() {
-      new this.$fabric.SearchBox(this.$refs.searchBox);
-    },
-
-    methods: {
-      updateValue(event) {
-        this.$emit('input', event.target.value);
-      },
-
-      clearValue() {
-        this.$emit('input', '');
+        [`ms-SearchBox--${this.type}`]: !!this.type,
+        'is-collapsed': this.isCollapsed
       }
     }
-  };
+  },
+  mounted () {
+    new this.$fabric.SearchBox(this.$refs.searchBox)
+  },
+  methods: {
+    updateValue (event) {
+      this.$emit('input', event.target.value)
+    },
+    clearValue () {
+      this.$emit('input', '')
+    }
+  }
+}
 </script>

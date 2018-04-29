@@ -1,31 +1,30 @@
 module.exports = {
-  "extends": [
-    "airbnb-base",
-    'plugin:vue/recommended',
-  ],
-  "rules": {
-    "eqeqeq": "off",
-    "no-new": "off",
-    "comma-dangle": "off",
-    "import/first": "off",
-    "import/prefer-default-export": "off",
-    "import/no-extraneous-dependencies": "off",
-    "arrow-body-style": "off",
-    "no-useless-escape": "off",
-    "no-underscore-dangle": "off",
-    "no-param-reassign": "off",
-    "consistent-return": "off",
-    "default-case": "off",
-    "max-len": "off",
-    "no-unused-expressions": ["error", { "allowTernary": true }]
+  root: true,
+  parserOptions: {
+    sourceType: 'module',
+    parser: 'babel-eslint',
   },
-  "plugins": [
-    "import",
-    "html",
-    "vue"
+  env: {
+    browser: true,
+    node: true
+  },
+  extends: [
+    'standard',
+    'plugin:vue/recommended'
   ],
-  "globals": {
-    "fabric": true,
-    "document": true
+  globals: {
+    __static: true,
+    $: true,
+    jQuery: true,
+    _: true
+  },
+  plugins: [
+    'vue'
+  ],
+  'rules': {
+    "no-new": 0,
+    'arrow-parens': 0,
+    'generator-star-spacing': 2,
+    'vue/no-parsing-error': [2, { 'x-invalid-end-tag': false }]
   }
-};
+}

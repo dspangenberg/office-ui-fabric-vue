@@ -1,63 +1,65 @@
 <template>
-  <div class='ms-TextField' ref='textField' :class='textFieldClass'>
-    <label class='ms-Label'>{{ label }}</label>
+  <div
+    ref="textField"
+    :class="textFieldClass"
+    class="ms-TextField">
+    <label class="ms-Label">{{ label }}</label>
     <textarea
       v-if="type == 'multiline'"
-      :placeholder='placeholder'
-      class='ms-TextField-field'
-      type='text'
-      :value='value'
-      @input='updateValue'
-      :disabled='disabled'></textarea>
+      :placeholder="placeholder"
+      :value="value"
+      :disabled="isDisabled"
+      class="ms-TextField-field"
+      type="text"
+      @input="updateValue"/>
     <input
       v-else
-      :placeholder='placeholder'
-      class='ms-TextField-field'
-      :type='inputType'
-      :value='value'
-      @input='updateValue'
-      :disabled='disabled' />
+      :placeholder="placeholder"
+      :type="inputType"
+      :value="value"
+      :disabled="isDisabled"
+      class="ms-TextField-field"
+      @input="updateValue" >
   </div>
 </template>
 <script>
-  import type from '../../mixins/props/type';
-  import disabled from '../../mixins/props/disabled';
+import type from '../../mixins/props/type'
+import disabled from '../../mixins/props/disabled'
+import { strings } from '../../mixins/props/defaults'
 
-  export default {
-    name: 'ou-text-field',
-
-    mixins: [type('multiline', 'underlined'), disabled],
-
-    props: {
-      value: String,
-      label: String,
-      placeholder: String,
-      inputType: {
-        type: String,
-        default: 'text',
-        validator(value) {
-          return ['text', 'password', 'file'].includes(value);
-        }
-      }
-    },
-
-    computed: {
-      textFieldClass() {
-        return {
-          [`ms-TextField--${this.type}`]: !!this.type,
-          'is-disabled': this.disabled
-        };
-      }
-    },
-
-    mounted() {
-      new this.$fabric.TextField(this.$refs.textField);
-    },
-
-    methods: {
-      updateValue(event) {
-        this.$emit('input', event.target.value);
+export default {
+  name: 'OuTextField',
+  mixins: [
+    type('multiline', 'underlined'),
+    disabled,
+    strings('value', 'label', 'placeholder')
+  ],
+  props: {
+    inputType: {
+      type: String,
+      default: 'text',
+      validator (value) {
+        return ['text', 'password', 'file'].includes(value)
       }
     }
-  };
+  },
+  computed: {
+    textFieldClass () {
+      return {
+        [`ms-TextField--${this.type}`]: !!this.type,
+        'is-disabled': this.isDisabled
+      }
+    }
+  },
+
+  mounted () {
+    new this.$fabric.TextField(this.$refs.textField)
+  },
+
+  methods: {
+    updateValue (event) {
+      this.$emit('input', event.target.value)
+    }
+  }
+}
 </script>

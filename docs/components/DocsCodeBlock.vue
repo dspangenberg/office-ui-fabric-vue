@@ -1,19 +1,58 @@
 <template>
-  <div class='container'>
-    <div class='container__header' :class='{ isShowCode: isShowCode }'>
-      <div class='container__header--title ms-font-l'>{{ title }}</div>
-      <button class='container__header--button ms-fontWeight-semiboldo' :class='{ isShowCode: isShowCode }' @click='toggleBlock'>
-        <i class='ms-Icon ms-Icon--Embed'></i>
-        <span class='container__header--button-label'>{{ buttonTitle }}</span>
+  <div class="container">
+    <div
+      :class="{ isShowCode: isShowCode }"
+      class="container__header">
+      <div class="container__header--title ms-font-l">{{ title }}</div>
+      <button
+        :class="{ isShowCode: isShowCode }"
+        class="container__header--button ms-fontWeight-semiboldo"
+        @click="toggleBlock">
+        <i class="ms-Icon ms-Icon--Embed"/>
+        <span class="container__header--button-label">{{ buttonTitle }}</span>
       </button>
     </div>
-    <div class='container__code ms-bgColor-neutralDark' v-show='isShowCode' v-html='code'>
-    </div>
-    <div class='container__example'>
-      <slot></slot>
+    <div
+      v-show="isShowCode"
+      class="container__code ms-bgColor-neutralDark"
+      v-html="code"/>
+    <div class="container__example">
+      <slot/>
     </div>
   </div>
 </template>
+<script>
+export default {
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    code: {
+      type: String,
+      default: ''
+    }
+  },
+  data () {
+    return {
+      isShowCode: false
+    }
+  },
+
+  computed: {
+    buttonTitle () {
+      return this.isShowCode ? 'Hide code' : 'Show code'
+    }
+  },
+
+  methods: {
+    toggleBlock () {
+      this.isShowCode = !this.isShowCode
+    }
+  }
+}
+</script>
+
 <style>
   .container__code pre {
     line-height: 1.5;
@@ -89,35 +128,3 @@
     }
   }
 </style>
-<script>
-  export default {
-    props: {
-      title: {
-        type: String,
-        required: true
-      },
-
-      code: {
-        type: String
-      }
-    },
-
-    data() {
-      return {
-        isShowCode: false
-      };
-    },
-
-    computed: {
-      buttonTitle() {
-        return this.isShowCode ? 'Hide code' : 'Show code';
-      }
-    },
-
-    methods: {
-      toggleBlock() {
-        this.isShowCode = !this.isShowCode;
-      }
-    }
-  };
-</script>

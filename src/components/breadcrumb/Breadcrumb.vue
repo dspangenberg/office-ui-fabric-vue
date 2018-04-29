@@ -1,10 +1,11 @@
 <template>
-  <div class='ms-Breadcrumb' ref='breadcrumb'>
-    <div class='ms-Breadcrumb-overflow'>
-      <div class='ms-Breadcrumb-overflowButton ms-Icon ms-Icon--More'></div>
-      <div class='ms-Breadcrumb-overflowMenu'>
-        <ul class='ms-ContextualMenu'>
-        </ul>
+  <div
+    ref="breadcrumb"
+    class="ms-Breadcrumb">
+    <div class="ms-Breadcrumb-overflow">
+      <div class="ms-Breadcrumb-overflowButton ms-Icon ms-Icon--More"/>
+      <div class="ms-Breadcrumb-overflowMenu">
+        <ul class="ms-ContextualMenu"/>
       </div>
     </div>
     <ul class="ms-Breadcrumb-list">
@@ -13,11 +14,10 @@
   </div>
 </template>
 <script>
-  export default {
-    name: 'ou-breadcrumb',
-
-    mounted() {
-      new this.$fabric.Breadcrumb(this.$refs.breadcrumb);
-    }
-  };
+export default {
+  name: 'OuBreadcrumb',
+  mounted () {
+    new this.$fabric.Breadcrumb(this.$refs.breadcrumb)
+  }
+}
 </script>

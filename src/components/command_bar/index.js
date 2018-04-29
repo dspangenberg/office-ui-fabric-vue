@@ -1,5 +1,5 @@
-import CommandBar from './CommandBar.vue';
+import CommandBar from './CommandBar.vue'
 
 export default function (Vue) {
-  Vue.component(CommandBar.name, CommandBar);
+  Vue.component(CommandBar.name, CommandBar)
 }

@@ -1,21 +1,24 @@
 <template>
-  <a class='ms-Link' :href='href' :title='title' @click='clickEvent'>
+  <a
+    :href="href"
+    :title="title"
+    class="ms-Link"
+    @click="clickEvent">
     <slot />
   </a>
 </template>
 <script>
-  export default {
-    name: 'ou-link',
+import { strings } from '../../mixins/props/defaults'
 
-    props: {
-      href: String,
-      title: String,
-    },
-
-    methods: {
-      clickEvent() {
-        this.$emit('click');
-      }
+export default {
+  name: 'OuLink',
+  mixins: [
+    strings('href', 'title')
+  ],
+  methods: {
+    clickEvent () {
+      this.$emit('click')
     }
-  };
+  }
+}
 </script>

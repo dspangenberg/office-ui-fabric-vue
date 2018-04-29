@@ -1,15 +1,15 @@
-import Vue from 'vue';
+import Vue from 'vue'
 
 export default {
-  data() {
+  data () {
     return {
       eventHub: new Vue()
-    };
+    }
   },
 
-  provide() {
+  provide () {
     return {
       eventHub: this.eventHub
-    };
+    }
   }
-};
+}

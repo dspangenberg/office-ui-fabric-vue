@@ -1,26 +1,39 @@
 <template>
   <div>
-    <div class='header ms-bgColor-green'>
-      <div class='header__title ms-fontColor-white ms-fontWeight-light'>{{ title }}</div>
-      <ul class='header__nav' v-if='hasNav'>
-        <li v-for='navItem of navItems'>
-          <a class='header__nav--item ms-fontColor-white ms-fontSize-l ms-fontWeight-semilight ms-fontWeight-semibold--hover'
-            :data-title='navItem'
-            v-scroll-to="{ el: '#' + navItem, offset: -100 }">
+    <div class="header ms-bgColor-green">
+      <div class="header__title ms-fontColor-white ms-fontWeight-light">{{ title }}</div>
+      <ul
+        v-if="hasNav"
+        class="header__nav">
+        <li
+          v-for="navItem of navItems"
+          :key="navItem"
+        >
+          <a
+            v-scroll-to="{ el: '#' + navItem, offset: -100 }"
+            :data-title="navItem"
+            class="header__nav--item ms-fontColor-white ms-fontSize-l ms-fontWeight-semilight ms-fontWeight-semibold--hover">
             {{ navItem }}
           </a>
         </li>
       </ul>
     </div>
     <div>
-      <div class='content' v-if='!hasNav'>
-        <slot></slot>
+      <div
+        v-if="!hasNav"
+        class="content">
+        <slot/>
       </div>
       <div v-else>
-        <div class='content' v-for='navItem of navItems'>
-          <h2 :id='navItem' class='content__title ms-fontWeight-light'>{{ navItem }}</h2>
+        <div
+          v-for="navItem of navItems"
+          :key="navItem"
+          class="content">
+          <h2
+            :id="navItem"
+            class="content__title ms-fontWeight-light">{{ navItem }}</h2>
           <div :class="navItem.toLowerCase() + '_content'">
-            <slot :name='navItem'></slot>
+            <slot :name="navItem"/>
           </div>
         </div>
       </div>
@@ -149,23 +162,23 @@
   }
 </style>
 <script>
-  export default {
-    props: {
-      title: {
-        type: String,
-        required: true
-      },
-
-      hasNav: {
-        type: Boolean,
-        default: true
-      }
+export default {
+  props: {
+    title: {
+      type: String,
+      required: true
     },
 
-    data() {
-      return {
-        navItems: ['Overview', 'Variants', 'Implementation']
-      };
+    hasNav: {
+      type: Boolean,
+      default: true
     }
-  };
+  },
+
+  data () {
+    return {
+      navItems: ['Overview', 'Variants', 'Implementation']
+    }
+  }
+}
 </script>

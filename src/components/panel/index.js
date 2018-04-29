@@ -1,5 +1,5 @@
-import Panel from './Panel.vue';
+import Panel from './Panel.vue'
 
 export default function (Vue) {
-  Vue.component(Panel.name, Panel);
+  Vue.component(Panel.name, Panel)
 }

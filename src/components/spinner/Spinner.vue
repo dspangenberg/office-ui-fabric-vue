@@ -8,13 +8,13 @@
 
   export default {
     name: 'ou-spinner',
-
     mixins: [type('large')],
-
     props: {
-      label: String
+      label: {
+        type: String,
+        default: ''
+      }
     },
-
     computed: {
       spinnerClass() {
         return {
@@ -22,7 +22,6 @@
         };
       }
     },
-
     mounted() {
       new this.$fabric.Spinner(this.$refs.spinner);
     }

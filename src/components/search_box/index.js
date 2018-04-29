@@ -1,5 +1,5 @@
-import SearchBox from './SearchBox.vue';
+import SearchBox from './SearchBox.vue'
 
 export default function (Vue) {
-  Vue.component(SearchBox.name, SearchBox);
+  Vue.component(SearchBox.name, SearchBox)
 }
