@@ -1,6 +1,6 @@
 <template>
   <div class="ms-ListItem-action" @click="onClick">
-    <ou-icon :icon="icon" :type="type" />
+    <ou-icon :icon="icon" :type="iconType" />
   </div>
 </template>
 

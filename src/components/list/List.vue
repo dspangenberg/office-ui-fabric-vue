@@ -8,9 +8,21 @@
 import type from '../../mixins/props/type'
 export default {
   name: 'ou-list',
-  mixins: [type('default', 'image', 'document')],
+  mixins: [
+    type('default', 'image', 'document')
+  ],
   props: {
-    selectable: Boolean
+    showActionsOn: {
+      type: String,
+      default: 'allways',
+      validator(value) {
+        return ['allways', 'hover'].includes(value);
+      }
+    },
+    isSelectable: {
+      type: Boolean,
+      default: false,
+    }
   }
 }
 </script>
