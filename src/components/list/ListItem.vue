@@ -8,22 +8,27 @@
         <slot name="image" />
       </div>
     </div>
-    <span class="ms-ListItem-primaryText">
-      <slot />
-    </span>
-    <span class="ms-ListItem-secondaryText">
-      <slot name="secondary"></slot>
-    </span>
-    <span class="ms-ListItem-tertiaryText">
-      <slot name="tertiary"></slot>
-    </span>
-    <span class="ms-ListItem-metaText">
+    <div class="ms-ListItem-TextCotainer">
+      <div class="ms-ListItem-primaryText">
+        <slot />
+      </div>
+      <div class="ms-ListItem-secondaryText">
+        <slot name="secondary"></slot>
+      </div>
+      <div class="ms-ListItem-tertiaryText">
+          <slot name="tertiary"></slot>
+      </div>
+    </div>
+        <div class="ms-ListItem-TextCotainer">
+
+    <div class="ms-ListItem-metaText">
       <slot name="meta"></slot>
-    </span>
+    </div>
+        </div>
 
     <div class="ms-ListItem-selectionTarget">
     </div>
-    <div class="ms-ListItem-actions">
+    <div class="ms-ListItem-actions" v-if="hasActions">
       <slot name="actions" />
     </div>
   </li>
@@ -51,6 +56,10 @@ export default {
     isUnseen: Boolean,
     isUnread: Boolean,
     isSelected: Boolean,
+    hasActions: {
+      type: Boolean,
+      defaul: true
+    },
     selected: {
       type: Boolean,
       default: false
@@ -66,7 +75,20 @@ export default {
     justify-content: center;
     background-color: transparent;
   }
+  .ms-ListItem-TextCotainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: transparent;
+  }
   .ms-ListItem-image div {
     align-self: center;
+  }
+  .ms-ListItem-tertiaryText, .ms-ListItem-secondaryText, .ms-ListItem-metaText {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 </style>

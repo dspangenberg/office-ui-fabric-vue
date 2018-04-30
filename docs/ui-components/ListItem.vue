@@ -139,6 +139,28 @@
           </ou-list-item>
         </ou-list>
       </docs-code-block>
+      <docs-code-block title='Selected Listitem' :code='defaultCode'>
+        <ou-list :is-selectable="true" style="width:300px;">
+          <ou-list-item :is-selected="true">
+            Alton Lafferty
+            <div slot="secondary">
+              Meeting notes
+            </div>
+             <template slot="tertiary">
+              Today we discussed the importance of a, b, and c in regards to d.
+            </template>
+            <div slot="meta">
+              14:42
+            </div>
+            <div slot="actions">
+              <ou-list-item-action icon="pencil" icon-type="svg" />
+              <ou-list-item-action icon="phone" icon-type="svg" />
+              <ou-list-item-action icon="trash" icon-type="svg" />
+              <ou-list-item-action icon="box" icon-type="svg" />
+            </div>
+          </ou-list-item>
+        </ou-list>
+      </docs-code-block>
     </div>
     <div slot='Implementation'>
       <docs-table type='props' :data='labelProps' name='Label' />

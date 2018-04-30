@@ -10708,6 +10708,11 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   computed: {
@@ -10727,6 +10732,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     isUnseen: Boolean,
     isUnread: Boolean,
     isSelected: Boolean,
+    hasActions: {
+      type: Boolean,
+      defaul: true
+    },
     selected: {
       type: Boolean,
       default: false
@@ -11706,7 +11715,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n.ms-ListItem-image {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: transparent;\n}\n.ms-ListItem-image div {\n  align-self: center;\n}\n", ""]);
+exports.push([module.i, "\n.ms-ListItem-image {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: transparent;\n}\n.ms-ListItem-TextCotainer {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: center;\n  background-color: transparent;\n}\n.ms-ListItem-image div {\n  align-self: center;\n}\n.ms-ListItem-tertiaryText, .ms-ListItem-secondaryText, .ms-ListItem-metaText {\n  max-width: 100%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n", ""]);
 
 // exports
 
@@ -14769,19 +14778,23 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })], 1) : _vm._e(), _vm._v(" "), (_vm.$parent.type == 'image') ? _c('div', {
     staticClass: "ms-ListItem-image"
-  }, [_c('div', [_vm._t("image")], 2)]) : _vm._e(), _vm._v(" "), _c('span', {
+  }, [_c('div', [_vm._t("image")], 2)]) : _vm._e(), _vm._v(" "), _c('div', {
+    staticClass: "ms-ListItem-TextCotainer"
+  }, [_c('div', {
     staticClass: "ms-ListItem-primaryText"
-  }, [_vm._t("default")], 2), _vm._v(" "), _c('span', {
+  }, [_vm._t("default")], 2), _vm._v(" "), _c('div', {
     staticClass: "ms-ListItem-secondaryText"
-  }, [_vm._t("secondary")], 2), _vm._v(" "), _c('span', {
+  }, [_vm._t("secondary")], 2), _vm._v(" "), _c('div', {
     staticClass: "ms-ListItem-tertiaryText"
-  }, [_vm._t("tertiary")], 2), _vm._v(" "), _c('span', {
+  }, [_vm._t("tertiary")], 2)]), _vm._v(" "), _c('div', {
+    staticClass: "ms-ListItem-TextCotainer"
+  }, [_c('div', {
     staticClass: "ms-ListItem-metaText"
-  }, [_vm._t("meta")], 2), _vm._v(" "), _c('div', {
+  }, [_vm._t("meta")], 2)]), _vm._v(" "), _c('div', {
     staticClass: "ms-ListItem-selectionTarget"
-  }), _vm._v(" "), _c('div', {
+  }), _vm._v(" "), (_vm.hasActions) ? _c('div', {
     staticClass: "ms-ListItem-actions"
-  }, [_vm._t("actions")], 2)])
+  }, [_vm._t("actions")], 2) : _vm._e()])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -24800,6 +24813,28 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -29236,7 +29271,60 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "icon": "box",
       "icon-type": "svg"
     }
-  })], 1)])], 1)], 1)], 1), _vm._v(" "), _c('div', {
+  })], 1)])], 1)], 1), _vm._v(" "), _c('docs-code-block', {
+    attrs: {
+      "title": "Selected Listitem",
+      "code": _vm.defaultCode
+    }
+  }, [_c('ou-list', {
+    staticStyle: {
+      "width": "300px"
+    },
+    attrs: {
+      "is-selectable": true
+    }
+  }, [_c('ou-list-item', {
+    attrs: {
+      "is-selected": true
+    }
+  }, [_vm._v("\n          Alton Lafferty\n          "), _c('div', {
+    attrs: {
+      "slot": "secondary"
+    },
+    slot: "secondary"
+  }, [_vm._v("\n            Meeting notes\n          ")]), _vm._v(" "), _c('template', {
+    slot: "tertiary"
+  }, [_vm._v("\n            Today we discussed the importance of a, b, and c in regards to d.\n          ")]), _vm._v(" "), _c('div', {
+    attrs: {
+      "slot": "meta"
+    },
+    slot: "meta"
+  }, [_vm._v("\n            14:42\n          ")]), _vm._v(" "), _c('div', {
+    attrs: {
+      "slot": "actions"
+    },
+    slot: "actions"
+  }, [_c('ou-list-item-action', {
+    attrs: {
+      "icon": "pencil",
+      "icon-type": "svg"
+    }
+  }), _vm._v(" "), _c('ou-list-item-action', {
+    attrs: {
+      "icon": "phone",
+      "icon-type": "svg"
+    }
+  }), _vm._v(" "), _c('ou-list-item-action', {
+    attrs: {
+      "icon": "trash",
+      "icon-type": "svg"
+    }
+  }), _vm._v(" "), _c('ou-list-item-action', {
+    attrs: {
+      "icon": "box",
+      "icon-type": "svg"
+    }
+  })], 1)], 2)], 1)], 1)], 1), _vm._v(" "), _c('div', {
     attrs: {
       "slot": "Implementation"
     },
