@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "http://localhost:8080/dist";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 415);
+/******/ 	return __webpack_require__(__webpack_require__.s = 417);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -218,20 +218,6 @@ function getDefault(types) {
 
 /***/ }),
 /* 2 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ({
-  props: {
-    disabled: {
-      type: Boolean,
-      default: false
-    }
-  }
-});
-
-/***/ }),
-/* 3 */
 /***/ (function(module, exports) {
 
 /*
@@ -313,7 +299,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 4 */
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -332,7 +318,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(168)
+var listToStyles = __webpack_require__(170)
 
 /*
 type StyleObject = {
@@ -539,6 +525,20 @@ function applyToTag (styleElement, obj) {
   }
 }
 
+
+/***/ }),
+/* 4 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ({
+  props: {
+    disabled: {
+      type: Boolean,
+      default: false
+    }
+  }
+});
 
 /***/ }),
 /* 5 */
@@ -8665,7 +8665,7 @@ if (inBrowser) {
 
 /* harmony default export */ __webpack_exports__["a"] = (Vue);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(9), __webpack_require__(88).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(9), __webpack_require__(89).setImmediate))
 
 /***/ }),
 /* 11 */
@@ -8978,13 +8978,13 @@ var OfficeUIFabricVue = {
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(656)
+  __webpack_require__(658)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(419),
+  __webpack_require__(421),
   /* template */
-  __webpack_require__(619),
+  __webpack_require__(621),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -9076,9 +9076,9 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Breadcrumb_vue__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Breadcrumb_vue__ = __webpack_require__(90);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Breadcrumb_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Breadcrumb_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__BreadcrumbItem_vue__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__BreadcrumbItem_vue__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__BreadcrumbItem_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__BreadcrumbItem_vue__);
 
 
@@ -9093,7 +9093,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Button_vue__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Button_vue__ = __webpack_require__(92);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Button_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Button_vue__);
 
 
@@ -9106,7 +9106,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Callout_vue__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Callout_vue__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Callout_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Callout_vue__);
 
 
@@ -9119,7 +9119,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Checkbox_vue__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Checkbox_vue__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Checkbox_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Checkbox_vue__);
 
 
@@ -9132,9 +9132,9 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ChoiceFieldGroup_vue__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ChoiceFieldGroup_vue__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ChoiceFieldGroup_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__ChoiceFieldGroup_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ChoiceField_vue__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ChoiceField_vue__ = __webpack_require__(95);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ChoiceField_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__ChoiceField_vue__);
 
 
@@ -9149,7 +9149,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__CommandBar_vue__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__CommandBar_vue__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__CommandBar_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__CommandBar_vue__);
 
 
@@ -9162,7 +9162,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__CommandButton_vue__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__CommandButton_vue__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__CommandButton_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__CommandButton_vue__);
 
 
@@ -9175,9 +9175,9 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ContextualMenu_vue__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ContextualMenu_vue__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ContextualMenu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__ContextualMenu_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ContextualMenuItem_vue__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ContextualMenuItem_vue__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ContextualMenuItem_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__ContextualMenuItem_vue__);
 
 
@@ -9192,7 +9192,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DatePicker_vue__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DatePicker_vue__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DatePicker_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__DatePicker_vue__);
 
 
@@ -9205,7 +9205,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Dialog_vue__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Dialog_vue__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Dialog_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Dialog_vue__);
 
 
@@ -9218,9 +9218,9 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Dropdown_vue__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Dropdown_vue__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Dropdown_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Dropdown_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DropdownItem_vue__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DropdownItem_vue__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DropdownItem_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__DropdownItem_vue__);
 
 
@@ -9235,7 +9235,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Icon_vue__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Icon_vue__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Icon_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Icon_vue__);
 
 
@@ -9248,7 +9248,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Label_vue__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Label_vue__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Label_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Label_vue__);
 
 
@@ -9261,7 +9261,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Link_vue__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Link_vue__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Link_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Link_vue__);
 
 
@@ -9274,11 +9274,11 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__List_vue__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__List_vue__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__List_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__List_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ListItem_vue__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ListItem_vue__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ListItem_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__ListItem_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ListItemAction_vue__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ListItemAction_vue__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ListItemAction_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__ListItemAction_vue__);
 
 
@@ -9295,7 +9295,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MessageBanner_vue__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MessageBanner_vue__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MessageBanner_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__MessageBanner_vue__);
 
 
@@ -9308,7 +9308,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MessageBar_vue__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MessageBar_vue__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MessageBar_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__MessageBar_vue__);
 
 
@@ -9321,11 +9321,11 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__OrgChart_vue__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__OrgChart_vue__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__OrgChart_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__OrgChart_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__OrgChartGroup_vue__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__OrgChartGroup_vue__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__OrgChartGroup_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__OrgChartGroup_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__OrgChartGroupItem_vue__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__OrgChartGroupItem_vue__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__OrgChartGroupItem_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__OrgChartGroupItem_vue__);
 
 
@@ -9342,7 +9342,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Overlay_vue__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Overlay_vue__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Overlay_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Overlay_vue__);
 
 
@@ -9355,7 +9355,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Panel_vue__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Panel_vue__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Panel_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Panel_vue__);
 
 
@@ -9368,7 +9368,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Persona_vue__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Persona_vue__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Persona_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Persona_vue__);
 
 
@@ -9381,9 +9381,9 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Pivot_vue__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Pivot_vue__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Pivot_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Pivot_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PivotItem_vue__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PivotItem_vue__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PivotItem_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__PivotItem_vue__);
 
 
@@ -9398,7 +9398,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ProgressIndicator_vue__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ProgressIndicator_vue__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ProgressIndicator_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__ProgressIndicator_vue__);
 
 
@@ -9411,7 +9411,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SearchBox_vue__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SearchBox_vue__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SearchBox_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__SearchBox_vue__);
 
 
@@ -9424,7 +9424,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Spinner_vue__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Spinner_vue__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Spinner_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Spinner_vue__);
 
 
@@ -9437,9 +9437,9 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Table_vue__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Table_vue__ = __webpack_require__(124);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Table_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Table_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TableColumn_vue__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TableColumn_vue__ = __webpack_require__(125);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TableColumn_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__TableColumn_vue__);
 
 
@@ -9454,7 +9454,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__TextField_vue__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__TextField_vue__ = __webpack_require__(126);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__TextField_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__TextField_vue__);
 
 
@@ -9467,7 +9467,7 @@ function mergeFn (a, b) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Toggle_vue__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Toggle_vue__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Toggle_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Toggle_vue__);
 
 
@@ -9534,7 +9534,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_type__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mixins_props_icon__ = __webpack_require__(6);
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -9660,7 +9660,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_disabled__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_disabled__ = __webpack_require__(4);
 //
 //
 //
@@ -9722,7 +9722,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_disabled__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_disabled__ = __webpack_require__(4);
 //
 //
 //
@@ -9889,8 +9889,28 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_type__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mixins_props_icon__ = __webpack_require__(6);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -9911,14 +9931,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'ou-command-button',
-
   mixins: [__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__mixins_props_type__["a" /* default */])('noLabel', 'inline', 'dropdown', 'dropdownNoLabel'), __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__["a" /* default */], __WEBPACK_IMPORTED_MODULE_2__mixins_props_icon__["a" /* default */]],
-
   props: {
-    active: Boolean,
-    pivot: Boolean
+    isActive: {
+      type: Boolean,
+      default: false
+    },
+    isSplit: {
+      type: Boolean,
+      default: false
+    },
+    isPivot: {
+      type: Boolean,
+      default: false
+    }
   },
-
   computed: {
     hasDropdown: function hasDropdown() {
       return this.type === 'dropdown' || this.type === 'dropdownNoLabel';
@@ -9931,16 +9958,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         'ms-CommandButton--noLabel': !this.hasLabel,
         'ms-CommandButton--inline': this.type === 'inline',
         'ms-CommandButton--dropdown': this.hasDropdown,
-        'ms-CommandButton--pivot': this.pivot,
-        'is-disabled': this.disabled,
-        'is-active': this.active && this.pivot
+        'ms-CommandButton--pivot': this.isPivot,
+        'is-disabled': this.isDisabled,
+        'is-active': this.isActive && this.isPivot
       };
     }
   },
-
   methods: {
     clickEvent: function clickEvent() {
-      if (!this.disabled) {
+      if (!this.isDisabled) {
         this.$emit('click');
       }
     }
@@ -10054,7 +10080,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_type__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__ = __webpack_require__(4);
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 //
@@ -10378,7 +10404,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_disabled__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_disabled__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_eventHub__ = __webpack_require__(5);
 //
 //
@@ -10581,7 +10607,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_disabled__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_disabled__ = __webpack_require__(4);
 //
 //
 //
@@ -11546,7 +11572,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_type__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__ = __webpack_require__(4);
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 //
@@ -11619,7 +11645,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mixins_props_type__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__ = __webpack_require__(4);
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 //
@@ -11682,7 +11708,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 /* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -11696,7 +11722,21 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 /* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.ms-CommandButton-splitIcon {\n  height: 40px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -11707,10 +11747,10 @@ exports.push([module.i, "\n.ms-Icon--disabled {\n  color: #a6a6a6;\n}\n", ""]);
 
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -11721,10 +11761,10 @@ exports.push([module.i, "\n.ms-ListItem-image {\n  display: flex;\n  align-items
 
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -11735,7 +11775,7 @@ exports.push([module.i, "\n.inline-block[data-v-f9a5f146] {\n  display: inline-b
 
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -11925,7 +11965,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -12115,10 +12155,10 @@ process.umask = function() { return 0; };
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9), __webpack_require__(86)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9), __webpack_require__(87)))
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
@@ -12174,7 +12214,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(87);
+__webpack_require__(88);
 // On some exotic environments, it's not clear which object `setimmediate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -12188,7 +12228,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12196,7 +12236,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(44),
   /* template */
-  __webpack_require__(138),
+  __webpack_require__(139),
   /* styles */
   null,
   /* scopeId */
@@ -12228,7 +12268,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12236,7 +12276,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(45),
   /* template */
-  __webpack_require__(146),
+  __webpack_require__(147),
   /* styles */
   null,
   /* scopeId */
@@ -12268,7 +12308,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12276,7 +12316,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(46),
   /* template */
-  __webpack_require__(156),
+  __webpack_require__(157),
   /* styles */
   null,
   /* scopeId */
@@ -12308,7 +12348,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12316,7 +12356,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(47),
   /* template */
-  __webpack_require__(134),
+  __webpack_require__(135),
   /* styles */
   null,
   /* scopeId */
@@ -12348,7 +12388,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12356,7 +12396,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(48),
   /* template */
-  __webpack_require__(137),
+  __webpack_require__(138),
   /* styles */
   null,
   /* scopeId */
@@ -12388,7 +12428,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12396,7 +12436,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(49),
   /* template */
-  __webpack_require__(128),
+  __webpack_require__(129),
   /* styles */
   null,
   /* scopeId */
@@ -12428,7 +12468,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12436,7 +12476,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(50),
   /* template */
-  __webpack_require__(136),
+  __webpack_require__(137),
   /* styles */
   null,
   /* scopeId */
@@ -12468,7 +12508,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12476,7 +12516,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(51),
   /* template */
-  __webpack_require__(153),
+  __webpack_require__(154),
   /* styles */
   null,
   /* scopeId */
@@ -12508,17 +12548,21 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(166)
+}
 var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(52),
   /* template */
-  __webpack_require__(147),
+  __webpack_require__(148),
   /* styles */
-  null,
+  injectStyle,
   /* scopeId */
   null,
   /* moduleIdentifier (server only) */
@@ -12548,19 +12592,19 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(167)
+  __webpack_require__(169)
 }
 var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(53),
   /* template */
-  __webpack_require__(162),
+  __webpack_require__(163),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -12592,19 +12636,19 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(164)
+  __webpack_require__(165)
 }
 var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(54),
   /* template */
-  __webpack_require__(127),
+  __webpack_require__(128),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -12636,7 +12680,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12644,7 +12688,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(55),
   /* template */
-  __webpack_require__(148),
+  __webpack_require__(149),
   /* styles */
   null,
   /* scopeId */
@@ -12676,7 +12720,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12684,7 +12728,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(56),
   /* template */
-  __webpack_require__(150),
+  __webpack_require__(151),
   /* styles */
   null,
   /* scopeId */
@@ -12716,7 +12760,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12724,7 +12768,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(57),
   /* template */
-  __webpack_require__(129),
+  __webpack_require__(130),
   /* styles */
   null,
   /* scopeId */
@@ -12756,7 +12800,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12764,7 +12808,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(58),
   /* template */
-  __webpack_require__(159),
+  __webpack_require__(160),
   /* styles */
   null,
   /* scopeId */
@@ -12796,13 +12840,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(165)
+  __webpack_require__(167)
 }
 var Component = __webpack_require__(0)(
   /* script */
@@ -12839,7 +12883,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12847,7 +12891,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(60),
   /* template */
-  __webpack_require__(155),
+  __webpack_require__(156),
   /* styles */
   null,
   /* scopeId */
@@ -12879,7 +12923,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12887,7 +12931,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(61),
   /* template */
-  __webpack_require__(157),
+  __webpack_require__(158),
   /* styles */
   null,
   /* scopeId */
@@ -12919,7 +12963,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -12927,7 +12971,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(62),
   /* template */
-  __webpack_require__(139),
+  __webpack_require__(140),
   /* styles */
   null,
   /* scopeId */
@@ -12959,19 +13003,19 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(166)
+  __webpack_require__(168)
 }
 var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(63),
   /* template */
-  __webpack_require__(158),
+  __webpack_require__(159),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -13003,7 +13047,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13011,7 +13055,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(64),
   /* template */
-  __webpack_require__(143),
+  __webpack_require__(144),
   /* styles */
   null,
   /* scopeId */
@@ -13043,7 +13087,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13051,7 +13095,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(65),
   /* template */
-  __webpack_require__(130),
+  __webpack_require__(131),
   /* styles */
   null,
   /* scopeId */
@@ -13083,7 +13127,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13091,7 +13135,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(66),
   /* template */
-  __webpack_require__(145),
+  __webpack_require__(146),
   /* styles */
   null,
   /* scopeId */
@@ -13123,7 +13167,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13131,7 +13175,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(67),
   /* template */
-  __webpack_require__(144),
+  __webpack_require__(145),
   /* styles */
   null,
   /* scopeId */
@@ -13163,7 +13207,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13171,7 +13215,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(68),
   /* template */
-  __webpack_require__(140),
+  __webpack_require__(141),
   /* styles */
   null,
   /* scopeId */
@@ -13203,7 +13247,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13211,7 +13255,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(69),
   /* template */
-  __webpack_require__(152),
+  __webpack_require__(153),
   /* styles */
   null,
   /* scopeId */
@@ -13243,7 +13287,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13251,7 +13295,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(70),
   /* template */
-  __webpack_require__(160),
+  __webpack_require__(161),
   /* styles */
   null,
   /* scopeId */
@@ -13283,7 +13327,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13291,7 +13335,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(71),
   /* template */
-  __webpack_require__(133),
+  __webpack_require__(134),
   /* styles */
   null,
   /* scopeId */
@@ -13323,7 +13367,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13331,7 +13375,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(72),
   /* template */
-  __webpack_require__(151),
+  __webpack_require__(152),
   /* styles */
   null,
   /* scopeId */
@@ -13363,7 +13407,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13371,7 +13415,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(73),
   /* template */
-  __webpack_require__(161),
+  __webpack_require__(162),
   /* styles */
   null,
   /* scopeId */
@@ -13403,7 +13447,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13411,7 +13455,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(74),
   /* template */
-  __webpack_require__(131),
+  __webpack_require__(132),
   /* styles */
   null,
   /* scopeId */
@@ -13443,7 +13487,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13451,7 +13495,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(75),
   /* template */
-  __webpack_require__(132),
+  __webpack_require__(133),
   /* styles */
   null,
   /* scopeId */
@@ -13483,7 +13527,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13491,7 +13535,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(76),
   /* template */
-  __webpack_require__(163),
+  __webpack_require__(164),
   /* styles */
   null,
   /* scopeId */
@@ -13523,7 +13567,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13531,7 +13575,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(77),
   /* template */
-  __webpack_require__(142),
+  __webpack_require__(143),
   /* styles */
   null,
   /* scopeId */
@@ -13563,7 +13607,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13571,7 +13615,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(78),
   /* template */
-  __webpack_require__(141),
+  __webpack_require__(142),
   /* styles */
   null,
   /* scopeId */
@@ -13603,7 +13647,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13611,7 +13655,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(79),
   /* template */
-  __webpack_require__(135),
+  __webpack_require__(136),
   /* styles */
   null,
   /* scopeId */
@@ -13643,7 +13687,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13651,7 +13695,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(80),
   /* template */
-  __webpack_require__(149),
+  __webpack_require__(150),
   /* styles */
   null,
   /* scopeId */
@@ -13683,7 +13727,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -13691,7 +13735,7 @@ var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(81),
   /* template */
-  __webpack_require__(154),
+  __webpack_require__(155),
   /* styles */
   null,
   /* scopeId */
@@ -13723,7 +13767,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13760,7 +13804,7 @@ if (false) {
 }
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13800,7 +13844,7 @@ if (false) {
 }
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13831,7 +13875,7 @@ if (false) {
 }
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13869,7 +13913,7 @@ if (false) {
 }
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13889,7 +13933,7 @@ if (false) {
 }
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13919,7 +13963,7 @@ if (false) {
 }
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13951,7 +13995,7 @@ if (false) {
 }
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13990,7 +14034,7 @@ if (false) {
 }
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14005,7 +14049,7 @@ if (false) {
 }
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14031,7 +14075,7 @@ if (false) {
 }
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14071,7 +14115,7 @@ if (false) {
 }
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14101,7 +14145,7 @@ if (false) {
 }
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14119,7 +14163,7 @@ if (false) {
 }
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14140,7 +14184,7 @@ if (false) {
 }
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14162,7 +14206,7 @@ if (false) {
 }
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14183,7 +14227,7 @@ if (false) {
 }
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14208,7 +14252,7 @@ if (false) {
 }
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14225,7 +14269,7 @@ if (false) {
 }
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14252,7 +14296,7 @@ if (false) {
 }
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14276,7 +14320,7 @@ if (false) {
 }
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14302,7 +14346,16 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "ms-CommandButton-dropdownIcon"
   }, [_c('i', {
     staticClass: "ms-Icon ms-Icon--ChevronDown"
-  })]) : _vm._e()])])
+  })]) : _vm._e()]), _vm._v(" "), (_vm.isSplit) ? _c('ou-contextual-menu', [_c('button', {
+    staticClass: "ms-CommandButton-splitIcon"
+  }, [_c('i', {
+    staticClass: "ms-Icon ms-Icon--ChevronDown"
+  })]), _vm._v(" "), _c('div', {
+    attrs: {
+      "slot": "list"
+    },
+    slot: "list"
+  }, [_vm._t("list")], 2)]) : _vm._e()], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -14313,7 +14366,7 @@ if (false) {
 }
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14453,7 +14506,7 @@ if (false) {
 }
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14500,7 +14553,7 @@ if (false) {
 }
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14534,7 +14587,7 @@ if (false) {
 }
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14577,7 +14630,7 @@ if (false) {
 }
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14599,7 +14652,7 @@ if (false) {
 }
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14641,7 +14694,7 @@ if (false) {
 }
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14685,7 +14738,7 @@ if (false) {
 }
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14703,7 +14756,7 @@ if (false) {
 }
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14733,7 +14786,7 @@ if (false) {
 }
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14757,7 +14810,7 @@ if (false) {
 }
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14805,7 +14858,7 @@ if (false) {
 }
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14824,7 +14877,7 @@ if (false) {
 }
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14843,7 +14896,7 @@ if (false) {
 }
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14876,7 +14929,7 @@ if (false) {
 }
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14900,7 +14953,7 @@ if (false) {
 }
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14953,7 +15006,7 @@ if (false) {
 }
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -14963,7 +15016,7 @@ var content = __webpack_require__(82);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("382204f0", content, false, {});
+var update = __webpack_require__(3)("382204f0", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
@@ -14979,7 +15032,7 @@ if(false) {
 }
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -14989,39 +15042,13 @@ var content = __webpack_require__(83);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("22e1aaa4", content, false, {});
+var update = __webpack_require__(3)("10f619ee", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8bf95dd8\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Icon.vue", function() {
-     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8bf95dd8\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Icon.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 166 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(84);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(4)("592d0f08", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-97170032\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./ListItem.vue", function() {
-     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-97170032\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./ListItem.vue");
+   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6e6ea87f\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./CommandButton.vue", function() {
+     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6e6ea87f\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./CommandButton.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -15037,11 +15064,63 @@ if(false) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
+var content = __webpack_require__(84);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(3)("22e1aaa4", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8bf95dd8\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Icon.vue", function() {
+     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8bf95dd8\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Icon.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 168 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
 var content = __webpack_require__(85);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("4a2f12a9", content, false, {});
+var update = __webpack_require__(3)("592d0f08", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-97170032\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./ListItem.vue", function() {
+     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-97170032\",\"scoped\":false,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./ListItem.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 169 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(86);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(3)("4a2f12a9", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
@@ -15057,7 +15136,7 @@ if(false) {
 }
 
 /***/ }),
-/* 168 */
+/* 170 */
 /***/ (function(module, exports) {
 
 /**
@@ -15090,7 +15169,7 @@ module.exports = function listToStyles (parentId, list) {
 
 
 /***/ }),
-/* 169 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15106,7 +15185,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 170 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15122,7 +15201,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 171 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15138,7 +15217,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 172 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15154,7 +15233,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 173 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15170,7 +15249,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 174 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15186,7 +15265,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 175 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15202,7 +15281,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 176 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15218,7 +15297,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 177 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15234,7 +15313,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 178 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15250,7 +15329,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 179 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15266,7 +15345,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 180 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15282,7 +15361,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 181 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15298,7 +15377,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 182 */
+/* 184 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15314,7 +15393,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 183 */
+/* 185 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15330,7 +15409,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 184 */
+/* 186 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15346,7 +15425,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 185 */
+/* 187 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15362,7 +15441,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 186 */
+/* 188 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15378,7 +15457,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 187 */
+/* 189 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15394,7 +15473,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 188 */
+/* 190 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15410,7 +15489,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 189 */
+/* 191 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15426,7 +15505,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 190 */
+/* 192 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15442,7 +15521,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 191 */
+/* 193 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15458,7 +15537,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 192 */
+/* 194 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15474,7 +15553,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 193 */
+/* 195 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15490,7 +15569,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 194 */
+/* 196 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15506,7 +15585,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 195 */
+/* 197 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15522,7 +15601,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 196 */
+/* 198 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15538,7 +15617,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 197 */
+/* 199 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15554,7 +15633,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 198 */
+/* 200 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15570,7 +15649,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 199 */
+/* 201 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15586,7 +15665,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 200 */
+/* 202 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15602,7 +15681,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 201 */
+/* 203 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15618,7 +15697,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 202 */
+/* 204 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15634,7 +15713,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 203 */
+/* 205 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15650,7 +15729,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 204 */
+/* 206 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15666,7 +15745,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 205 */
+/* 207 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15682,7 +15761,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 206 */
+/* 208 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15698,7 +15777,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 207 */
+/* 209 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15714,7 +15793,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 208 */
+/* 210 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15730,7 +15809,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 209 */
+/* 211 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15746,7 +15825,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 210 */
+/* 212 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15762,7 +15841,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 211 */
+/* 213 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15778,7 +15857,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 212 */
+/* 214 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15794,7 +15873,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 213 */
+/* 215 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15810,7 +15889,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 214 */
+/* 216 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15826,7 +15905,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 215 */
+/* 217 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15842,7 +15921,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 216 */
+/* 218 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15858,7 +15937,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 217 */
+/* 219 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15874,7 +15953,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 218 */
+/* 220 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15890,7 +15969,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 219 */
+/* 221 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15906,7 +15985,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 220 */
+/* 222 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15922,7 +16001,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 221 */
+/* 223 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15938,7 +16017,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 222 */
+/* 224 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15954,7 +16033,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 223 */
+/* 225 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15970,7 +16049,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 224 */
+/* 226 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15986,7 +16065,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 225 */
+/* 227 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16002,7 +16081,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 226 */
+/* 228 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16018,7 +16097,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 227 */
+/* 229 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16034,7 +16113,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 228 */
+/* 230 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16050,7 +16129,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 229 */
+/* 231 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16066,7 +16145,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 230 */
+/* 232 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16082,7 +16161,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 231 */
+/* 233 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16098,7 +16177,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 232 */
+/* 234 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16114,7 +16193,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 233 */
+/* 235 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16130,7 +16209,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 234 */
+/* 236 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16146,7 +16225,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 235 */
+/* 237 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16162,7 +16241,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 236 */
+/* 238 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16178,7 +16257,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 237 */
+/* 239 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16194,7 +16273,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 238 */
+/* 240 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16210,7 +16289,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 239 */
+/* 241 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16226,7 +16305,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 240 */
+/* 242 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16242,7 +16321,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 241 */
+/* 243 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16258,7 +16337,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 242 */
+/* 244 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16274,7 +16353,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 243 */
+/* 245 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16290,7 +16369,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 244 */
+/* 246 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16306,7 +16385,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 245 */
+/* 247 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16322,7 +16401,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 246 */
+/* 248 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16338,7 +16417,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 247 */
+/* 249 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16354,7 +16433,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 248 */
+/* 250 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16370,7 +16449,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 249 */
+/* 251 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16386,7 +16465,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 250 */
+/* 252 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16402,7 +16481,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 251 */
+/* 253 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16418,7 +16497,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 252 */
+/* 254 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16434,7 +16513,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 253 */
+/* 255 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16450,7 +16529,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 254 */
+/* 256 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16466,7 +16545,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 255 */
+/* 257 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16482,7 +16561,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 256 */
+/* 258 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16498,7 +16577,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 257 */
+/* 259 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16514,7 +16593,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 258 */
+/* 260 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16530,7 +16609,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 259 */
+/* 261 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16546,7 +16625,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 260 */
+/* 262 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16562,7 +16641,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 261 */
+/* 263 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16578,7 +16657,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 262 */
+/* 264 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16594,7 +16673,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 263 */
+/* 265 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16610,7 +16689,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 264 */
+/* 266 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16626,7 +16705,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 265 */
+/* 267 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16642,7 +16721,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 266 */
+/* 268 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16658,7 +16737,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 267 */
+/* 269 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16674,7 +16753,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 268 */
+/* 270 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16690,7 +16769,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 269 */
+/* 271 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16706,7 +16785,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 270 */
+/* 272 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16722,7 +16801,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 271 */
+/* 273 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16738,7 +16817,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 272 */
+/* 274 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16754,7 +16833,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 273 */
+/* 275 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16770,7 +16849,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 274 */
+/* 276 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16786,7 +16865,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 275 */
+/* 277 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16802,7 +16881,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 276 */
+/* 278 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16818,7 +16897,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 277 */
+/* 279 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16834,7 +16913,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 278 */
+/* 280 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16850,7 +16929,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 279 */
+/* 281 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16866,7 +16945,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 280 */
+/* 282 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16882,7 +16961,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 281 */
+/* 283 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16898,7 +16977,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 282 */
+/* 284 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16914,7 +16993,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 283 */
+/* 285 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16930,7 +17009,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 284 */
+/* 286 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16946,7 +17025,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 285 */
+/* 287 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16962,7 +17041,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 286 */
+/* 288 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16978,7 +17057,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 287 */
+/* 289 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16994,7 +17073,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 288 */
+/* 290 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17010,7 +17089,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 289 */
+/* 291 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17026,7 +17105,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 290 */
+/* 292 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17042,7 +17121,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 291 */
+/* 293 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17058,7 +17137,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 292 */
+/* 294 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17074,7 +17153,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 293 */
+/* 295 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17090,7 +17169,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 294 */
+/* 296 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17106,7 +17185,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 295 */
+/* 297 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17122,7 +17201,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 296 */
+/* 298 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17138,7 +17217,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 297 */
+/* 299 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17154,7 +17233,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 298 */
+/* 300 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17170,7 +17249,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 299 */
+/* 301 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17186,7 +17265,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 300 */
+/* 302 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17202,7 +17281,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 301 */
+/* 303 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17218,7 +17297,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 302 */
+/* 304 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17234,7 +17313,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 303 */
+/* 305 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17250,7 +17329,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 304 */
+/* 306 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17266,7 +17345,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 305 */
+/* 307 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17282,7 +17361,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 306 */
+/* 308 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17298,7 +17377,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 307 */
+/* 309 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17314,7 +17393,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 308 */
+/* 310 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17330,7 +17409,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 309 */
+/* 311 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17346,7 +17425,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 310 */
+/* 312 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17362,7 +17441,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 311 */
+/* 313 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17378,7 +17457,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 312 */
+/* 314 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17394,7 +17473,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 313 */
+/* 315 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17410,7 +17489,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 314 */
+/* 316 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17426,7 +17505,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 315 */
+/* 317 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17442,7 +17521,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 316 */
+/* 318 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17458,7 +17537,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 317 */
+/* 319 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17474,7 +17553,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 318 */
+/* 320 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17490,7 +17569,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 319 */
+/* 321 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17506,7 +17585,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 320 */
+/* 322 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17522,7 +17601,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 321 */
+/* 323 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17538,7 +17617,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 322 */
+/* 324 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17554,7 +17633,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 323 */
+/* 325 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17570,7 +17649,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 324 */
+/* 326 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17586,7 +17665,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 325 */
+/* 327 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17602,7 +17681,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 326 */
+/* 328 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17618,7 +17697,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 327 */
+/* 329 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17634,7 +17713,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 328 */
+/* 330 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17650,7 +17729,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 329 */
+/* 331 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17666,7 +17745,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 330 */
+/* 332 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17682,7 +17761,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 331 */
+/* 333 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17698,7 +17777,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 332 */
+/* 334 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17714,7 +17793,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 333 */
+/* 335 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17730,7 +17809,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 334 */
+/* 336 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17746,7 +17825,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 335 */
+/* 337 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17762,7 +17841,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 336 */
+/* 338 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17778,7 +17857,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 337 */
+/* 339 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17794,7 +17873,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 338 */
+/* 340 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17810,7 +17889,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 339 */
+/* 341 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17826,7 +17905,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 340 */
+/* 342 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17842,7 +17921,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 341 */
+/* 343 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17858,7 +17937,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 342 */
+/* 344 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17874,7 +17953,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 343 */
+/* 345 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17890,7 +17969,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 344 */
+/* 346 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17906,7 +17985,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 345 */
+/* 347 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17922,7 +18001,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 346 */
+/* 348 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17938,7 +18017,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 347 */
+/* 349 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17954,7 +18033,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 348 */
+/* 350 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17970,7 +18049,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 349 */
+/* 351 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17986,7 +18065,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 350 */
+/* 352 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18002,7 +18081,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 351 */
+/* 353 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18018,7 +18097,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 352 */
+/* 354 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18034,7 +18113,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 353 */
+/* 355 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18050,7 +18129,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 354 */
+/* 356 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18066,7 +18145,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 355 */
+/* 357 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18082,7 +18161,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 356 */
+/* 358 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18098,7 +18177,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 357 */
+/* 359 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18114,7 +18193,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 358 */
+/* 360 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18130,7 +18209,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 359 */
+/* 361 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18146,7 +18225,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 360 */
+/* 362 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18162,7 +18241,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 361 */
+/* 363 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18178,7 +18257,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 362 */
+/* 364 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18194,7 +18273,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 363 */
+/* 365 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18210,7 +18289,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 364 */
+/* 366 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18226,7 +18305,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 365 */
+/* 367 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18242,7 +18321,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 366 */
+/* 368 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18258,7 +18337,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 367 */
+/* 369 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18274,7 +18353,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 368 */
+/* 370 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18290,7 +18369,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 369 */
+/* 371 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18306,7 +18385,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 370 */
+/* 372 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18322,7 +18401,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 371 */
+/* 373 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18338,7 +18417,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 372 */
+/* 374 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18354,7 +18433,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 373 */
+/* 375 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18370,7 +18449,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 374 */
+/* 376 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18386,7 +18465,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 375 */
+/* 377 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18402,7 +18481,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 376 */
+/* 378 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18418,7 +18497,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 377 */
+/* 379 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18434,7 +18513,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 378 */
+/* 380 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18450,7 +18529,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 379 */
+/* 381 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18466,7 +18545,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 380 */
+/* 382 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18482,7 +18561,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 381 */
+/* 383 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18498,7 +18577,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 382 */
+/* 384 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18514,7 +18593,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 383 */
+/* 385 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18530,7 +18609,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 384 */
+/* 386 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18546,7 +18625,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 385 */
+/* 387 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18562,7 +18641,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 386 */
+/* 388 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18578,7 +18657,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 387 */
+/* 389 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18594,7 +18673,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 388 */
+/* 390 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18610,7 +18689,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 389 */
+/* 391 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18626,7 +18705,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 390 */
+/* 392 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18642,7 +18721,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 391 */
+/* 393 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18658,7 +18737,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 392 */
+/* 394 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18674,7 +18753,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 393 */
+/* 395 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18690,7 +18769,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 394 */
+/* 396 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18706,7 +18785,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 395 */
+/* 397 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18722,7 +18801,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 396 */
+/* 398 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18738,7 +18817,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 397 */
+/* 399 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18754,7 +18833,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 398 */
+/* 400 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18770,7 +18849,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 399 */
+/* 401 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18786,7 +18865,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 400 */
+/* 402 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18802,7 +18881,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 401 */
+/* 403 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18818,7 +18897,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 402 */
+/* 404 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18834,67 +18913,67 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 403 */
+/* 405 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Breadcrumb_vue__ = __webpack_require__(589);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Breadcrumb_vue__ = __webpack_require__(591);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Breadcrumb_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Breadcrumb_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Button_vue__ = __webpack_require__(590);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Button_vue__ = __webpack_require__(592);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Button_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__Button_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Callout_vue__ = __webpack_require__(591);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Callout_vue__ = __webpack_require__(593);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Callout_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Callout_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Checkbox_vue__ = __webpack_require__(592);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Checkbox_vue__ = __webpack_require__(594);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Checkbox_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Checkbox_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ChoiceFieldGroup_vue__ = __webpack_require__(593);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ChoiceFieldGroup_vue__ = __webpack_require__(595);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ChoiceFieldGroup_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__ChoiceFieldGroup_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__CommandBar_vue__ = __webpack_require__(594);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__CommandBar_vue__ = __webpack_require__(596);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__CommandBar_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__CommandBar_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__CommandButton_vue__ = __webpack_require__(595);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__CommandButton_vue__ = __webpack_require__(597);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__CommandButton_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__CommandButton_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ContextualMenu_vue__ = __webpack_require__(596);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ContextualMenu_vue__ = __webpack_require__(598);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ContextualMenu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__ContextualMenu_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__DatePicker_vue__ = __webpack_require__(597);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__DatePicker_vue__ = __webpack_require__(599);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__DatePicker_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__DatePicker_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Dialog_vue__ = __webpack_require__(598);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Dialog_vue__ = __webpack_require__(600);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Dialog_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__Dialog_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Dropdown_vue__ = __webpack_require__(599);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Dropdown_vue__ = __webpack_require__(601);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Dropdown_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__Dropdown_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Icon_vue__ = __webpack_require__(600);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Icon_vue__ = __webpack_require__(602);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Icon_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__Icon_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Label_vue__ = __webpack_require__(601);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Label_vue__ = __webpack_require__(603);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Label_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__Label_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Link_vue__ = __webpack_require__(602);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Link_vue__ = __webpack_require__(604);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Link_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__Link_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__List_vue__ = __webpack_require__(603);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__List_vue__ = __webpack_require__(605);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__List_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__List_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ListItem_vue__ = __webpack_require__(604);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ListItem_vue__ = __webpack_require__(606);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ListItem_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__ListItem_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__MessageBanner_vue__ = __webpack_require__(605);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__MessageBanner_vue__ = __webpack_require__(607);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__MessageBanner_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16__MessageBanner_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__MessageBar_vue__ = __webpack_require__(606);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__MessageBar_vue__ = __webpack_require__(608);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__MessageBar_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17__MessageBar_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__OrgChart_vue__ = __webpack_require__(607);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__OrgChart_vue__ = __webpack_require__(609);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__OrgChart_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__OrgChart_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__Overlay_vue__ = __webpack_require__(608);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__Overlay_vue__ = __webpack_require__(610);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__Overlay_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__Overlay_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__Panel_vue__ = __webpack_require__(609);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__Panel_vue__ = __webpack_require__(611);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__Panel_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20__Panel_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__Persona_vue__ = __webpack_require__(610);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__Persona_vue__ = __webpack_require__(612);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__Persona_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21__Persona_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__Pivot_vue__ = __webpack_require__(611);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__Pivot_vue__ = __webpack_require__(613);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__Pivot_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22__Pivot_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ProgressIndicator_vue__ = __webpack_require__(612);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ProgressIndicator_vue__ = __webpack_require__(614);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ProgressIndicator_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23__ProgressIndicator_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__SearchBox_vue__ = __webpack_require__(613);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__SearchBox_vue__ = __webpack_require__(615);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__SearchBox_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_24__SearchBox_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__Spinner_vue__ = __webpack_require__(614);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__Spinner_vue__ = __webpack_require__(616);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__Spinner_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_25__Spinner_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__Table_vue__ = __webpack_require__(615);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__Table_vue__ = __webpack_require__(617);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__Table_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_26__Table_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__TextField_vue__ = __webpack_require__(616);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__TextField_vue__ = __webpack_require__(618);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__TextField_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_27__TextField_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__Toggle_vue__ = __webpack_require__(617);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__Toggle_vue__ = __webpack_require__(619);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__Toggle_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_28__Toggle_vue__);
 
 
@@ -18959,31 +19038,31 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 404 */
+/* 406 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>primary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Alton Lafferty\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>secondary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Meeting notes\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>tertiary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Today we discussed the importance of a, b, and c in regards to d.\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>meta<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        14:42\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>actions<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>pencil<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>phone<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>trash<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>box<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-list-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>primary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Alton Lafferty\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>secondary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Meeting notes\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>tertiary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Today we discussed the importance of a, b, and c in regards to d.\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>meta<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        14:42\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>actions<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>pencil<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>phone<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>trash<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>box<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-list-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>primary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Alton Lafferty\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>secondary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Meeting notes\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>tertiary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Today we discussed the importance of a, b, and c in regards to d.\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>meta<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        14:42\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>actions<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>pencil<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>phone<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>trash<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>box<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-list-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>primary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Alton Lafferty\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>secondary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Meeting notes\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>tertiary<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        Today we discussed the importance of a, b, and c in regards to d.\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>meta<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        14:42\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>actions<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>pencil<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>phone<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>trash<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-list-item-action</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>box<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon-type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-list-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-list</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 405 */
+/* 407 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Presents a number of related items, either as a vertical list or in a grid.</p>\n";
 
 /***/ }),
-/* 406 */
+/* 408 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(663)
+  __webpack_require__(665)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(420),
+  __webpack_require__(422),
   /* template */
-  __webpack_require__(641),
+  __webpack_require__(643),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -19015,245 +19094,245 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 407 */
+/* 409 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./add-shopping-cart.js": 169,
-	"./add-user.js": 170,
-	"./adventures.js": 171,
-	"./advertising.js": 172,
-	"./airport.js": 173,
-	"./align-center.js": 174,
-	"./align-justify.js": 175,
-	"./align-left.js": 176,
-	"./align-right.js": 177,
-	"./alphabetical-sorting-2.js": 178,
-	"./alphabetical-sorting.js": 179,
-	"./amex.js": 180,
-	"./angle-down.js": 181,
-	"./angle-left.js": 182,
-	"./angle-right.js": 183,
-	"./angle-up.js": 184,
-	"./archive.js": 185,
-	"./area-chart.js": 186,
-	"./arrows-long-down.js": 187,
-	"./arrows-long-left.js": 188,
-	"./arrows-long-right.js": 189,
-	"./arrows-long-up.js": 190,
-	"./asterisk.js": 191,
-	"./audio-file.js": 192,
-	"./babys-room.js": 193,
-	"./bank-card.js": 194,
-	"./banknotes.js": 195,
-	"./bar-chart.js": 196,
-	"./barcode.js": 197,
-	"./bed.js": 198,
-	"./binoculars.js": 199,
-	"./bitcoin.js": 200,
-	"./bold.js": 201,
-	"./bookmark.js": 202,
-	"./box.js": 203,
-	"./briefcase.js": 204,
-	"./british-pound.js": 205,
-	"./brush.js": 206,
-	"./buy.js": 207,
-	"./calculator.js": 208,
-	"./camera.js": 209,
-	"./cancel-2.js": 210,
-	"./cancel.js": 211,
-	"./cat-footprint.js": 212,
-	"./checked-2.js": 213,
-	"./checked.js": 214,
-	"./checkmark.js": 215,
-	"./chevron-down-round.js": 216,
-	"./chevron-down.js": 217,
-	"./chevron-left-round.js": 218,
-	"./chevron-left.js": 219,
-	"./chevron-right-round.js": 220,
-	"./chevron-right.js": 221,
-	"./chevron-up-round.js": 222,
-	"./chevron-up.js": 223,
-	"./circle-notch.js": 224,
-	"./circle-thin.js": 225,
-	"./circle.js": 226,
-	"./clipboard.js": 227,
-	"./code-file.js": 228,
-	"./color-dropper.js": 229,
-	"./columns.js": 230,
-	"./comments.js": 231,
-	"./compress.js": 232,
-	"./controller.js": 233,
-	"./copy.js": 234,
-	"./copyright.js": 235,
-	"./create-new.js": 236,
-	"./crop.js": 237,
-	"./cut.js": 238,
-	"./database.js": 239,
-	"./dining-room.js": 240,
-	"./diploma-1.js": 241,
-	"./doctor.js": 242,
-	"./document.js": 243,
-	"./double-left.js": 244,
-	"./double-right.js": 245,
-	"./double-up.js": 246,
-	"./down-arrow.js": 247,
-	"./down-round.js": 248,
-	"./down-squared.js": 249,
-	"./download-2.js": 250,
-	"./download.js": 251,
-	"./electrical.js": 252,
-	"./electricity.js": 253,
-	"./eraser.js": 254,
-	"./euro.js": 255,
-	"./exclamation-mark.js": 256,
-	"./export.js": 257,
-	"./fantasy.js": 258,
-	"./fax.js": 259,
-	"./female.js": 260,
-	"./file.js": 261,
-	"./film.js": 262,
-	"./filter.js": 263,
-	"./finish-flag.js": 264,
-	"./fire-extinguisher.js": 265,
-	"./folder.js": 266,
-	"./football-2.js": 267,
-	"./gender-neutral-user.js": 268,
-	"./gender.js": 269,
-	"./genderqueer.js": 270,
-	"./generic-sorting-2.js": 271,
-	"./generic-sorting.js": 272,
-	"./generic-text.js": 273,
-	"./gift.js": 274,
-	"./google-wallet.js": 275,
-	"./gps-device.js": 276,
-	"./grid-2.js": 277,
-	"./grid-3.js": 278,
-	"./grid.js": 279,
-	"./group.js": 280,
-	"./hdd.js": 281,
-	"./header.js": 282,
-	"./home.js": 283,
-	"./hospital-2.js": 284,
-	"./idea.js": 285,
-	"./image-file.js": 286,
-	"./import.js": 287,
-	"./indent.js": 288,
-	"./index.js": 414,
-	"./info.js": 289,
-	"./insert-table.js": 290,
-	"./ipad.js": 291,
-	"./iphone.js": 292,
-	"./italic.js": 293,
-	"./japanese-yen.js": 294,
-	"./key.js": 295,
-	"./keyboard.js": 296,
-	"./last-quarter.js": 297,
-	"./left-arrow.js": 298,
-	"./left-round.js": 299,
-	"./left-squared.js": 300,
-	"./level-down.js": 301,
-	"./level-up.js": 302,
-	"./library.js": 303,
-	"./list.js": 304,
-	"./lock-2.js": 305,
-	"./lock.js": 306,
-	"./male.js": 307,
-	"./mastercard.js": 308,
-	"./minus.js": 309,
-	"./monitor.js": 310,
-	"./moon.js": 311,
-	"./music.js": 312,
-	"./news.js": 313,
-	"./notebook.js": 314,
-	"./numbered-list.js": 315,
-	"./numerical-sorting-12.js": 316,
-	"./numerical-sorting-21.js": 317,
-	"./old-time-camera.js": 318,
-	"./opened-folder.js": 319,
-	"./organization.js": 320,
-	"./outdent.js": 321,
-	"./paragraph.js": 322,
-	"./parallel-tasks.js": 323,
-	"./paste.js": 324,
-	"./paypal.js": 325,
-	"./pdf.js": 326,
-	"./pencil.js": 327,
-	"./phone.js": 328,
-	"./picture.js": 329,
-	"./pie-chart.js": 330,
-	"./pin-3.js": 331,
-	"./plus.js": 332,
-	"./powerpoint.js": 333,
-	"./price-tag.js": 334,
-	"./puzzle.js": 335,
-	"./qr-code.js": 336,
-	"./question-mark.js": 337,
-	"./recycling.js": 338,
-	"./refresh.js": 339,
-	"./remove-user.js": 340,
-	"./resize-diagonal.js": 341,
-	"./resize-four-directions.js": 342,
-	"./resize-horizontal.js": 343,
-	"./resize-vertical.js": 344,
-	"./right-arrow.js": 345,
-	"./right-round.js": 346,
-	"./right-squared.js": 347,
-	"./rotate-left.js": 348,
-	"./rotate-right.js": 349,
-	"./rouble.js": 350,
-	"./rounded-rectangle-filled.js": 351,
-	"./rounded-rectangle.js": 352,
-	"./rupee.js": 353,
-	"./search.js": 354,
-	"./sensor.js": 355,
-	"./services.js": 356,
-	"./settings.js": 357,
-	"./share.js": 358,
-	"./shekel.js": 359,
-	"./shopping-cart.js": 360,
-	"./shutdown.js": 361,
-	"./sort-down.js": 362,
-	"./sort-left.js": 363,
-	"./sort-right.js": 364,
-	"./sort-up.js": 365,
-	"./sort.js": 366,
-	"./spy.js": 367,
-	"./strikethrough.js": 368,
-	"./stripe.js": 369,
-	"./student.js": 370,
-	"./subscript.js": 371,
-	"./superscript.js": 372,
-	"./support.js": 373,
-	"./tags.js": 374,
-	"./tasks.js": 375,
-	"./text-height.js": 376,
-	"./text-width.js": 377,
-	"./ticket.js": 378,
-	"./timeline.js": 379,
-	"./todo-list.js": 380,
-	"./translation.js": 381,
-	"./trash.js": 382,
-	"./trophy.js": 383,
-	"./turkish-lira.js": 384,
-	"./umbrella.js": 385,
-	"./underline.js": 386,
-	"./undo.js": 387,
-	"./unlock-2.js": 388,
-	"./up-arrow.js": 389,
-	"./up-round.js": 390,
-	"./up-squared.js": 391,
-	"./upload-2.js": 392,
-	"./upload.js": 393,
-	"./us-dollar.js": 394,
-	"./user-female.js": 395,
-	"./user-male.js": 396,
-	"./video-call.js": 397,
-	"./video-file.js": 398,
-	"./visa.js": 399,
-	"./won.js": 400,
-	"./word.js": 401,
-	"./xls.js": 402
+	"./add-shopping-cart.js": 171,
+	"./add-user.js": 172,
+	"./adventures.js": 173,
+	"./advertising.js": 174,
+	"./airport.js": 175,
+	"./align-center.js": 176,
+	"./align-justify.js": 177,
+	"./align-left.js": 178,
+	"./align-right.js": 179,
+	"./alphabetical-sorting-2.js": 180,
+	"./alphabetical-sorting.js": 181,
+	"./amex.js": 182,
+	"./angle-down.js": 183,
+	"./angle-left.js": 184,
+	"./angle-right.js": 185,
+	"./angle-up.js": 186,
+	"./archive.js": 187,
+	"./area-chart.js": 188,
+	"./arrows-long-down.js": 189,
+	"./arrows-long-left.js": 190,
+	"./arrows-long-right.js": 191,
+	"./arrows-long-up.js": 192,
+	"./asterisk.js": 193,
+	"./audio-file.js": 194,
+	"./babys-room.js": 195,
+	"./bank-card.js": 196,
+	"./banknotes.js": 197,
+	"./bar-chart.js": 198,
+	"./barcode.js": 199,
+	"./bed.js": 200,
+	"./binoculars.js": 201,
+	"./bitcoin.js": 202,
+	"./bold.js": 203,
+	"./bookmark.js": 204,
+	"./box.js": 205,
+	"./briefcase.js": 206,
+	"./british-pound.js": 207,
+	"./brush.js": 208,
+	"./buy.js": 209,
+	"./calculator.js": 210,
+	"./camera.js": 211,
+	"./cancel-2.js": 212,
+	"./cancel.js": 213,
+	"./cat-footprint.js": 214,
+	"./checked-2.js": 215,
+	"./checked.js": 216,
+	"./checkmark.js": 217,
+	"./chevron-down-round.js": 218,
+	"./chevron-down.js": 219,
+	"./chevron-left-round.js": 220,
+	"./chevron-left.js": 221,
+	"./chevron-right-round.js": 222,
+	"./chevron-right.js": 223,
+	"./chevron-up-round.js": 224,
+	"./chevron-up.js": 225,
+	"./circle-notch.js": 226,
+	"./circle-thin.js": 227,
+	"./circle.js": 228,
+	"./clipboard.js": 229,
+	"./code-file.js": 230,
+	"./color-dropper.js": 231,
+	"./columns.js": 232,
+	"./comments.js": 233,
+	"./compress.js": 234,
+	"./controller.js": 235,
+	"./copy.js": 236,
+	"./copyright.js": 237,
+	"./create-new.js": 238,
+	"./crop.js": 239,
+	"./cut.js": 240,
+	"./database.js": 241,
+	"./dining-room.js": 242,
+	"./diploma-1.js": 243,
+	"./doctor.js": 244,
+	"./document.js": 245,
+	"./double-left.js": 246,
+	"./double-right.js": 247,
+	"./double-up.js": 248,
+	"./down-arrow.js": 249,
+	"./down-round.js": 250,
+	"./down-squared.js": 251,
+	"./download-2.js": 252,
+	"./download.js": 253,
+	"./electrical.js": 254,
+	"./electricity.js": 255,
+	"./eraser.js": 256,
+	"./euro.js": 257,
+	"./exclamation-mark.js": 258,
+	"./export.js": 259,
+	"./fantasy.js": 260,
+	"./fax.js": 261,
+	"./female.js": 262,
+	"./file.js": 263,
+	"./film.js": 264,
+	"./filter.js": 265,
+	"./finish-flag.js": 266,
+	"./fire-extinguisher.js": 267,
+	"./folder.js": 268,
+	"./football-2.js": 269,
+	"./gender-neutral-user.js": 270,
+	"./gender.js": 271,
+	"./genderqueer.js": 272,
+	"./generic-sorting-2.js": 273,
+	"./generic-sorting.js": 274,
+	"./generic-text.js": 275,
+	"./gift.js": 276,
+	"./google-wallet.js": 277,
+	"./gps-device.js": 278,
+	"./grid-2.js": 279,
+	"./grid-3.js": 280,
+	"./grid.js": 281,
+	"./group.js": 282,
+	"./hdd.js": 283,
+	"./header.js": 284,
+	"./home.js": 285,
+	"./hospital-2.js": 286,
+	"./idea.js": 287,
+	"./image-file.js": 288,
+	"./import.js": 289,
+	"./indent.js": 290,
+	"./index.js": 416,
+	"./info.js": 291,
+	"./insert-table.js": 292,
+	"./ipad.js": 293,
+	"./iphone.js": 294,
+	"./italic.js": 295,
+	"./japanese-yen.js": 296,
+	"./key.js": 297,
+	"./keyboard.js": 298,
+	"./last-quarter.js": 299,
+	"./left-arrow.js": 300,
+	"./left-round.js": 301,
+	"./left-squared.js": 302,
+	"./level-down.js": 303,
+	"./level-up.js": 304,
+	"./library.js": 305,
+	"./list.js": 306,
+	"./lock-2.js": 307,
+	"./lock.js": 308,
+	"./male.js": 309,
+	"./mastercard.js": 310,
+	"./minus.js": 311,
+	"./monitor.js": 312,
+	"./moon.js": 313,
+	"./music.js": 314,
+	"./news.js": 315,
+	"./notebook.js": 316,
+	"./numbered-list.js": 317,
+	"./numerical-sorting-12.js": 318,
+	"./numerical-sorting-21.js": 319,
+	"./old-time-camera.js": 320,
+	"./opened-folder.js": 321,
+	"./organization.js": 322,
+	"./outdent.js": 323,
+	"./paragraph.js": 324,
+	"./parallel-tasks.js": 325,
+	"./paste.js": 326,
+	"./paypal.js": 327,
+	"./pdf.js": 328,
+	"./pencil.js": 329,
+	"./phone.js": 330,
+	"./picture.js": 331,
+	"./pie-chart.js": 332,
+	"./pin-3.js": 333,
+	"./plus.js": 334,
+	"./powerpoint.js": 335,
+	"./price-tag.js": 336,
+	"./puzzle.js": 337,
+	"./qr-code.js": 338,
+	"./question-mark.js": 339,
+	"./recycling.js": 340,
+	"./refresh.js": 341,
+	"./remove-user.js": 342,
+	"./resize-diagonal.js": 343,
+	"./resize-four-directions.js": 344,
+	"./resize-horizontal.js": 345,
+	"./resize-vertical.js": 346,
+	"./right-arrow.js": 347,
+	"./right-round.js": 348,
+	"./right-squared.js": 349,
+	"./rotate-left.js": 350,
+	"./rotate-right.js": 351,
+	"./rouble.js": 352,
+	"./rounded-rectangle-filled.js": 353,
+	"./rounded-rectangle.js": 354,
+	"./rupee.js": 355,
+	"./search.js": 356,
+	"./sensor.js": 357,
+	"./services.js": 358,
+	"./settings.js": 359,
+	"./share.js": 360,
+	"./shekel.js": 361,
+	"./shopping-cart.js": 362,
+	"./shutdown.js": 363,
+	"./sort-down.js": 364,
+	"./sort-left.js": 365,
+	"./sort-right.js": 366,
+	"./sort-up.js": 367,
+	"./sort.js": 368,
+	"./spy.js": 369,
+	"./strikethrough.js": 370,
+	"./stripe.js": 371,
+	"./student.js": 372,
+	"./subscript.js": 373,
+	"./superscript.js": 374,
+	"./support.js": 375,
+	"./tags.js": 376,
+	"./tasks.js": 377,
+	"./text-height.js": 378,
+	"./text-width.js": 379,
+	"./ticket.js": 380,
+	"./timeline.js": 381,
+	"./todo-list.js": 382,
+	"./translation.js": 383,
+	"./trash.js": 384,
+	"./trophy.js": 385,
+	"./turkish-lira.js": 386,
+	"./umbrella.js": 387,
+	"./underline.js": 388,
+	"./undo.js": 389,
+	"./unlock-2.js": 390,
+	"./up-arrow.js": 391,
+	"./up-round.js": 392,
+	"./up-squared.js": 393,
+	"./upload-2.js": 394,
+	"./upload.js": 395,
+	"./us-dollar.js": 396,
+	"./user-female.js": 397,
+	"./user-male.js": 398,
+	"./video-call.js": 399,
+	"./video-file.js": 400,
+	"./visa.js": 401,
+	"./won.js": 402,
+	"./word.js": 403,
+	"./xls.js": 404
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -19269,20 +19348,20 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 407;
+webpackContext.id = 409;
 
 /***/ }),
-/* 408 */
+/* 410 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Home_vue__ = __webpack_require__(588);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Home_vue__ = __webpack_require__(590);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Home_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_Home_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_GetStarted_vue__ = __webpack_require__(587);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_GetStarted_vue__ = __webpack_require__(589);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_GetStarted_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_GetStarted_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_ChangeLog_vue__ = __webpack_require__(585);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_ChangeLog_vue__ = __webpack_require__(587);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_ChangeLog_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_ChangeLog_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ui_components__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ui_components__ = __webpack_require__(405);
 
 
 
@@ -19305,20 +19384,20 @@ webpackContext.id = 407;
 });
 
 /***/ }),
-/* 409 */
+/* 411 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(661)
-  __webpack_require__(662)
+  __webpack_require__(663)
+  __webpack_require__(664)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(416),
+  __webpack_require__(418),
   /* template */
-  __webpack_require__(634),
+  __webpack_require__(636),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -19350,20 +19429,20 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 410 */
+/* 412 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(659)
-  __webpack_require__(660)
+  __webpack_require__(661)
+  __webpack_require__(662)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(418),
+  __webpack_require__(420),
   /* template */
-  __webpack_require__(625),
+  __webpack_require__(627),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -19395,19 +19474,19 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 411 */
+/* 413 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(664)
+  __webpack_require__(666)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(422),
+  __webpack_require__(424),
   /* template */
-  __webpack_require__(653),
+  __webpack_require__(655),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -19439,7 +19518,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 412 */
+/* 414 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22069,7 +22148,7 @@ if (inBrowser && window.Vue) {
 
 
 /***/ }),
-/* 413 */
+/* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
 (function (global, factory) {
@@ -22549,12 +22628,10 @@ return VueScrollTo$1;
 
 
 /***/ }),
-/* 414 */
+/* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* eslint-disable */
-__webpack_require__(169);
-__webpack_require__(170);
 __webpack_require__(171);
 __webpack_require__(172);
 __webpack_require__(173);
@@ -22787,26 +22864,28 @@ __webpack_require__(399);
 __webpack_require__(400);
 __webpack_require__(401);
 __webpack_require__(402);
+__webpack_require__(403);
+__webpack_require__(404);
 
 /***/ }),
-/* 415 */
+/* 417 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__(412);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_scrollto__ = __webpack_require__(413);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__(414);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_scrollto__ = __webpack_require__(415);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_scrollto___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_vue_scrollto__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_vue__ = __webpack_require__(409);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_vue__ = __webpack_require__(411);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__app_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__routes__ = __webpack_require__(408);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__routes__ = __webpack_require__(410);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_DocsContent_vue__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_DocsContent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_DocsContent_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_DocsCodeBlock_vue__ = __webpack_require__(410);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_DocsCodeBlock_vue__ = __webpack_require__(412);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_DocsCodeBlock_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__components_DocsCodeBlock_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_DocsTable_vue__ = __webpack_require__(411);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_DocsTable_vue__ = __webpack_require__(413);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_DocsTable_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__components_DocsTable_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_vue_svgicon__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_vue_svgicon___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_vue_svgicon__);
@@ -22823,7 +22902,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-var svgFiles = __webpack_require__(407);
+var svgFiles = __webpack_require__(409);
 
 __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODULE_3__src__["default"], {
   svgs: svgFiles
@@ -22848,14 +22927,14 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 });
 
 /***/ }),
-/* 416 */
+/* 418 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_DocsNav_vue__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_DocsNav_vue__ = __webpack_require__(408);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_DocsNav_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_DocsNav_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_DocsPanelNav_vue__ = __webpack_require__(586);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_DocsPanelNav_vue__ = __webpack_require__(588);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_DocsPanelNav_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_DocsPanelNav_vue__);
 //
 //
@@ -22992,14 +23071,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 417 */
+/* 419 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DocsContent_vue__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DocsContent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__DocsContent_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__CHANGELOG_md__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__CHANGELOG_md__ = __webpack_require__(466);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__CHANGELOG_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__CHANGELOG_md__);
 //
 //
@@ -23024,7 +23103,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 418 */
+/* 420 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23154,7 +23233,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 419 */
+/* 421 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23331,12 +23410,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 420 */
+/* 422 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ui_components__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ui_components__ = __webpack_require__(405);
 //
 //
 //
@@ -23423,12 +23502,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 421 */
+/* 423 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DocsNav_vue__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DocsNav_vue__ = __webpack_require__(408);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DocsNav_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__DocsNav_vue__);
 //
 //
@@ -23480,7 +23559,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 422 */
+/* 424 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23529,14 +23608,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 423 */
+/* 425 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DocsContent_vue__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DocsContent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__DocsContent_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__README_md__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__README_md__ = __webpack_require__(467);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__README_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__README_md__);
 //
 //
@@ -23561,14 +23640,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 424 */
+/* 426 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_breadcrumb_overview_md__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_breadcrumb_overview_md__ = __webpack_require__(469);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_breadcrumb_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_breadcrumb_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_breadcrumb_defaultCode_md__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_breadcrumb_defaultCode_md__ = __webpack_require__(468);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_breadcrumb_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_breadcrumb_defaultCode_md__);
 //
 //
@@ -23605,22 +23684,22 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 425 */
+/* 427 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_button_overview_md__ = __webpack_require__(471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_button_overview_md__ = __webpack_require__(473);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_button_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_button_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_button_normalCode_md__ = __webpack_require__(470);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_button_normalCode_md__ = __webpack_require__(472);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_button_normalCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_button_normalCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_button_primaryCode_md__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_button_primaryCode_md__ = __webpack_require__(474);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_button_primaryCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_button_primaryCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_button_heroCode_md__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_button_heroCode_md__ = __webpack_require__(471);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_button_heroCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_button_heroCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_button_compoundCode_md__ = __webpack_require__(468);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_button_compoundCode_md__ = __webpack_require__(470);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_button_compoundCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__markdown_button_compoundCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_button_smallCode_md__ = __webpack_require__(473);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_button_smallCode_md__ = __webpack_require__(475);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_button_smallCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__markdown_button_smallCode_md__);
 //
 //
@@ -23672,22 +23751,22 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 426 */
+/* 428 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_callout_overview_md__ = __webpack_require__(478);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_callout_overview_md__ = __webpack_require__(480);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_callout_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_callout_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_callout_defaultCode_md__ = __webpack_require__(477);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_callout_defaultCode_md__ = __webpack_require__(479);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_callout_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_callout_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_callout_closeCode_md__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_callout_closeCode_md__ = __webpack_require__(478);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_callout_closeCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_callout_closeCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_callout_actionCode_md__ = __webpack_require__(475);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_callout_actionCode_md__ = __webpack_require__(477);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_callout_actionCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_callout_actionCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_callout_OOBECode_md__ = __webpack_require__(474);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_callout_OOBECode_md__ = __webpack_require__(476);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_callout_OOBECode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__markdown_callout_OOBECode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_callout_peekCode_md__ = __webpack_require__(479);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_callout_peekCode_md__ = __webpack_require__(481);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_callout_peekCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__markdown_callout_peekCode_md__);
 //
 //
@@ -23771,16 +23850,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 427 */
+/* 429 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_checkbox_overview_md__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_checkbox_overview_md__ = __webpack_require__(484);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_checkbox_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_checkbox_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_checkbox_defaultCode_md__ = __webpack_require__(480);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_checkbox_defaultCode_md__ = __webpack_require__(482);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_checkbox_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_checkbox_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_checkbox_disabledCode_md__ = __webpack_require__(481);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_checkbox_disabledCode_md__ = __webpack_require__(483);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_checkbox_disabledCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_checkbox_disabledCode_md__);
 //
 //
@@ -23816,14 +23895,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 428 */
+/* 430 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_choice_field_group_overview_md__ = __webpack_require__(484);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_choice_field_group_overview_md__ = __webpack_require__(486);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_choice_field_group_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_choice_field_group_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_choice_field_group_defaultCode_md__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_choice_field_group_defaultCode_md__ = __webpack_require__(485);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_choice_field_group_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_choice_field_group_defaultCode_md__);
 //
 //
@@ -23866,14 +23945,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 429 */
+/* 431 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_command_bar_overview_md__ = __webpack_require__(486);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_command_bar_overview_md__ = __webpack_require__(488);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_command_bar_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_command_bar_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_command_bar_defaultCode_md__ = __webpack_require__(485);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_command_bar_defaultCode_md__ = __webpack_require__(487);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_command_bar_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_command_bar_defaultCode_md__);
 //
 //
@@ -23948,25 +24027,94 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 430 */
+/* 432 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_command_button_overview_md__ = __webpack_require__(492);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_command_button_overview_md__ = __webpack_require__(494);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_command_button_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_command_button_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_command_button_defaultCode_md__ = __webpack_require__(487);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_command_button_defaultCode_md__ = __webpack_require__(489);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_command_button_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_command_button_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_command_button_noLabelCode_md__ = __webpack_require__(491);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_command_button_noLabelCode_md__ = __webpack_require__(493);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_command_button_noLabelCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_command_button_noLabelCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_command_button_disabledCode_md__ = __webpack_require__(488);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_command_button_disabledCode_md__ = __webpack_require__(490);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_command_button_disabledCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_command_button_disabledCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_command_button_dropdownCode_md__ = __webpack_require__(489);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_command_button_dropdownCode_md__ = __webpack_require__(491);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_command_button_dropdownCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__markdown_command_button_dropdownCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_command_button_inlineCode_md__ = __webpack_require__(490);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_command_button_inlineCode_md__ = __webpack_require__(492);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_command_button_inlineCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__markdown_command_button_inlineCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_command_button_textOnlyCode_md__ = __webpack_require__(493);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_command_button_textOnlyCode_md__ = __webpack_require__(495);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_command_button_textOnlyCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__markdown_command_button_textOnlyCode_md__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -24051,20 +24199,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 431 */
+/* 433 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_contextual_menu_overview_md__ = __webpack_require__(497);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_contextual_menu_overview_md__ = __webpack_require__(499);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_contextual_menu_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_contextual_menu_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_contextual_menu_defaultCode_md__ = __webpack_require__(494);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_contextual_menu_defaultCode_md__ = __webpack_require__(496);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_contextual_menu_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_contextual_menu_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_contextual_menu_multiselectCode_md__ = __webpack_require__(496);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_contextual_menu_multiselectCode_md__ = __webpack_require__(498);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_contextual_menu_multiselectCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_contextual_menu_multiselectCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_contextual_menu_submenuCode_md__ = __webpack_require__(498);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_contextual_menu_submenuCode_md__ = __webpack_require__(500);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_contextual_menu_submenuCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_contextual_menu_submenuCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_contextual_menu_dividersCode_md__ = __webpack_require__(495);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_contextual_menu_dividersCode_md__ = __webpack_require__(497);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_contextual_menu_dividersCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__markdown_contextual_menu_dividersCode_md__);
 //
 //
@@ -24185,14 +24333,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 432 */
+/* 434 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_date_picker_overview_md__ = __webpack_require__(500);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_date_picker_overview_md__ = __webpack_require__(502);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_date_picker_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_date_picker_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_date_picker_defaultCode_md__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_date_picker_defaultCode_md__ = __webpack_require__(501);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_date_picker_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_date_picker_defaultCode_md__);
 //
 //
@@ -24223,22 +24371,22 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 433 */
+/* 435 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_dialog_overview_md__ = __webpack_require__(506);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_dialog_overview_md__ = __webpack_require__(508);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_dialog_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_dialog_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_dialog_defaultCode_md__ = __webpack_require__(503);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_dialog_defaultCode_md__ = __webpack_require__(505);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_dialog_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_dialog_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_dialog_multilineCode_md__ = __webpack_require__(505);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_dialog_multilineCode_md__ = __webpack_require__(507);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_dialog_multilineCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_dialog_multilineCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_dialog_lgHeaderCode_md__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_dialog_lgHeaderCode_md__ = __webpack_require__(506);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_dialog_lgHeaderCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_dialog_lgHeaderCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_dialog_blockingCode_md__ = __webpack_require__(501);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_dialog_blockingCode_md__ = __webpack_require__(503);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_dialog_blockingCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__markdown_dialog_blockingCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_dialog_closeCode_md__ = __webpack_require__(502);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_dialog_closeCode_md__ = __webpack_require__(504);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_dialog_closeCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__markdown_dialog_closeCode_md__);
 //
 //
@@ -24348,16 +24496,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 434 */
+/* 436 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_dropdown_overview_md__ = __webpack_require__(509);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_dropdown_overview_md__ = __webpack_require__(511);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_dropdown_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_dropdown_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_dropdown_defaultCode_md__ = __webpack_require__(507);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_dropdown_defaultCode_md__ = __webpack_require__(509);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_dropdown_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_dropdown_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_dropdown_disabledCode_md__ = __webpack_require__(508);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_dropdown_disabledCode_md__ = __webpack_require__(510);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_dropdown_disabledCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_dropdown_disabledCode_md__);
 //
 //
@@ -24407,18 +24555,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 435 */
+/* 437 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_icon_overview_md__ = __webpack_require__(511);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_icon_overview_md__ = __webpack_require__(513);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_icon_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_icon_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_icon_svgInstructions_md__ = __webpack_require__(513);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_icon_svgInstructions_md__ = __webpack_require__(515);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_icon_svgInstructions_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_icon_svgInstructions_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_icon_defaultCode_md__ = __webpack_require__(510);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_icon_defaultCode_md__ = __webpack_require__(512);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_icon_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_icon_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_icon_svgCode_md__ = __webpack_require__(512);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_icon_svgCode_md__ = __webpack_require__(514);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_icon_svgCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_icon_svgCode_md__);
 //
 //
@@ -24456,18 +24604,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 436 */
+/* 438 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_label_overview_md__ = __webpack_require__(516);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_label_overview_md__ = __webpack_require__(518);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_label_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_label_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_label_defaultCode_md__ = __webpack_require__(514);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_label_defaultCode_md__ = __webpack_require__(516);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_label_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_label_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_label_disabledCode_md__ = __webpack_require__(515);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_label_disabledCode_md__ = __webpack_require__(517);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_label_disabledCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_label_disabledCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_label_requiredCode_md__ = __webpack_require__(517);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_label_requiredCode_md__ = __webpack_require__(519);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_label_requiredCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_label_requiredCode_md__);
 //
 //
@@ -24507,14 +24655,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 437 */
+/* 439 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_link_overview_md__ = __webpack_require__(519);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_link_overview_md__ = __webpack_require__(521);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_link_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_link_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_link_defaultCode_md__ = __webpack_require__(518);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_link_defaultCode_md__ = __webpack_require__(520);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_link_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_link_defaultCode_md__);
 //
 //
@@ -24546,318 +24694,318 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 438 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md__ = __webpack_require__(405);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md__ = __webpack_require__(404);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      overviewContent: __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md___default.a,
-      defaultCode: __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md___default.a,
-      labelProps: [{ name: 'type', type: 'String', required: 'false', defaultValue: 'defaul', description: 'One of default, document, image' }]
-    };
-  }
-});
-
-/***/ }),
-/* 439 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md__ = __webpack_require__(405);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md__ = __webpack_require__(404);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      overviewContent: __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md___default.a,
-      defaultCode: __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md___default.a,
-      labelProps: [{ name: 'type', type: 'String', required: 'false', defaultValue: 'defaul', description: 'One of default, document, image' }]
-    };
-  }
-});
-
-/***/ }),
 /* 440 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_message_banner_overview_md__ = __webpack_require__(521);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md__ = __webpack_require__(407);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      overviewContent: __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md___default.a,
+      defaultCode: __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md___default.a,
+      labelProps: [{ name: 'type', type: 'String', required: 'false', defaultValue: 'defaul', description: 'One of default, document, image' }]
+    };
+  }
+});
+
+/***/ }),
+/* 441 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md__ = __webpack_require__(407);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      overviewContent: __WEBPACK_IMPORTED_MODULE_0__markdown_list_overview_md___default.a,
+      defaultCode: __WEBPACK_IMPORTED_MODULE_1__markdown_list_defaultCode_md___default.a,
+      labelProps: [{ name: 'type', type: 'String', required: 'false', defaultValue: 'defaul', description: 'One of default, document, image' }]
+    };
+  }
+});
+
+/***/ }),
+/* 442 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_message_banner_overview_md__ = __webpack_require__(523);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_message_banner_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_message_banner_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_message_banner_defaultCode_md__ = __webpack_require__(520);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_message_banner_defaultCode_md__ = __webpack_require__(522);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_message_banner_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_message_banner_defaultCode_md__);
 //
 //
@@ -24890,24 +25038,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 441 */
+/* 443 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_message_bar_overview_md__ = __webpack_require__(525);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_message_bar_overview_md__ = __webpack_require__(527);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_message_bar_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_message_bar_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_message_bar_defaultCode_md__ = __webpack_require__(523);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_message_bar_defaultCode_md__ = __webpack_require__(525);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_message_bar_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_message_bar_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_message_bar_successCode_md__ = __webpack_require__(527);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_message_bar_successCode_md__ = __webpack_require__(529);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_message_bar_successCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_message_bar_successCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_message_bar_errorCode_md__ = __webpack_require__(524);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_message_bar_errorCode_md__ = __webpack_require__(526);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_message_bar_errorCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_message_bar_errorCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_message_bar_blockedCode_md__ = __webpack_require__(522);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_message_bar_blockedCode_md__ = __webpack_require__(524);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_message_bar_blockedCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__markdown_message_bar_blockedCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_message_bar_warningCode_md__ = __webpack_require__(528);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_message_bar_warningCode_md__ = __webpack_require__(530);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_message_bar_warningCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__markdown_message_bar_warningCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_message_bar_severeWarningCode_md__ = __webpack_require__(526);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_message_bar_severeWarningCode_md__ = __webpack_require__(528);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_message_bar_severeWarningCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__markdown_message_bar_severeWarningCode_md__);
 //
 //
@@ -24986,14 +25134,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 442 */
+/* 444 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_org_chart_overview_md__ = __webpack_require__(530);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_org_chart_overview_md__ = __webpack_require__(532);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_org_chart_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_org_chart_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_org_chart_defaultCode_md__ = __webpack_require__(529);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_org_chart_defaultCode_md__ = __webpack_require__(531);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_org_chart_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_org_chart_defaultCode_md__);
 //
 //
@@ -25044,16 +25192,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 443 */
+/* 445 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_overlay_overview_md__ = __webpack_require__(533);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_overlay_overview_md__ = __webpack_require__(535);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_overlay_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_overlay_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_overlay_defaultCode_md__ = __webpack_require__(532);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_overlay_defaultCode_md__ = __webpack_require__(534);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_overlay_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_overlay_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_overlay_darkCode_md__ = __webpack_require__(531);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_overlay_darkCode_md__ = __webpack_require__(533);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_overlay_darkCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_overlay_darkCode_md__);
 //
 //
@@ -25102,26 +25250,26 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 444 */
+/* 446 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_panel_overview_md__ = __webpack_require__(541);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_panel_overview_md__ = __webpack_require__(543);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_panel_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_panel_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_panel_defaultCode_md__ = __webpack_require__(534);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_panel_defaultCode_md__ = __webpack_require__(536);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_panel_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_panel_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_panel_mediumCode_md__ = __webpack_require__(540);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_panel_mediumCode_md__ = __webpack_require__(542);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_panel_mediumCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_panel_mediumCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_panel_largeCode_md__ = __webpack_require__(537);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_panel_largeCode_md__ = __webpack_require__(539);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_panel_largeCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_panel_largeCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_panel_largeFixedCode_md__ = __webpack_require__(538);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_panel_largeFixedCode_md__ = __webpack_require__(540);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_panel_largeFixedCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__markdown_panel_largeFixedCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_panel_extraLargeCode_md__ = __webpack_require__(536);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_panel_extraLargeCode_md__ = __webpack_require__(538);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_panel_extraLargeCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__markdown_panel_extraLargeCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_panel_extraExtraLargeCode_md__ = __webpack_require__(535);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_panel_extraExtraLargeCode_md__ = __webpack_require__(537);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_panel_extraExtraLargeCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__markdown_panel_extraExtraLargeCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__markdown_panel_leftCode_md__ = __webpack_require__(539);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__markdown_panel_leftCode_md__ = __webpack_require__(541);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__markdown_panel_leftCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__markdown_panel_leftCode_md__);
 //
 //
@@ -25234,38 +25382,38 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 445 */
+/* 447 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_persona_overview_md__ = __webpack_require__(553);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_persona_overview_md__ = __webpack_require__(555);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_persona_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_persona_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_persona_tinyCode_md__ = __webpack_require__(555);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_persona_tinyCode_md__ = __webpack_require__(557);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_persona_tinyCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_persona_tinyCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_persona_extraSmallCode_md__ = __webpack_require__(549);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_persona_extraSmallCode_md__ = __webpack_require__(551);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_persona_extraSmallCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_persona_extraSmallCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_persona_smallCode_md__ = __webpack_require__(554);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_persona_smallCode_md__ = __webpack_require__(556);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_persona_smallCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_persona_smallCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_persona_defaultCode_md__ = __webpack_require__(546);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_persona_defaultCode_md__ = __webpack_require__(548);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_persona_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__markdown_persona_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_persona_largeCode_md__ = __webpack_require__(551);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_persona_largeCode_md__ = __webpack_require__(553);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_persona_largeCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__markdown_persona_largeCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_persona_extraLargeCode_md__ = __webpack_require__(548);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_persona_extraLargeCode_md__ = __webpack_require__(550);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__markdown_persona_extraLargeCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__markdown_persona_extraLargeCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__markdown_persona_initialsCode_md__ = __webpack_require__(550);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__markdown_persona_initialsCode_md__ = __webpack_require__(552);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__markdown_persona_initialsCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__markdown_persona_initialsCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__markdown_persona_availableCode_md__ = __webpack_require__(542);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__markdown_persona_availableCode_md__ = __webpack_require__(544);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__markdown_persona_availableCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__markdown_persona_availableCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__markdown_persona_awayCode_md__ = __webpack_require__(543);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__markdown_persona_awayCode_md__ = __webpack_require__(545);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__markdown_persona_awayCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__markdown_persona_awayCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__markdown_persona_blockedCode_md__ = __webpack_require__(544);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__markdown_persona_blockedCode_md__ = __webpack_require__(546);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__markdown_persona_blockedCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__markdown_persona_blockedCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__markdown_persona_busyCode_md__ = __webpack_require__(545);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__markdown_persona_busyCode_md__ = __webpack_require__(547);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__markdown_persona_busyCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__markdown_persona_busyCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__markdown_persona_dndCode_md__ = __webpack_require__(547);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__markdown_persona_dndCode_md__ = __webpack_require__(549);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__markdown_persona_dndCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__markdown_persona_dndCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__markdown_persona_offlineCode_md__ = __webpack_require__(552);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__markdown_persona_offlineCode_md__ = __webpack_require__(554);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__markdown_persona_offlineCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__markdown_persona_offlineCode_md__);
 //
 //
@@ -25355,20 +25503,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 446 */
+/* 448 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_pivot_overview_md__ = __webpack_require__(559);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_pivot_overview_md__ = __webpack_require__(561);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_pivot_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_pivot_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_pivot_defaultCode_md__ = __webpack_require__(556);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_pivot_defaultCode_md__ = __webpack_require__(558);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_pivot_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_pivot_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_pivot_largeCode_md__ = __webpack_require__(557);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_pivot_largeCode_md__ = __webpack_require__(559);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_pivot_largeCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_pivot_largeCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_pivot_tabsCode_md__ = __webpack_require__(560);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_pivot_tabsCode_md__ = __webpack_require__(562);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_pivot_tabsCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_pivot_tabsCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_pivot_largeTabsCode_md__ = __webpack_require__(558);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_pivot_largeTabsCode_md__ = __webpack_require__(560);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_pivot_largeTabsCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__markdown_pivot_largeTabsCode_md__);
 //
 //
@@ -25432,14 +25580,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 447 */
+/* 449 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_progress_indicator_overview_md__ = __webpack_require__(562);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_progress_indicator_overview_md__ = __webpack_require__(564);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_progress_indicator_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_progress_indicator_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_progress_indicator_defaultCode_md__ = __webpack_require__(561);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_progress_indicator_defaultCode_md__ = __webpack_require__(563);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_progress_indicator_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_progress_indicator_defaultCode_md__);
 //
 //
@@ -25469,18 +25617,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 448 */
+/* 450 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_search_box_overview_md__ = __webpack_require__(566);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_search_box_overview_md__ = __webpack_require__(568);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_search_box_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_search_box_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_search_box_defaultCode_md__ = __webpack_require__(565);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_search_box_defaultCode_md__ = __webpack_require__(567);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_search_box_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_search_box_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_search_box_collapsedCode_md__ = __webpack_require__(563);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_search_box_collapsedCode_md__ = __webpack_require__(565);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_search_box_collapsedCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_search_box_collapsedCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_search_box_commandBarCode_md__ = __webpack_require__(564);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_search_box_commandBarCode_md__ = __webpack_require__(566);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_search_box_commandBarCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_search_box_commandBarCode_md__);
 //
 //
@@ -25523,20 +25671,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 449 */
+/* 451 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_spinner_overview_md__ = __webpack_require__(571);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_spinner_overview_md__ = __webpack_require__(573);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_spinner_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_spinner_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_spinner_defaultCode_md__ = __webpack_require__(567);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_spinner_defaultCode_md__ = __webpack_require__(569);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_spinner_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_spinner_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_spinner_largeCode_md__ = __webpack_require__(569);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_spinner_largeCode_md__ = __webpack_require__(571);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_spinner_largeCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_spinner_largeCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_spinner_labelCode_md__ = __webpack_require__(568);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_spinner_labelCode_md__ = __webpack_require__(570);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_spinner_labelCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_spinner_labelCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_spinner_largeLabelCode_md__ = __webpack_require__(570);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_spinner_largeLabelCode_md__ = __webpack_require__(572);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_spinner_largeLabelCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__markdown_spinner_largeLabelCode_md__);
 //
 //
@@ -25581,16 +25729,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 450 */
+/* 452 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_table_overview_md__ = __webpack_require__(574);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_table_overview_md__ = __webpack_require__(576);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_table_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_table_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_table_defaultCode_md__ = __webpack_require__(572);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_table_defaultCode_md__ = __webpack_require__(574);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_table_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_table_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_table_fixedCode_md__ = __webpack_require__(573);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_table_fixedCode_md__ = __webpack_require__(575);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_table_fixedCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_table_fixedCode_md__);
 //
 //
@@ -25638,22 +25786,22 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 451 */
+/* 453 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_text_field_overview_md__ = __webpack_require__(578);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_text_field_overview_md__ = __webpack_require__(580);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_text_field_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_text_field_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_text_field_defaultCode_md__ = __webpack_require__(575);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_text_field_defaultCode_md__ = __webpack_require__(577);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_text_field_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_text_field_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_text_field_multipleCode_md__ = __webpack_require__(577);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_text_field_multipleCode_md__ = __webpack_require__(579);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_text_field_multipleCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_text_field_multipleCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_text_field_placeholderCode_md__ = __webpack_require__(579);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_text_field_placeholderCode_md__ = __webpack_require__(581);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_text_field_placeholderCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_text_field_placeholderCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_text_field_underlinedCode_md__ = __webpack_require__(580);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_text_field_underlinedCode_md__ = __webpack_require__(582);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markdown_text_field_underlinedCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__markdown_text_field_underlinedCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_text_field_disabledCode_md__ = __webpack_require__(576);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_text_field_disabledCode_md__ = __webpack_require__(578);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__markdown_text_field_disabledCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__markdown_text_field_disabledCode_md__);
 //
 //
@@ -25703,18 +25851,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 452 */
+/* 454 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_toggle_overview_md__ = __webpack_require__(583);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_toggle_overview_md__ = __webpack_require__(585);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__markdown_toggle_overview_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__markdown_toggle_overview_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_toggle_defaultCode_md__ = __webpack_require__(581);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_toggle_defaultCode_md__ = __webpack_require__(583);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markdown_toggle_defaultCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markdown_toggle_defaultCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_toggle_disabledCode_md__ = __webpack_require__(582);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_toggle_disabledCode_md__ = __webpack_require__(584);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markdown_toggle_disabledCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markdown_toggle_disabledCode_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_toggle_textLeftCode_md__ = __webpack_require__(584);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_toggle_textLeftCode_md__ = __webpack_require__(586);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__markdown_toggle_textLeftCode_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__markdown_toggle_textLeftCode_md__);
 //
 //
@@ -25771,10 +25919,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 453 */
+/* 455 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -25785,10 +25933,10 @@ exports.push([module.i, "\n.header[data-v-0a55dfb6] {\n  padding: 0 40px 15px;\n
 
 
 /***/ }),
-/* 454 */
+/* 456 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -25799,10 +25947,10 @@ exports.push([module.i, "\n.container[data-v-23aedcd2] {\n  text-align: center;\
 
 
 /***/ }),
-/* 455 */
+/* 457 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -25813,10 +25961,10 @@ exports.push([module.i, "\n.container[data-v-249c49dc] {\n  display: none;\n  ma
 
 
 /***/ }),
-/* 456 */
+/* 458 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -25827,10 +25975,10 @@ exports.push([module.i, "\n.container__code pre {\n  line-height: 1.5;\n  margin
 
 
 /***/ }),
-/* 457 */
+/* 459 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -25841,10 +25989,10 @@ exports.push([module.i, "\n.container[data-v-318d45c6] {\n  margin: 45px 5px;\n}
 
 
 /***/ }),
-/* 458 */
+/* 460 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -25855,10 +26003,10 @@ exports.push([module.i, "\n.overview_content {\n  max-width: 45em;\n}\n.overview
 
 
 /***/ }),
-/* 459 */
+/* 461 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -25869,10 +26017,10 @@ exports.push([module.i, "\n.header[data-v-4da26540] {\n  display: flex;\n  align
 
 
 /***/ }),
-/* 460 */
+/* 462 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -25883,10 +26031,10 @@ exports.push([module.i, "\n.container[data-v-67ff6c40] {\n  padding: 20px 12px 2
 
 
 /***/ }),
-/* 461 */
+/* 463 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(2)(false);
 // imports
 
 
@@ -25897,743 +26045,743 @@ exports.push([module.i, "\n.container[data-v-e51f8c6a] {\n  margin-bottom: 25px;
 
 
 /***/ }),
-/* 462 */,
-/* 463 */,
-/* 464 */
+/* 464 */,
+/* 465 */,
+/* 466 */
 /***/ (function(module, exports) {
 
 module.exports = "<p><strong>2018-04-30</strong></p>\n<p>List and ListItems (partly)</p>\n<p>Pivot-CommandButton</p>\n<p>Split-CommandButton</p>\n<p>Icons in ContextualMenu</p>\n<p>Icon-Component supports custom svg icons for CommandButtons and ContextualMenu</p>\n";
 
 /***/ }),
-/* 465 */
+/* 467 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1 id=\"office-ui-fabric-vue\">Office UI Fabric Vue</h1>\n<p><a href=\"https://travis-ci.org/aidewoode/office-ui-fabric-vue\"><img src=\"https://travis-ci.org/aidewoode/office-ui-fabric-vue.svg?branch=master\" alt=\"Build status\"></a>\n<a href=\"https://www.npmjs.com/package/office-ui-fabric-vue\"><img src=\"https://img.shields.io/npm/v/office-ui-fabric-vue.svg\" alt=\"NPM version\"></a></p>\n<h2 id=\"introduction\">Introduction</h2>\n<p>Office UI Fabric implementation for Vue.js, build with <a href=\"https://github.com/OfficeDev/office-ui-fabric-js\">office-ui-fabric-js</a>\n(<a href=\"https://dev.office.com/fabric-js\">Documentation</a>)</p>\n<h2 id=\"dependencies\">Dependencies</h2>\n<ul>\n<li>vue.js 2.2.0+</li>\n</ul>\n<h2 id=\"installation\">Installation</h2>\n<pre><code>  $ yarn add office-ui-fabric-vue\n  // or\n  $ npm install office-ui-fabric-vue\n</code></pre><h2 id=\"usage\">Usage</h2>\n<pre><code class=\"lang-javascript\">  <span class=\"token keyword\">import</span> Vue <span class=\"token keyword\">from</span> <span class=\"token string\">'vue'</span>\n  <span class=\"token keyword\">import</span> OfficeUIFabricVue <span class=\"token keyword\">from</span> <span class=\"token string\">'office-ui-fabric-vue'</span><span class=\"token punctuation\">;</span>\n\n  <span class=\"token comment\">// import css style</span>\n  <span class=\"token keyword\">import</span> <span class=\"token string\">'office-ui-fabric-vue/dist/index.css'</span><span class=\"token punctuation\">;</span>\n\n  Vue<span class=\"token punctuation\">.</span><span class=\"token function\">use</span><span class=\"token punctuation\">(</span>OfficeUIFabricVue<span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n</code></pre>\n<h2 id=\"development\">Development</h2>\n<pre><code>// clone the repo\n\n$ git clone https://github.com/aidewoode/office-ui-fabric-vue.git\n\n// install all dependencies\n\n$ yarn install\n\n// runing the doc site\n\n$ yarn run server\n\n// bundle the file\n\n$ yarn run bundle\n\n// runing the test\n\n$ yarn run test\n\n</code></pre><h2 id=\"notice\">Notice</h2>\n<p>This project just include js components, for the basic styling, include the icons, colors, layout, typography..., you can check the <a href=\"https://github.com/OfficeDev/office-ui-fabric-core\">Fabric Core</a> project.</p>\n<p>This project already include Jquery and PickaDate, and used for the DatePicker component.</p>\n<p>This project still in early stage, so the api of this components may have some break change later. If you find bugs or have feature quest, please <a href=\"https://github.com/aidewoode/office-ui-fabric-vue/issues\">add a new issue</a>.</p>\n";
 
 /***/ }),
-/* 466 */
+/* 468 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-breadcrumb</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>Folder1<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>Folder2<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>Folder3<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>Folder4<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>Folder5<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>Folder6<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-breadcrumb-item</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-breadcrumb</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 467 */
+/* 469 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Breadcrumbs should be used as a navigational aid in your app or site.\nThey indicate the current page’s location within a hierarchy and help\nthe user understand where they are in relation to the rest of that\nhierarchy. They also afford one-click access to higher levels of that\nhierarchy.</p>\n<p>Breadcrumbs are typically placed, in horizontal form,\nunder the masthead or navigation of an experience,\nabove the primary content area.</p>\n";
 
 /***/ }),
-/* 468 */
+/* 470 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>compound<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">description</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Description of this action this button takes<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Create Account<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 469 */
+/* 471 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>hero<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Add<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Create Account<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 470 */
+/* 472 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span><span class=\"token punctuation\">></span></span>Create Account<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 471 */
+/* 473 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Buttons are best used to enable a user to commit a change or complete steps in a task. They are typically found inside forms, dialogs, panels or pages. An example of their usage is confirming the deletion of a file in a confirmation dialog.</p>\n<p>When considering their place in a layout, contemplate the order in which a user will flow through the UI. As an example, in a form, the individual will need to read and interact with the form fields before submiting the form. Therefore, as a general rule, the button should be placed at the bottom of the UI container (a dialog, panel, or page) which holds the related UI elements.</p>\n<p>While buttons can technically be used to navigate a user to another part of the experience, this is not recommended - unless that navigation is part of an action or their flow.</p>\n";
 
 /***/ }),
-/* 472 */
+/* 474 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>primary<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Create Account<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 473 */
+/* 475 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>small<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Create<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 474 */
+/* 476 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-callout</span>\n  <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>OOBE<span class=\"token punctuation\">'</span></span>\n  <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>All of your favorite people<span class=\"token punctuation\">'</span></span>\n  <span class=\"token attr-name\">content</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Message body is optional. If help documentation is available, consider adding a link to learn more at the bottom.<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>actions<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>primary<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>More<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token punctuation\">></span></span>Got it<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span><span class=\"token punctuation\">></span></span>Open Callout OOBE<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-callout</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 475 */
+/* 477 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-callout</span>\n  <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>actionText<span class=\"token punctuation\">'</span></span>\n  <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>All of your favorite people<span class=\"token punctuation\">'</span></span>\n  <span class=\"token attr-name\">content</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Message body is optional. If help documentation is available, consider adding a link to learn more at the bottom.<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>actions<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Command<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span><span class=\"token punctuation\">></span></span>Open Callout Action Text<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-callout</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 476 */
+/* 478 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-callout</span>\n  <span class=\"token attr-name\">:showClose</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>true<span class=\"token punctuation\">'</span></span>\n  <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>All of your favorite people<span class=\"token punctuation\">'</span></span>\n  <span class=\"token attr-name\">content</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Message body is optional. If help documentation is available, consider adding a link to learn more at the bottom.<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-link</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>actions<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Learn more<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-link</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span><span class=\"token punctuation\">></span></span>Open Callout<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-callout</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 477 */
+/* 479 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-callout</span>\n  <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>All of your favorite people<span class=\"token punctuation\">'</span></span>\n  <span class=\"token attr-name\">content</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Message body is optional. If help documentation is available, consider adding a link to learn more at the bottom.<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>actions<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Learn more<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span><span class=\"token punctuation\">></span></span>Open Callout<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-callout</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 478 */
+/* 480 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Callouts are a powerful way to simplify a user interface. They host tips and other information users need when they need it, with minimal effort on their part. Callouts can help you use screen space more effectively and reduce screen clutter. However, poorly designed Callouts can be annoying, distracting, unhelpful, overwhelming, or in the way.</p>\n<p>Use a Callout for displaying additional contextual information about an item on the screen. Unlike Tooltips, Callouts also have a tail that identifies their source. A common use for Callout is the introduction of a new feature or capability of an app or site. Alternate usages include pairing the Callout with a button or clickable element for on-demand presentation of additional or supporting content.</p>\n<p>Real-world examples of this implementation can be seen in administrative interfaces where a particularly difficult-to-understand concept is paired with the ms-Icon--info &quot;i&quot; icon. In this example, Callout - with its tip text - is opened when the user clicks on or hovers over the icon.</p>\n";
 
 /***/ }),
-/* 479 */
+/* 481 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-callout</span>\n  <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>peek<span class=\"token punctuation\">'</span></span>\n  <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>All of your favorite people<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>actions<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Got it<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span><span class=\"token punctuation\">></span></span>Open Callout Peek<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-callout</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 480 */
+/* 482 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-checkbox</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>checked<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Checkbox<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        checked<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 481 */
+/* 483 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-checkbox</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>checked<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">disabled</span><span class=\"token punctuation\">></span></span>Checkbox Disabled<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        checked<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 482 */
+/* 484 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>A Checkbox is a UI element that allows users to switch between two mutually exclusive options (checked or unchecked, on or off) through a single click or tap. It can also be used to indicate a subordinate setting or preference when paired with another control.</p>\n<p>A Checkbox is used to select or deselect action items. It can be used for a single item or for a list of multiple items that a user can choose from. The control has two selection states: unselected and selected.</p>\n<p>Use a single Checkbox for a subordinate setting, such as with a &quot;Remember me?&quot; login scenario or with a terms of service agreement.</p>\n<p>For a binary choice, the main difference between a Checkbox and a toggle switch is that the Checkbox is for status and the toggle switch is for action. You can delay committing a Checkbox interaction (as part of a form submit, for example), while you should immediately commit a toggle switch interaction. Also, only Checkboxes allow for multi-selection.</p>\n<p>Use multiple Checkboxes for multi-select scenarios in which a user chooses one or more items from a group of choices that are not mutually exclusive.</p>\n";
 
 /***/ }),
-/* 483 */
+/* 485 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-choice-field-group</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>choiceField<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-label</span> <span class=\"token attr-name\">required</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>title<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Unselected<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-label</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-choice-field</span> <span class=\"token attr-name\">:value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>1<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Option 1<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-choice-field</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-choice-field</span> <span class=\"token attr-name\">:value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>2<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Option 2<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-choice-field</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-choice-field</span> <span class=\"token attr-name\">:value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>3<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">disabled</span><span class=\"token punctuation\">></span></span>Option 3<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-choice-field</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-choice-field</span> <span class=\"token attr-name\">:value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>4<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Option 4<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-choice-field</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-choice-field-group</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        choiceField<span class=\"token punctuation\">:</span> <span class=\"token number\">2</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n\n</code></pre>";
 
 /***/ }),
-/* 484 */
+/* 486 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Used to indicate a single choice from multiple options.</p>\n";
 
 /***/ }),
-/* 485 */
+/* 487 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-bar</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>main<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-search-box</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>commandBar<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">placeholder</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Search<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>CircleRing<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Command<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>CircleRing<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>dropdown<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>New<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>list<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Animals<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Books<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Education<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Music<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n        <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Sports<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">disabled</span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-contextual-menu</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>CircleRing<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Command<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>CircleRing<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Command<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>CircleRing<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Command<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>side<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>CircleRing<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>noLabel<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-bar</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 486 */
+/* 488 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>CommandBar is a surface that houses commands that operate on the content of the window, panel, or parent region it resides above. They are one of the most visible and recognizable ways to surface commands, and can be an intuitive method for interacting with content on the page. However, if overloaded or poorly organized, they can be difficult to use and hide valuable commands from your user. CommandBars can also display a search box for finding content; hold simple commands as well as menus; and display the status of ongoing actions.</p>\n<p>Commands should be sorted in order of importance, from left to right or right to left depending on the culture. Secondarily, organize commands in logical groupings for easier recall. CommandBars work best when they display no more than 5-7 commands. This helps users quickly find your most valuable features. If you need to show more commands, consider using the overflow menu. If you need to render status, or viewing controls, these go on the right side of the CommandBar (or left side if in a left to right experience). Do not display more than 2-3 items on the right side as it will make the overall CommandBar difficult to parse.</p>\n<p>All command items should have an icon and a label. Commands can render as labels only as well. In smaller widths, commands can just use icon only, but only for the most recognizable and frequently used commands. All other commands should go into an overflow where text labels can be shown.</p>\n";
 
 /***/ }),
-/* 487 */
+/* 489 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>CircleRing<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Command<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 488 */
+/* 490 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>CircleRing<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">disabled</span><span class=\"token punctuation\">></span></span>Command<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 489 */
+/* 491 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>CircleRing<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>dropdown<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>New<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>list<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Animals<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Books<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Education<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Music<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Sports<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">disabled</span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-contextual-menu</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 490 */
+/* 492 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>docs-code-block</span> <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Inline CommandButton<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">:code</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>inlineCode<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>CircleRing<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>inline<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Command<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>docs-code-block</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 491 */
+/* 493 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>CircleRing<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>noLabel<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 492 */
+/* 494 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Allows users to take action, such as submitting a form or dismissing a message. Primary use is in command bar or in Callout.</p>\n";
 
 /***/ }),
-/* 493 */
+/* 495 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-command-button</span><span class=\"token punctuation\">></span></span>Command<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-command-button</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 494 */
+/* 496 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>primary<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Example<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>list<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Animals<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Books<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Education<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Music<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Sports<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">disabled</span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-contextual-menu</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 495 */
+/* 497 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>primary<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Example<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>list<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Delete<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Flag<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>divider<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Important<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Move<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Move<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>hasMenu<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Fiction<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Humor<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Magazines<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Non-fiction<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Textbooks<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-contextual-menu-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Create Rule...<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Verdana<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-contextual-menu</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 496 */
+/* 498 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>multiselect<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>select<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>primary<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Example<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>list<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>header<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Sort by<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Date<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>date<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Sender<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>sender<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>divider<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>header<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Order<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Newest on top<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>new<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Oldest on top<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>old<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>divider<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>header<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>conversations<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>On<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>on<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Off<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>off<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-contextual-menu</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        select<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span><span class=\"token string\">'date'</span><span class=\"token punctuation\">,</span> <span class=\"token string\">'on'</span><span class=\"token punctuation\">]</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 497 */
+/* 499 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>ContextualMenus are lists of commands that are based on the context of selection, mouse hover or keyboard focus. They are one of the most effective and highly used command surfaces, and can be used in a variety of places.</p>\n<p>There are variants that originate from a command bar, or from cursor or focus. Those that come from CommandBars use a beak that is horizontally centered on the button. Ones that come from right click and menu button do not have a beak, but appear to the right and below the cursor. ContextualMenus can have submenus from commands, show selection checks, and icons.</p>\n<p>Organize commands in groups divided by rules. This helps users remember command locations, or find less used commands based on proximity to others. One should also group sets of mutually exclusive or multiple selectable options. Use icons sparingly, for high value commands, and don’t mix icons with selection checks, as it makes parsing commands difficult. Avoid submenus of submenus as they can be difficult to invoke or remember.</p>\n";
 
 /***/ }),
-/* 498 */
+/* 500 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>primary<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Example<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>list<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Animals<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Books<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>hasMenu<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Fiction<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Humor<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Magazines<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Non-fiction<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Textbooks<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-contextual-menu-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Education<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Music<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-contextual-menu-item</span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Sports<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">disabled</span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-contextual-menu</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 499 */
+/* 501 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-date-picker</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Start date<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">placeholder</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Select a date...<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>date<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        date<span class=\"token punctuation\">:</span> <span class=\"token string\">''</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 500 */
+/* 502 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>The DatePicker component enables a user to pick a date value.</p>\n";
 
 /***/ }),
-/* 501 */
+/* 503 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>blockingDialogVisible=true<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Dialog<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dialog</span>\n    <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>blocking<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Unsaved changes<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>blockingDialogVisible<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">subText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Are you sure you want to discard these changes?<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>Option 1<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>Option 2<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>actions<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>primary<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>blockingDialogVisible=false<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Save<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>blockingDialogVisible=false<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Cancel<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dialog</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        blockingDialogVisible<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 502 */
+/* 504 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>closeDialogVisible=true<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Dialog<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dialog</span>\n    <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>close<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>All emails together<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>closeDialogVisible<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>Option 1<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>Option 2<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>actions<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>primary<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>closeDialogVisible=false<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Save<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>closeDialogVisible=false<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Cancel<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dialog</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        closeDialogVisible<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 503 */
+/* 505 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>defaultDialogVisible=true<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Dialog<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dialog</span>\n    <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>All emails together<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>defaultDialogVisible<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">subText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Your Inbox has changed. No longer does it include favorites, it is a singular destination for your emails.<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>Option 1<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>Option 2<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-checkbox</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>actions<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>primary<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>defaultDialogVisible=false<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Save<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>defaultDialogVisible=false<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Cancel<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dialog</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        defaultDialogVisible<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 504 */
+/* 506 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>lgHeaderDialogVisible=true<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Dialog<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dialog</span>\n    <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>lgHeader<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>All emails together<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>lgHeaderDialogVisible<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">subText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Your Inbox has changed. No longer does it include favorites, it is a singular destination for your emails.<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>actions<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>primary<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>lgHeaderDialogVisible=false<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Save<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>lgHeaderDialogVisible=false<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Cancel<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dialog</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        lgHeaderDialogVisible<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 505 */
+/* 507 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>multilineDialogVisible=true<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Dialog<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dialog</span>\n    <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>multiline<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>All emails together<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>multilineDialogVisible<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>compound<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>multilineDialogVisible=false<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">description</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Description of this action this button takes<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Create Account<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>compound<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>multilineDialogVisible=false<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">description</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Description of this action this button takes<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Sign in<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>compound<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>multilineDialogVisible=false<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">description</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Description of this action this button takes<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Settings<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dialog</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        multilineDialogVisible<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 506 */
+/* 508 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Dialogs are temporary, modal UI overlay that generally provide contextual app information or require user confirmation/input. In most cases, Dialogs block interactions with the web page or application until being explicitly dismissed, and often request action from the user. They are primarily used for lightweight creation or edit tasks, and simple management tasks.</p>\n";
 
 /***/ }),
-/* 507 */
+/* 509 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dropdown</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>select<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Dropdown label<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dropdown-item</span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>dog<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Dog barking<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dropdown-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dropdown-item</span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>wind<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Wind blowing<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dropdown-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dropdown-item</span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>duck<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Duck quacking<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dropdown-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dropdown-item</span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>cow<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Cow mooing<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dropdown-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dropdown</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        select<span class=\"token punctuation\">:</span> <span class=\"token string\">'dog'</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 508 */
+/* 510 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dropdown</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>select<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Dropdown label<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">disabled</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dropdown-item</span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>dog<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Dog barking<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dropdown-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dropdown-item</span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>wind<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Wind blowing<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dropdown-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dropdown-item</span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>duck<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Duck quacking<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dropdown-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-dropdown-item</span> <span class=\"token attr-name\">value</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>cow<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Cow mooing<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dropdown-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-dropdown</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        select<span class=\"token punctuation\">:</span> <span class=\"token string\">'dog'</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 509 */
+/* 511 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>A Dropdown is a list in which the selected item is always visible, and the others are visible on demand by clicking a drop-down button. They are used to simplify the design and make a choice within the UI. When closed, only the selected item is visible. When users click the drop-down button, all the options become visible. To change the value, users open the list and click another value or use the arrow keys (up and down) to select a new value.</p>\n";
 
 /***/ }),
-/* 510 */
+/* 512 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-icon</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>Mail<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 511 */
+/* 513 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>In a computer&#39;s graphical user interface ( GUI ), an icon is an image that represents an application, a capability, or some other concept or specific entity with meaning for the user. An icon is usually selectable but can also be a nonselectable image such as a company&#39;s logo.</p>\n";
 
 /***/ }),
-/* 512 */
+/* 514 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-icon</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>svg<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>add-user<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 513 */
+/* 515 */
 /***/ (function(module, exports) {
 
 module.exports = "<h2 id=\"how-to-use-svg-icons\">How to use svg-icons</h2>\n<p>Add vue-svgicon to your project:</p>\n<pre><code>  yarn add https://github.com/dspangenberg/vue-svgicon.git\n</code></pre><p>Add new script to package.json. Don&#39;t forget to adjust source and destination path</p>\n<pre><code>  &quot;icons&quot;: &quot;vsvg -s node_modules/windows-10-icons/svg/production -t docs/icons&quot;\n</code></pre><p>Run script</p>\n<pre><code>  yarn run icons\n</code></pre><p>Then in your main.js:</p>\n<pre><code>import OfficeUIFabricVue from &#39;../src&#39;;\nimport svgicon from &#39;vue-svgicon&#39;;\n\nconst svgFiles = require.context(&#39;./icons/&#39;, false, /.*\\.js$/);\n\nVue.use(OfficeUIFabricVue, {\n  svgs: svgFiles\n});\n\n</code></pre>";
 
 /***/ }),
-/* 514 */
+/* 516 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-label</span><span class=\"token punctuation\">></span></span>Name<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-label</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 515 */
+/* 517 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-label</span> <span class=\"token attr-name\">disabled</span><span class=\"token punctuation\">></span></span>Name<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-label</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 516 */
+/* 518 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Labels give a name or title to a component or group of components. Labels should be in close proximity to the component or group they are paired with. Some components, such as TextField, Dropdown, or Toggle, already have Labels incorporated, but other components may optionally add a Label if it helps inform the user of the component’s purpose.</p>\n";
 
 /***/ }),
-/* 517 */
+/* 519 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-label</span> <span class=\"token attr-name\">required</span><span class=\"token punctuation\">></span></span>Name<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-label</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 518 */
+/* 520 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-link</span> <span class=\"token attr-name\">href</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>#<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>More info about Example Link<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Example Link<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-link</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 519 */
+/* 521 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>With a Link, users can navigate to another page, window, or Help topic; display a definition; initiate a command; or choose an option. A Link indicates that it can be clicked, typically by being displayed using the visited or unvisited link system colors. Traditionally, Links are underlined as well, but that approach is often unnecessary and falling out of favor to reduce visual clutter.</p>\n<p>A Link is the lightest weight clickable control, and is often used to reduce the visual complexity of a design.</p>\n";
 
 /***/ }),
-/* 520 */
+/* 522 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-message-banner</span><span class=\"token punctuation\">></span></span>\n  You have reached your total storage on OneDrive. Please upgrade your storage plan if you need more storage.\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>primary<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">slot</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>actions<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Get More Storage<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-message-banner</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 521 */
+/* 523 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Presents a message to the user, with an optional call to action. The message is typically an error, update, or alert.</p>\n";
 
 /***/ }),
-/* 522 */
+/* 524 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-message-bar</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Blocked<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>blocked<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  Lorem ipsum dolor sit amet, a elit sem interdum consectetur adipiscing elit.\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>br</span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-link</span><span class=\"token punctuation\">></span></span>Hyperlink string<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-link</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-message-bar</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 523 */
+/* 525 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-message-bar</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Info<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  Lorem ipsum dolor sit amet, a elit sem interdum consectetur adipiscing elit.\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>br</span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-link</span><span class=\"token punctuation\">></span></span>Hyperlink string<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-link</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-message-bar</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 524 */
+/* 526 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-message-bar</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>ErrorBadge<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>error<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  Lorem ipsum dolor sit amet, a elit sem interdum consectetur adipiscing elit.\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>br</span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-link</span><span class=\"token punctuation\">></span></span>Hyperlink string<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-link</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-message-bar</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 525 */
+/* 527 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>A MessageBar is an area at the top of a primary view that displays relevant status information. You can use a MessageBar to tell the user about a situation that does not require their immediate attention and therefore does not need to block other activities.</p>\n";
 
 /***/ }),
-/* 526 */
+/* 528 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-message-bar</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Warning<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>severeWarning<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  Lorem ipsum dolor sit amet, a elit sem interdum consectetur adipiscing elit.\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>br</span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-link</span><span class=\"token punctuation\">></span></span>Hyperlink string<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-link</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-message-bar</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 527 */
+/* 529 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-message-bar</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Completed<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>success<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  Lorem ipsum dolor sit amet, a elit sem interdum consectetur adipiscing elit.\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>br</span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-link</span><span class=\"token punctuation\">></span></span>Hyperlink string<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-link</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-message-bar</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 528 */
+/* 530 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-message-bar</span> <span class=\"token attr-name\">icon</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Info<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>warning<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  Lorem ipsum dolor sit amet, a elit sem interdum consectetur adipiscing elit.\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>br</span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-link</span><span class=\"token punctuation\">></span></span>Hyperlink string<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-link</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-message-bar</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 529 */
+/* 531 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-org-chart</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-org-chart-group</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-org-chart-group-item</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Russel Miller<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Sales<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-org-chart-group-item</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-org-chart-group-item</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Douglas Fielder<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Public Relations<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-org-chart-group-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-org-chart-group</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-org-chart-group</span> <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Manager<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-org-chart-group-item</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Grant Steel<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Sales<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-org-chart-group-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-org-chart-group</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-org-chart-group</span> <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Staff<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-org-chart-group-item</span><span class=\"token punctuation\">></span></span>\n      <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Harvey Wallin<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Public Relations<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-org-chart-group-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-org-chart-group</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-org-chart</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 530 */
+/* 532 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Displays multiple Persona components in groups with headers in order to show the hierarchy of an organization or team.</p>\n";
 
 /***/ }),
-/* 531 */
+/* 533 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-overlay</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>dark<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>darkOverlayVisibility<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>showDarkOverlay<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Show the overlay<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        darkOverlayVisibility<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n\n    methods<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token function\">showDarkOverlay</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n        <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>darkOverlayVisibility <span class=\"token operator\">=</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">;</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 532 */
+/* 534 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-overlay</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>overlayVisibility<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>showOverlay<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Show the overlay<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        overlayVisibility<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n\n    methods<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token function\">showOverlay</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n        <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>overlayVisibility <span class=\"token operator\">=</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">;</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 533 */
+/* 535 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Overlays are used to render a semi-transparent layer on top of existing UI. Overlays help focus the user on the content that sits above the added layer and are often used to help designate a modal or blocking experience. Overlays can be seen used in conjunction with Panels and Dialogs.</p>\n";
 
 /***/ }),
-/* 534 */
+/* 536 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>openDefaultPanel<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Panel<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-panel</span> <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Panel<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>defaultPanelVisiblity<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>span</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>ms-font-m<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Content goes here<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>span</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-panel</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        defaultPanelVisiblity<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n\n    methods<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token function\">openDefaultPanel</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n        <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>defaultPanelVisiblity <span class=\"token operator\">=</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">;</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 535 */
+/* 537 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>openExtraExtraLargePanel<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Panel<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-panel</span> <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Panel<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>xxl<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>extraExtraLargePanelVisiblity<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>span</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>ms-font-m<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Content goes here<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>span</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-panel</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        extraExtraLargePanelVisiblity<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n\n    methods<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token function\">openExtraExtraLargePanel</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n        <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>extraExtraLargePanelVisiblity <span class=\"token operator\">=</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">;</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 536 */
+/* 538 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>openExtraLargePanel<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Panel<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-panel</span> <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Panel<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>xl<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>extraLargePanelVisiblity<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>span</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>ms-font-m<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Content goes here<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>span</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-panel</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        extraLargePanelVisiblity<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n\n    methods<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token function\">openExtraLargePanel</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n        <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>extraLargePanelVisiblity <span class=\"token operator\">=</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">;</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 537 */
+/* 539 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>openLargePanel<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Panel<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-panel</span> <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Panel<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>lg<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>largePanelVisiblity<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>span</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>ms-font-m<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Content goes here<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>span</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-panel</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        largePanelVisiblity<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n\n    methods<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token function\">openLargePanel</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n        <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>largePanelVisiblity <span class=\"token operator\">=</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">;</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 538 */
+/* 540 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>openLargeFixedPanel<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Panel<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-panel</span> <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Panel<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>lg<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">fixed</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>largeFixedPanelVisiblity<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>span</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>ms-font-m<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Content goes here<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>span</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-panel</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        largeFixedPanelVisiblity<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n\n    methods<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token function\">openLargeFixedPanel</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n        <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>largeFixedPanelVisiblity <span class=\"token operator\">=</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">;</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 539 */
+/* 541 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>openLeftPanel<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Panel<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-panel</span> <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Panel<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">left</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>leftPanelVisiblity<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>span</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>ms-font-m<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Content goes here<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>span</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-panel</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        leftPanelVisiblity<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n\n    methods<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token function\">openLeftPanel</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n        <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>leftPanelVisiblity <span class=\"token operator\">=</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">;</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 540 */
+/* 542 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-button</span> <span class=\"token attr-name\">@click</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>openMediumPanel<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Open Panel<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-button</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-panel</span> <span class=\"token attr-name\">title</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Panel<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>medium<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>mediumPanelVisiblity<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>span</span> <span class=\"token attr-name\">class</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>ms-font-m<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Content goes here<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>span</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-panel</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        mediumPanelVisiblity<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n\n    methods<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token function\">openMediumPanel</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n        <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>defaultPanelVisiblity <span class=\"token operator\">=</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">;</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 541 */
+/* 543 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Panels are modal UI overlays that provide contextual app information. They often request some kind of creation or management action from the user. Panels are paired with the Overlay component, also known as a Light Dismiss. The Overlay blocks interactions with the app view until dismissed either through clicking or tapping on the Overlay or by selecting a close or completion action within the Panel.</p>\n";
 
 /***/ }),
-/* 542 */
+/* 544 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>available<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Accountant<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 543 */
+/* 545 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>away<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Accountant<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 544 */
+/* 546 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>blocked<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Accountant<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 545 */
+/* 547 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>busy<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Accountant<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 546 */
+/* 548 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Accountant<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 547 */
+/* 549 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>dnd<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Accountant<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 548 */
+/* 550 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>xl<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Accountant<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">tertiaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>In a meeting<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">optionalText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Available at 4:00pm<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 549 */
+/* 551 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>xs<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 550 */
+/* 552 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">initials</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>AD<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 551 */
+/* 553 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>lg<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Accountant<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">tertiaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>In a meeting<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 552 */
+/* 554 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>offline<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Accountant<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 553 */
+/* 555 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Represents a person, complete with a profile image and additional details. Where a profile image is not available, the user&#39;s initials can be shown instead.</p>\n";
 
 /***/ }),
-/* 554 */
+/* 556 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>sm<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">secondaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Accountant<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 555 */
+/* 557 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-persona</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>available<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>tiny<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">src</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>docs/assets/img/avatar.png<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">primaryText</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Aide Woode<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 556 */
+/* 558 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>My files<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the my files tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Recent<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the recent tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Shared with me<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the shared with me tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 557 */
+/* 559 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot</span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>large<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>My files<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the my files tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Recent<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the recent tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Shared with me<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the shared with me tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 558 */
+/* 560 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>tabs<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">size</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>large<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>My files<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the my files tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Recent<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the recent tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Shared with me<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the shared with me tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 559 */
+/* 561 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>The Pivot control and related tabs pattern are used for navigating frequently accessed, distinct content categories. Pivots allow for navigation between two or more content views and relies on text headers to articulate the different sections of content.</p>\n<ul>\n<li>Tapping on a pivot item header navigates to that header&#39;s section content.</li>\n<li>Swiping left or right on a pivot item header navigates to the adjacent section.</li>\n<li>Swiping left or right on section content navigates to the adjacent section.</li>\n<li>Pivots are stationary when all pivot headers fit within the allowed space.</li>\n<li>Pivots carousel when all pivot headers don&#39;t fit within the allowed space.</li>\n</ul>\n<p>Tabs are a visual variant of Pivot that use a combination of icons and text or just icons to articulate section content.</p>\n";
 
 /***/ }),
-/* 560 */
+/* 562 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>tabs<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>My files<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the my files tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Recent<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the recent tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-pivot-item</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Shared with me<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>This is the shared with me tab.<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot-item</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-pivot</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 561 */
+/* 563 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-progress-indicator</span> <span class=\"token attr-name\">:percent</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>0.9<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">name</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Example.jpg<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">description</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Example.jpg<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 562 */
+/* 564 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Progress Indicators are used to show the completion status of an operation lasting more than 2 seconds. If the state of progress cannot be determined, use a Spinner instead. Progress Indicators can appear in a new panel, a flyout, under the UI initiating the operation, or even replacing the initiating UI, as long as the UI can return if the operation is canceled or is stopped.</p>\n<p>Progress Indicators feature a bar showing total units to completion, and total units finished. The description of the operation appears above the bar, and the status in text appears below. The description should tell someone exactly what the operation is doing. Examples of formatting include:</p>\n<p><strong>[Object]</strong> is being <strong>[operation name]</strong>, or<br><strong>[Object]</strong> is being <strong>[operation name]</strong> to <strong>[destination name]</strong> or<br><strong>[Object]</strong> is being <strong>[operation name]</strong> from <strong>[source name]</strong> to <strong>[destination name]</strong>  </p>\n<p>Status text is generally in units elapsed and total units. If the operation can be canceled, an “X” glyph is used and should be placed in the upper right, aligned with the baseline of the operation name. When an error occurs, replace the status text with the error description using ms-fontColor-redDark.</p>\n<p>Real-world examples include copying files to a storage location, saving edits to a file, and more. Use units that are informative and relevant to give the best idea to users of how long the operation will take to complete. Avoid time units as they arerarely accurate enough to be trustworthy. Also combine steps of a complex operation into one total bar to avoid “rewinding” the bar. Instead change the operation description to reflect the change if necessary. Bars moving backwards reduce confidence in the service.</p>\n";
 
 /***/ }),
-/* 563 */
+/* 565 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-search-box</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>commandBar<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">collapsed</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>collapsedSearch<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        collapsedSearch<span class=\"token punctuation\">:</span> <span class=\"token string\">''</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 564 */
+/* 566 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-search-box</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>commandBar<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">placeholder</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Search<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>commandBarSearch<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        commandBarSearch<span class=\"token punctuation\">:</span> <span class=\"token string\">''</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 565 */
+/* 567 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-search-box</span> <span class=\"token attr-name\">placeholder</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Search<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>defaultSearch<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        defaultSearch<span class=\"token punctuation\">:</span> <span class=\"token string\">''</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 566 */
+/* 568 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>SearchBoxes provide an input field for searching through content, allowing users to locate specific items within the website or app.</p>\n<h2 id=\"zero-input-state\">Zero input state</h2>\n<p>When the user has clicked into the SearchBox, but has not entered any text, there is an opportunity to display &quot;hint text&quot; within the input field, explaining what a user can do next. This could prompt a user to search for specific type content, or explain the scope of the search. Examples include &quot;type to search&quot;, &quot;try searching for <x>&quot;, &quot;search for a place&quot; or &quot;type to search in <x location>&quot;.</p>\n<h2 id=\"autocomplete-suggestions\">Autocomplete suggestions</h2>\n<p>As the user enters a query string, they are provided with a dropdown of autocomplete suggestions or disambiguation options. This will help them expedite the input process and formulate an effective query. Recent search history, trending searches, contextual search suggestions, hints and tips are all good candidates for autocomplete content. In general, autocomplete suggestions have the user&#39;s input highlighted in some way (generally bolded) to indicate why it&#39;s being displayed. As the user enters more keystrokes, the suggestions update continuously/in real time. To see autocomplete suggestions, the user does not need to hit enter (execute a full search), as it is a lightweight way to get quick suggestions or results. If there are mixed result types within the autocomplete suggestions, provide visual indicators or grouping to help organize the information, making it easier to parse.</p>\n<p>As a general guideline, results should be displayed in context with the query that was typed, with immediate access to edit the query or enter a new one. One method to enable efficient access to both edit the previous query and enter a new query is to highlight the previous query when the field is reactivated. This way, any keystroke will replace the previous string, but the string is maintained so that the user can position a cursor to edit or append the previous string.</p>\n<h2 id=\"search-scopes\">Search scopes</h2>\n<p>Although search entry points tend to be similarly visualized, they can provide access to results that range from broad to narrow. By effectively communicating the scope of a search, you can help to ensure that the user expectation will be met by the capabilities of the search you are performing, which will reduce the possibility of frustration. The search entry point should be juxtaposed with the content being searched.</p>\n<p>Some common search scopes include:</p>\n<ul>\n<li><strong>Global:</strong> Search across multiple sources of cloud and local content. Varied results include URLs, documents, media, actions, apps, and more.</li>\n<li><strong>Web:</strong> Search a web index. Results include pages, entities, and answers.</li>\n<li><strong>My stuff:</strong> Search across device(s), cloud, social graphs, and more. Results are varied, but are constrained by the connection to user account(s).</li>\n</ul>\n<h2 id=\"searchbox-with-no-parent-container\">SearchBox with no parent container</h2>\n<p>Use a SearchBox without a parent container when it is not restricted to a certain width to accommodate other content. This search box will span the entire width of the space it&#39;s in.</p>\n";
 
 /***/ }),
-/* 567 */
+/* 569 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-spinner</span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 568 */
+/* 570 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-spinner</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Loading...<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 569 */
+/* 571 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-spinner</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>large<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 570 */
+/* 572 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code>  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-spinner</span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Loading...<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>large<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n</code></pre>";
 
 /***/ }),
-/* 571 */
+/* 573 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>A Spinner is an outline of a circle which animates around itself indicating to the user that things are processing. A Spinner is shown when it&#39;s unsure how long a task will take making it the indeterminate version of a ProgressIndicator. They can be various sizes, located inline with content or centered. They generally appear after an action is being processed or committed. They are subtle and generally do not take up much space, but are transitions from the completed task.</p>\n";
 
 /***/ }),
-/* 572 */
+/* 574 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-table</span> <span class=\"token attr-name\">:data</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>tableData<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-table-column</span> <span class=\"token attr-name\">prop</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>name<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Name<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-table-column</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-table-column</span> <span class=\"token attr-name\">prop</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>age<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Age<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-table-column</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-table-column</span> <span class=\"token attr-name\">prop</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>date<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Date<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-table-column</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-table</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        tableData<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n          <span class=\"token punctuation\">{</span> name<span class=\"token punctuation\">:</span> <span class=\"token string\">'Ed'</span><span class=\"token punctuation\">,</span> age<span class=\"token punctuation\">:</span> <span class=\"token string\">'24'</span><span class=\"token punctuation\">,</span> date<span class=\"token punctuation\">:</span> <span class=\"token string\">'1993-11-12'</span> <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n          <span class=\"token punctuation\">{</span> name<span class=\"token punctuation\">:</span> <span class=\"token string\">'Jack'</span><span class=\"token punctuation\">,</span> age<span class=\"token punctuation\">:</span> <span class=\"token string\">'30'</span><span class=\"token punctuation\">,</span> date<span class=\"token punctuation\">:</span> <span class=\"token string\">'1987-12-10'</span> <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n          <span class=\"token punctuation\">{</span> name<span class=\"token punctuation\">:</span> <span class=\"token string\">'Blues'</span><span class=\"token punctuation\">,</span> age<span class=\"token punctuation\">:</span> <span class=\"token string\">'51'</span><span class=\"token punctuation\">,</span> date<span class=\"token punctuation\">:</span> <span class=\"token string\">'1966-06-15'</span> <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n          <span class=\"token punctuation\">{</span> name<span class=\"token punctuation\">:</span> <span class=\"token string\">'Kurt'</span><span class=\"token punctuation\">,</span> age<span class=\"token punctuation\">:</span> <span class=\"token string\">'23'</span><span class=\"token punctuation\">,</span> date<span class=\"token punctuation\">:</span> <span class=\"token string\">'1994-04-05'</span> <span class=\"token punctuation\">}</span>\n        <span class=\"token punctuation\">]</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 573 */
+/* 575 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-table</span> <span class=\"token attr-name\">:data</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>tableData<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>fixed<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-table-column</span> <span class=\"token attr-name\">prop</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>name<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Name<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-table-column</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-table-column</span> <span class=\"token attr-name\">prop</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>age<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Age<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-table-column</span><span class=\"token punctuation\">></span></span>\n    <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-table-column</span> <span class=\"token attr-name\">prop</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>date<span class=\"token punctuation\">'</span></span><span class=\"token punctuation\">></span></span>Date<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-table-column</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>ou-table</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        tableData<span class=\"token punctuation\">:</span> <span class=\"token punctuation\">[</span>\n          <span class=\"token punctuation\">{</span> name<span class=\"token punctuation\">:</span> <span class=\"token string\">'Ed'</span><span class=\"token punctuation\">,</span> age<span class=\"token punctuation\">:</span> <span class=\"token string\">'24'</span><span class=\"token punctuation\">,</span> date<span class=\"token punctuation\">:</span> <span class=\"token string\">'1993-11-12'</span> <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n          <span class=\"token punctuation\">{</span> name<span class=\"token punctuation\">:</span> <span class=\"token string\">'Jack'</span><span class=\"token punctuation\">,</span> age<span class=\"token punctuation\">:</span> <span class=\"token string\">'30'</span><span class=\"token punctuation\">,</span> date<span class=\"token punctuation\">:</span> <span class=\"token string\">'1987-12-10'</span> <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n          <span class=\"token punctuation\">{</span> name<span class=\"token punctuation\">:</span> <span class=\"token string\">'Blues'</span><span class=\"token punctuation\">,</span> age<span class=\"token punctuation\">:</span> <span class=\"token string\">'51'</span><span class=\"token punctuation\">,</span> date<span class=\"token punctuation\">:</span> <span class=\"token string\">'1966-06-15'</span> <span class=\"token punctuation\">}</span><span class=\"token punctuation\">,</span>\n          <span class=\"token punctuation\">{</span> name<span class=\"token punctuation\">:</span> <span class=\"token string\">'Kurt'</span><span class=\"token punctuation\">,</span> age<span class=\"token punctuation\">:</span> <span class=\"token string\">'23'</span><span class=\"token punctuation\">,</span> date<span class=\"token punctuation\">:</span> <span class=\"token string\">'1994-04-05'</span> <span class=\"token punctuation\">}</span>\n        <span class=\"token punctuation\">]</span>\n      <span class=\"token punctuation\">}</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 574 */
+/* 576 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Presents tabular data with multiple rows and columns. The table&#39;s width is flexible, but it does not have any advanced responsive behaviors.</p>\n";
 
 /***/ }),
-/* 575 */
+/* 577 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-text-field</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>text<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Name<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">date</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        text<span class=\"token punctuation\">:</span> <span class=\"token string\">''</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 576 */
+/* 578 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-text-field</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>text<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Name<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">disabled</span> <span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">date</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        text<span class=\"token punctuation\">:</span> <span class=\"token string\">''</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 577 */
+/* 579 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-text-field</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>multiline<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>text<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Name<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">date</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        text<span class=\"token punctuation\">:</span> <span class=\"token string\">''</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 578 */
+/* 580 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>The TextField component enables a user to type text into an app. It&#39;s typically used to capture a single line of text, but can be configured to capture multiple lines of text. The text displays on the screen in a simple, uniform format.</p>\n";
 
 /***/ }),
-/* 579 */
+/* 581 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-text-field</span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>text<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">placeholder</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Given name<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">date</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        text<span class=\"token punctuation\">:</span> <span class=\"token string\">''</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 580 */
+/* 582 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-text-field</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>underlined<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>text<span class=\"token punctuation\">'</span></span> <span class=\"token attr-name\">label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Name<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">date</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        text<span class=\"token punctuation\">:</span> <span class=\"token string\">''</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 581 */
+/* 583 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-toggle</span>\n    <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>toggle<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">on-label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>On<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">off-label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Off<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">description</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Let apps use my location<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        toggle<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 582 */
+/* 584 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-toggle</span>\n    <span class=\"token attr-name\">disabled</span>\n    <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>toggle<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">on-label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>On<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">off-label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Off<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">description</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Let apps use my location<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        toggle<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 583 */
+/* 585 */
 /***/ (function(module, exports) {
 
 module.exports = "<p>Toggles represent a physical switch that allows users to turn things on or off. Use Toggles to present users with two mutually exclusive options (like on/off), where choosing an option results in an immediate action. Use a Toggle for binary operations that take effect right after the user flips the Toggle. For example, use a Toggle to turn services or hardware components on or off. In other words, if a physical switch would work for the action, a Toggle is probably the best control to use.</p>\n";
 
 /***/ }),
-/* 584 */
+/* 586 */
 /***/ (function(module, exports) {
 
 module.exports = "<pre><code><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>template</span><span class=\"token punctuation\">></span></span>\n  <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>ou-toggle</span>\n    <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>textLeft<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">v-model</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>toggle<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">on-label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>On<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">off-label</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Off<span class=\"token punctuation\">'</span></span>\n    <span class=\"token attr-name\">description</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">'</span>Let apps use my location<span class=\"token punctuation\">'</span></span> <span class=\"token punctuation\">/></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>template</span><span class=\"token punctuation\">></span></span>\n<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script language-javascript\">\n  <span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token function\">data</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">return</span> <span class=\"token punctuation\">{</span>\n        toggle<span class=\"token punctuation\">:</span> <span class=\"token boolean\">false</span>\n      <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n  <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>script</span><span class=\"token punctuation\">></span></span>\n</code></pre>";
 
 /***/ }),
-/* 585 */
+/* 587 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(417),
+  __webpack_require__(419),
   /* template */
-  __webpack_require__(651),
+  __webpack_require__(653),
   /* styles */
   null,
   /* scopeId */
@@ -26665,19 +26813,19 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 586 */
+/* 588 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(658)
+  __webpack_require__(660)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(421),
+  __webpack_require__(423),
   /* template */
-  __webpack_require__(623),
+  __webpack_require__(625),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -26709,15 +26857,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 587 */
+/* 589 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(423),
+  __webpack_require__(425),
   /* template */
-  __webpack_require__(620),
+  __webpack_require__(622),
   /* styles */
   null,
   /* scopeId */
@@ -26749,19 +26897,19 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 588 */
+/* 590 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(657)
+  __webpack_require__(659)
 }
 var Component = __webpack_require__(0)(
   /* script */
   null,
   /* template */
-  __webpack_require__(622),
+  __webpack_require__(624),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -26793,15 +26941,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 589 */
+/* 591 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(424),
+  __webpack_require__(426),
   /* template */
-  __webpack_require__(638),
+  __webpack_require__(640),
   /* styles */
   null,
   /* scopeId */
@@ -26833,15 +26981,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 590 */
+/* 592 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(425),
+  __webpack_require__(427),
   /* template */
-  __webpack_require__(618),
+  __webpack_require__(620),
   /* styles */
   null,
   /* scopeId */
@@ -26873,15 +27021,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 591 */
+/* 593 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(426),
+  __webpack_require__(428),
   /* template */
-  __webpack_require__(628),
+  __webpack_require__(630),
   /* styles */
   null,
   /* scopeId */
@@ -26913,15 +27061,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 592 */
+/* 594 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(427),
+  __webpack_require__(429),
   /* template */
-  __webpack_require__(636),
+  __webpack_require__(638),
   /* styles */
   null,
   /* scopeId */
@@ -26953,15 +27101,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 593 */
+/* 595 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(428),
+  __webpack_require__(430),
   /* template */
-  __webpack_require__(627),
+  __webpack_require__(629),
   /* styles */
   null,
   /* scopeId */
@@ -26993,15 +27141,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 594 */
+/* 596 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(429),
+  __webpack_require__(431),
   /* template */
-  __webpack_require__(629),
+  __webpack_require__(631),
   /* styles */
   null,
   /* scopeId */
@@ -27033,15 +27181,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 595 */
+/* 597 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(430),
+  __webpack_require__(432),
   /* template */
-  __webpack_require__(644),
+  __webpack_require__(646),
   /* styles */
   null,
   /* scopeId */
@@ -27073,15 +27221,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 596 */
+/* 598 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(431),
+  __webpack_require__(433),
   /* template */
-  __webpack_require__(643),
+  __webpack_require__(645),
   /* styles */
   null,
   /* scopeId */
@@ -27113,15 +27261,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 597 */
+/* 599 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(432),
+  __webpack_require__(434),
   /* template */
-  __webpack_require__(632),
+  __webpack_require__(634),
   /* styles */
   null,
   /* scopeId */
@@ -27153,15 +27301,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 598 */
+/* 600 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(433),
+  __webpack_require__(435),
   /* template */
-  __webpack_require__(649),
+  __webpack_require__(651),
   /* styles */
   null,
   /* scopeId */
@@ -27193,15 +27341,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 599 */
+/* 601 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(434),
+  __webpack_require__(436),
   /* template */
-  __webpack_require__(624),
+  __webpack_require__(626),
   /* styles */
   null,
   /* scopeId */
@@ -27233,15 +27381,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 600 */
+/* 602 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(435),
+  __webpack_require__(437),
   /* template */
-  __webpack_require__(626),
+  __webpack_require__(628),
   /* styles */
   null,
   /* scopeId */
@@ -27273,15 +27421,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 601 */
+/* 603 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(436),
+  __webpack_require__(438),
   /* template */
-  __webpack_require__(621),
+  __webpack_require__(623),
   /* styles */
   null,
   /* scopeId */
@@ -27313,15 +27461,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 602 */
+/* 604 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(437),
+  __webpack_require__(439),
   /* template */
-  __webpack_require__(637),
+  __webpack_require__(639),
   /* styles */
   null,
   /* scopeId */
@@ -27353,15 +27501,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 603 */
+/* 605 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(438),
+  __webpack_require__(440),
   /* template */
-  __webpack_require__(640),
+  __webpack_require__(642),
   /* styles */
   null,
   /* scopeId */
@@ -27393,15 +27541,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 604 */
+/* 606 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(439),
+  __webpack_require__(441),
   /* template */
-  __webpack_require__(631),
+  __webpack_require__(633),
   /* styles */
   null,
   /* scopeId */
@@ -27433,15 +27581,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 605 */
+/* 607 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(440),
+  __webpack_require__(442),
   /* template */
-  __webpack_require__(630),
+  __webpack_require__(632),
   /* styles */
   null,
   /* scopeId */
@@ -27473,15 +27621,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 606 */
+/* 608 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(441),
+  __webpack_require__(443),
   /* template */
-  __webpack_require__(642),
+  __webpack_require__(644),
   /* styles */
   null,
   /* scopeId */
@@ -27513,15 +27661,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 607 */
+/* 609 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(442),
+  __webpack_require__(444),
   /* template */
-  __webpack_require__(645),
+  __webpack_require__(647),
   /* styles */
   null,
   /* scopeId */
@@ -27553,15 +27701,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 608 */
+/* 610 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(443),
+  __webpack_require__(445),
   /* template */
-  __webpack_require__(654),
+  __webpack_require__(656),
   /* styles */
   null,
   /* scopeId */
@@ -27593,15 +27741,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 609 */
+/* 611 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(444),
+  __webpack_require__(446),
   /* template */
-  __webpack_require__(635),
+  __webpack_require__(637),
   /* styles */
   null,
   /* scopeId */
@@ -27633,15 +27781,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 610 */
+/* 612 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(445),
+  __webpack_require__(447),
   /* template */
-  __webpack_require__(655),
+  __webpack_require__(657),
   /* styles */
   null,
   /* scopeId */
@@ -27673,15 +27821,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 611 */
+/* 613 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(446),
+  __webpack_require__(448),
   /* template */
-  __webpack_require__(639),
+  __webpack_require__(641),
   /* styles */
   null,
   /* scopeId */
@@ -27713,15 +27861,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 612 */
+/* 614 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(447),
+  __webpack_require__(449),
   /* template */
-  __webpack_require__(648),
+  __webpack_require__(650),
   /* styles */
   null,
   /* scopeId */
@@ -27753,15 +27901,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 613 */
+/* 615 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(448),
+  __webpack_require__(450),
   /* template */
-  __webpack_require__(652),
+  __webpack_require__(654),
   /* styles */
   null,
   /* scopeId */
@@ -27793,15 +27941,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 614 */
+/* 616 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(449),
+  __webpack_require__(451),
   /* template */
-  __webpack_require__(633),
+  __webpack_require__(635),
   /* styles */
   null,
   /* scopeId */
@@ -27833,15 +27981,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 615 */
+/* 617 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(450),
+  __webpack_require__(452),
   /* template */
-  __webpack_require__(646),
+  __webpack_require__(648),
   /* styles */
   null,
   /* scopeId */
@@ -27873,15 +28021,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 616 */
+/* 618 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(451),
+  __webpack_require__(453),
   /* template */
-  __webpack_require__(650),
+  __webpack_require__(652),
   /* styles */
   null,
   /* scopeId */
@@ -27913,15 +28061,15 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 617 */
+/* 619 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(452),
+  __webpack_require__(454),
   /* template */
-  __webpack_require__(647),
+  __webpack_require__(649),
   /* styles */
   null,
   /* scopeId */
@@ -27953,7 +28101,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 618 */
+/* 620 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28045,7 +28193,7 @@ if (false) {
 }
 
 /***/ }),
-/* 619 */
+/* 621 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28095,7 +28243,7 @@ if (false) {
 }
 
 /***/ }),
-/* 620 */
+/* 622 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28120,7 +28268,7 @@ if (false) {
 }
 
 /***/ }),
-/* 621 */
+/* 623 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28186,7 +28334,7 @@ if (false) {
 }
 
 /***/ }),
-/* 622 */
+/* 624 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28212,7 +28360,7 @@ if (false) {
 }
 
 /***/ }),
-/* 623 */
+/* 625 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28248,7 +28396,7 @@ if (false) {
 }
 
 /***/ }),
-/* 624 */
+/* 626 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28362,7 +28510,7 @@ if (false) {
 }
 
 /***/ }),
-/* 625 */
+/* 627 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28411,7 +28559,7 @@ if (false) {
 }
 
 /***/ }),
-/* 626 */
+/* 628 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28477,7 +28625,7 @@ if (false) {
 }
 
 /***/ }),
-/* 627 */
+/* 629 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28568,7 +28716,7 @@ if (false) {
 }
 
 /***/ }),
-/* 628 */
+/* 630 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28699,7 +28847,7 @@ if (false) {
 }
 
 /***/ }),
-/* 629 */
+/* 631 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28890,7 +29038,7 @@ if (false) {
 }
 
 /***/ }),
-/* 630 */
+/* 632 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -28944,7 +29092,7 @@ if (false) {
 }
 
 /***/ }),
-/* 631 */
+/* 633 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -29346,7 +29494,7 @@ if (false) {
 }
 
 /***/ }),
-/* 632 */
+/* 634 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -29406,7 +29554,7 @@ if (false) {
 }
 
 /***/ }),
-/* 633 */
+/* 635 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -29482,7 +29630,7 @@ if (false) {
 }
 
 /***/ }),
-/* 634 */
+/* 636 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -29522,7 +29670,7 @@ if (false) {
 }
 
 /***/ }),
-/* 635 */
+/* 637 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -29726,7 +29874,7 @@ if (false) {
 }
 
 /***/ }),
-/* 636 */
+/* 638 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -29798,7 +29946,7 @@ if (false) {
 }
 
 /***/ }),
-/* 637 */
+/* 639 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -29857,7 +30005,7 @@ if (false) {
 }
 
 /***/ }),
-/* 638 */
+/* 640 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -29905,7 +30053,7 @@ if (false) {
 }
 
 /***/ }),
-/* 639 */
+/* 641 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -30035,7 +30183,7 @@ if (false) {
 }
 
 /***/ }),
-/* 640 */
+/* 642 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -30243,7 +30391,7 @@ if (false) {
 }
 
 /***/ }),
-/* 641 */
+/* 643 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -30303,7 +30451,7 @@ if (false) {
 }
 
 /***/ }),
-/* 642 */
+/* 644 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -30405,7 +30553,7 @@ if (false) {
 }
 
 /***/ }),
-/* 643 */
+/* 645 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -30751,7 +30899,7 @@ if (false) {
 }
 
 /***/ }),
-/* 644 */
+/* 646 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -30774,8 +30922,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     slot: "Variants"
   }, [_c('docs-code-block', {
     attrs: {
-      "title": "Default CommandButton",
-      "code": _vm.defaultCode
+      "code": _vm.defaultCode,
+      "title": "Default CommandButton"
     }
   }, [_c('ou-command-button', {
     attrs: {
@@ -30784,8 +30932,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_vm._v("Command")])], 1), _vm._v(" "), _c('docs-code-block', {
     attrs: {
-      "title": "No Label CommandButton",
-      "code": _vm.noLabelCode
+      "code": _vm.noLabelCode,
+      "title": "No Label CommandButton"
     }
   }, [_c('ou-command-button', {
     attrs: {
@@ -30800,8 +30948,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })], 1), _vm._v(" "), _c('docs-code-block', {
     attrs: {
-      "title": "Disabled CommandButton",
-      "code": _vm.disabledCode
+      "code": _vm.disabledCode,
+      "title": "Disabled CommandButton"
     }
   }, [_c('ou-command-button', {
     attrs: {
@@ -30810,8 +30958,42 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_vm._v("Command")])], 1), _vm._v(" "), _c('docs-code-block', {
     attrs: {
-      "title": "Dropdown CommandButton",
-      "code": _vm.dropdownCode
+      "code": _vm.disabledCode,
+      "title": "Split CommandButton"
+    }
+  }, [_c('ou-command-button', {
+    attrs: {
+      "is-split": true
+    }
+  }, [_vm._v("\n        Command\n        "), _c('div', {
+    attrs: {
+      "slot": "list"
+    },
+    slot: "list"
+  }, [_c('ou-contextual-menu-item', {
+    attrs: {
+      "name": "Animals"
+    }
+  }), _vm._v(" "), _c('ou-contextual-menu-item', {
+    attrs: {
+      "name": "Books"
+    }
+  }), _vm._v(" "), _c('ou-contextual-menu-item', {
+    attrs: {
+      "name": "Education"
+    }
+  }), _vm._v(" "), _c('ou-contextual-menu-item', {
+    attrs: {
+      "name": "Music"
+    }
+  }), _vm._v(" "), _c('ou-contextual-menu-item', {
+    attrs: {
+      "name": "Sports"
+    }
+  })], 1)])], 1), _vm._v(" "), _c('docs-code-block', {
+    attrs: {
+      "code": _vm.dropdownCode,
+      "title": "Dropdown CommandButton"
     }
   }, [_c('ou-contextual-menu', [_c('ou-command-button', {
     attrs: {
@@ -30846,8 +31028,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })], 1)], 1)], 1), _vm._v(" "), _c('docs-code-block', {
     attrs: {
-      "title": "Dropdown dropdownWithNoLabel",
-      "code": _vm.dropdownCode
+      "code": _vm.dropdownCode,
+      "title": "Dropdown dropdownWithNoLabel"
     }
   }, [_c('ou-contextual-menu', [_c('ou-command-button', {
     attrs: {
@@ -30883,8 +31065,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })], 1)], 1)], 1), _vm._v(" "), _c('docs-code-block', {
     attrs: {
-      "title": "Inline CommandButton",
-      "code": _vm.inlineCode
+      "code": _vm.inlineCode,
+      "title": "Inline CommandButton"
     }
   }, [_c('ou-command-button', {
     attrs: {
@@ -30893,31 +31075,31 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_vm._v("Command")])], 1), _vm._v(" "), _c('docs-code-block', {
     attrs: {
-      "title": "Text Only CommandButton",
-      "code": _vm.textOnlyCode
+      "code": _vm.textOnlyCode,
+      "title": "Text Only CommandButton"
     }
   }, [_c('ou-command-button', [_vm._v("Command")])], 1), _vm._v(" "), _c('docs-code-block', {
     attrs: {
-      "title": "Pivot CommandButton",
-      "code": _vm.textOnlyCode
+      "code": _vm.textOnlyCode,
+      "title": "Pivot CommandButton"
     }
   }, [_c('ou-command-button', {
     attrs: {
+      "pivot": true,
       "icon-type": "svg",
-      "icon": "add-user",
-      "pivot": true
+      "icon": "add-user"
     }
   }, [_vm._v("Command")])], 1), _vm._v(" "), _c('docs-code-block', {
     attrs: {
-      "title": "Selected Pivot CommandButton",
-      "code": _vm.textOnlyCode
+      "code": _vm.textOnlyCode,
+      "title": "Selected Pivot CommandButton"
     }
   }, [_c('ou-command-button', {
     attrs: {
       "active": true,
+      "pivot": true,
       "icon-type": "svg",
-      "icon": "add-user",
-      "pivot": true
+      "icon": "add-user"
     }
   }, [_vm._v("Command")])], 1)], 1), _vm._v(" "), _c('div', {
     attrs: {
@@ -30926,14 +31108,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     slot: "Implementation"
   }, [_c('docs-table', {
     attrs: {
-      "type": "props",
       "data": _vm.commandButtonProps,
+      "type": "props",
       "name": "CommandButton"
     }
   }), _vm._v(" "), _c('docs-table', {
     attrs: {
-      "type": "events",
       "data": _vm.commandButtonEvents,
+      "type": "events",
       "name": "CommandButton"
     }
   })], 1)])
@@ -30947,7 +31129,7 @@ if (false) {
 }
 
 /***/ }),
-/* 645 */
+/* 647 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -31033,7 +31215,7 @@ if (false) {
 }
 
 /***/ }),
-/* 646 */
+/* 648 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -31125,7 +31307,7 @@ if (false) {
 }
 
 /***/ }),
-/* 647 */
+/* 649 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -31224,7 +31406,7 @@ if (false) {
 }
 
 /***/ }),
-/* 648 */
+/* 650 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -31278,7 +31460,7 @@ if (false) {
 }
 
 /***/ }),
-/* 649 */
+/* 651 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -31554,7 +31736,7 @@ if (false) {
 }
 
 /***/ }),
-/* 650 */
+/* 652 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -31645,7 +31827,7 @@ if (false) {
 }
 
 /***/ }),
-/* 651 */
+/* 653 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -31670,7 +31852,7 @@ if (false) {
 }
 
 /***/ }),
-/* 652 */
+/* 654 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -31763,7 +31945,7 @@ if (false) {
 }
 
 /***/ }),
-/* 653 */
+/* 655 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -31815,7 +31997,7 @@ if (false) {
 }
 
 /***/ }),
-/* 654 */
+/* 656 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -31895,7 +32077,7 @@ if (false) {
 }
 
 /***/ }),
-/* 655 */
+/* 657 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -32093,58 +32275,6 @@ if (false) {
 }
 
 /***/ }),
-/* 656 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(453);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(4)("71cce910", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0a55dfb6\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsContent.vue", function() {
-     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0a55dfb6\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsContent.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 657 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(454);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(4)("60ef1472", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-23aedcd2\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue", function() {
-     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-23aedcd2\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
 /* 658 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32155,13 +32285,13 @@ var content = __webpack_require__(455);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("4cc9d709", content, false, {});
+var update = __webpack_require__(3)("71cce910", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-249c49dc\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsPanelNav.vue", function() {
-     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-249c49dc\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsPanelNav.vue");
+   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0a55dfb6\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsContent.vue", function() {
+     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0a55dfb6\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsContent.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -32181,13 +32311,13 @@ var content = __webpack_require__(456);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("5fe8f6a4", content, false, {});
+var update = __webpack_require__(3)("60ef1472", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-318d45c6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsCodeBlock.vue", function() {
-     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-318d45c6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsCodeBlock.vue");
+   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-23aedcd2\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue", function() {
+     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-23aedcd2\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -32207,13 +32337,13 @@ var content = __webpack_require__(457);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("f8161f30", content, false, {});
+var update = __webpack_require__(3)("4cc9d709", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-318d45c6\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./DocsCodeBlock.vue", function() {
-     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-318d45c6\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./DocsCodeBlock.vue");
+   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-249c49dc\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsPanelNav.vue", function() {
+     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-249c49dc\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsPanelNav.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -32233,13 +32363,13 @@ var content = __webpack_require__(458);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("b0b9376c", content, false, {});
+var update = __webpack_require__(3)("5fe8f6a4", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-4da26540\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue", function() {
-     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-4da26540\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue");
+   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-318d45c6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsCodeBlock.vue", function() {
+     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-318d45c6\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsCodeBlock.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -32259,13 +32389,13 @@ var content = __webpack_require__(459);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("2d7776b0", content, false, {});
+var update = __webpack_require__(3)("f8161f30", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-4da26540\",\"scoped\":true,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./app.vue", function() {
-     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-4da26540\",\"scoped\":true,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./app.vue");
+   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-318d45c6\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./DocsCodeBlock.vue", function() {
+     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-318d45c6\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./DocsCodeBlock.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -32285,13 +32415,13 @@ var content = __webpack_require__(460);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("3c3a5441", content, false, {});
+var update = __webpack_require__(3)("b0b9376c", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-67ff6c40\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsNav.vue", function() {
-     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-67ff6c40\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsNav.vue");
+   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-4da26540\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue", function() {
+     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-4da26540\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -32311,7 +32441,59 @@ var content = __webpack_require__(461);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("d1471ff4", content, false, {});
+var update = __webpack_require__(3)("2d7776b0", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-4da26540\",\"scoped\":true,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./app.vue", function() {
+     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-4da26540\",\"scoped\":true,\"hasInlineConfig\":false}!../node_modules/vue-loader/lib/selector.js?type=styles&index=1!./app.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 665 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(462);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(3)("3c3a5441", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-67ff6c40\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsNav.vue", function() {
+     var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-67ff6c40\",\"scoped\":true,\"hasInlineConfig\":false}!../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./DocsNav.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 666 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(463);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(3)("d1471ff4", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
