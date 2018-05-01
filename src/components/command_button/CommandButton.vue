@@ -2,8 +2,8 @@
   <div
     :class="commandButtonClass"
     class="ms-CommandButton"
-    @click="clickEvent">
-    <button class="ms-CommandButton-button">
+   >
+    <button class="ms-CommandButton-button" @click="clickEvent">
       <span
         v-if="icon"
         class="ms-CommandButton-icon ms-fontColor-themePrimary">

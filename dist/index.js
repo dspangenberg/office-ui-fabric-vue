@@ -14283,12 +14283,12 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "ms-CommandButton",
-    class: _vm.commandButtonClass,
+    class: _vm.commandButtonClass
+  }, [_c('button', {
+    staticClass: "ms-CommandButton-button",
     on: {
       "click": _vm.clickEvent
     }
-  }, [_c('button', {
-    staticClass: "ms-CommandButton-button"
   }, [(_vm.icon) ? _c('span', {
     staticClass: "ms-CommandButton-icon ms-fontColor-themePrimary"
   }, [_c('ou-icon', {
