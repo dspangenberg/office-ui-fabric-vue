@@ -34,10 +34,11 @@
         title="Split CommandButton">
         <ou-command-button
           :is-split="true"
+          :is-split-has-icons="true"
         >
           Command
           <div slot="list">
-            <ou-contextual-menu-item name="Animals" />
+            <ou-contextual-menu-item icon-type="svg" icon="add-user" name="Animals" />
             <ou-contextual-menu-item name="Books" />
             <ou-contextual-menu-item name="Education" />
             <ou-contextual-menu-item name="Music" />

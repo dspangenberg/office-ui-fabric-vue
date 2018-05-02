@@ -22576,6 +22576,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 
 
@@ -29019,12 +29020,15 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
     }
   }, [_vm._c('ou-command-button', {
     attrs: {
-      "is-split": true
+      "is-split": true,
+      "is-split-has-icons": true
     }
   }, [_vm._v("\n        Command\n        "), _vm._c('div', {
     slot: "list"
   }, [_vm._c('ou-contextual-menu-item', {
     attrs: {
+      "icon-type": "svg",
+      "icon": "add-user",
       "name": "Animals"
     }
   }), _vm._v(" "), _vm._c('ou-contextual-menu-item', {
