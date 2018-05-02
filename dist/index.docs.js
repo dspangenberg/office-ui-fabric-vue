@@ -9022,6 +9022,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       type: Boolean,
       default: false
     },
+    isSplitHasIcons: {
+      type: Boolean,
+      default: true
+    },
     isPivot: {
       type: Boolean,
       default: false
@@ -12979,7 +12983,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
     staticClass: "ms-CommandButton-dropdownIcon"
   }, [_vm._c('i', {
     staticClass: "ms-Icon ms-Icon--ChevronDown"
-  })]) : _vm._e()]), _vm._v(" "), (_vm.isSplit) ? _vm._c('ou-contextual-menu', [_vm._c('button', {
+  })]) : _vm._e()]), _vm._v(" "), (_vm.isSplit) ? _vm._c('ou-contextual-menu', {
+    attrs: {
+      "has-icons": _vm.isSplitHasIcons
+    }
+  }, [_vm._c('button', {
     staticClass: "ms-CommandButton-splitIcon"
   }, [_vm._c('i', {
     staticClass: "ms-Icon ms-Icon--ChevronDown"

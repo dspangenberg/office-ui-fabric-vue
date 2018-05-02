@@ -20,7 +20,7 @@
         <i class="ms-Icon ms-Icon--ChevronDown"/>
       </span>
     </button>
-    <ou-contextual-menu v-if="isSplit">
+    <ou-contextual-menu v-if="isSplit" :has-icons="isSplitHasIcons">
       <button
         class="ms-CommandButton-splitIcon"
       >
@@ -52,6 +52,10 @@ export default {
     isSplit: {
       type: Boolean,
       default: false
+    },
+    isSplitHasIcons: {
+      type: Boolean,
+      default: true
     },
     isPivot: {
       type: Boolean,
