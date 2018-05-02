@@ -91,8 +91,9 @@
       </docs-code-block>
       <docs-code-block
         :code="textOnlyCode"
-        title="Text Only CommandButton">
-        <ou-command-button>Command</ou-command-button>
+        title="Text Only CommandButton"
+      >
+        <ou-command-button label-style="color: red;" >Command</ou-command-button>
       </docs-code-block>
 
       <docs-code-block

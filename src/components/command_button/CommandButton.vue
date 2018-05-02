@@ -10,9 +10,10 @@
         <ou-icon
           :size="$parent.svgSize"
           :icon="icon"
-          :type="iconType" />
+          :type="iconType"
+        />
       </span>
-      <span class="ms-CommandButton-label"><slot /></span>
+      <span :style="labelStyle" class="ms-CommandButton-label"><slot /></span>
       <span
         v-if="hasDropdown"
         class="ms-CommandButton-dropdownIcon">
@@ -55,6 +56,10 @@ export default {
     isPivot: {
       type: Boolean,
       default: false
+    },
+    labelStyle: {
+      type: String,
+      default: ''
     }
   },
   computed: {
