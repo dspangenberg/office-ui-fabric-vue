@@ -63,6 +63,7 @@
   },
   "dependencies": {
     "office-ui-fabric-js": "1.5.0",
+    "v-tooltip": "^2.0.0-rc.32",
     "vue-svgicon": "https://github.com/dspangenberg/vue-svgicon.git",
     "windows-10-icons": "^1.0.1"
   },

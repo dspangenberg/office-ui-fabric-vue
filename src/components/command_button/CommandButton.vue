@@ -1,5 +1,6 @@
 <template>
   <div
+    v-tooltip="tooltip"
     :class="commandButtonClass"
     class="ms-CommandButton"
    >
@@ -36,9 +37,13 @@
 import type from '../../mixins/props/type'
 import disabled from '../../mixins/props/disabled'
 import icon from '../../mixins/props/icon'
-
+import VTooltip from 'v-tooltip';
+import Vue from 'vue'
 export default {
   name: 'ou-command-button',
+  directives: {
+    'tooltip': VTooltip
+  },
   mixins: [
     type('noLabel', 'inline', 'dropdown', 'dropdownNoLabel'),
     disabled,
@@ -53,6 +58,10 @@ export default {
       type: Boolean,
       default: false
     },
+    isDisabled: {
+      type: Boolean,
+      default: false
+    },
     isSplitHasIcons: {
       type: Boolean,
       default: true
@@ -62,6 +71,10 @@ export default {
       default: false
     },
     labelStyle: {
+      type: String,
+      default: ''
+    },
+    tooltip: {
       type: String,
       default: ''
     }
@@ -88,7 +101,7 @@ export default {
     clickEvent () {
       if (!this.isDisabled) { this.$emit('click') }
     }
-  }
+  },
 }
 </script>
 

@@ -27,7 +27,7 @@
         title="Disabled CommandButton">
         <ou-command-button
           icon="CircleRing"
-          disabled>Command</ou-command-button>
+          :is-disabled="true">Command</ou-command-button>
       </docs-code-block>
       <docs-code-block
         :code="disabledCode"

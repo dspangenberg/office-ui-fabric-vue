@@ -5,7 +5,6 @@ import svgicon from 'vue-svgicon';
 const OfficeUIFabricVue = {
   install(Vue, options = {}) {
     Vue.prototype.$fabric = fabric;
-
     const svgs = options.svgs || null;
 
     /* eslint-disable */
