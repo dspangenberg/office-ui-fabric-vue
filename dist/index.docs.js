@@ -10504,31 +10504,25 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'ou-search-box',
-
   mixins: [__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__mixins_props_type__["a" /* default */])('commandBar')],
-
   props: {
     value: String,
     placeholder: String,
-
     collapsed: {
       type: Boolean,
       default: false
     }
   },
-
   data: function data() {
     return {
-      hasValue: !!this.value
+      hasValue: !!this.value,
+      searchBoxInstance: null
     };
   },
-
 
   computed: {
     searchBoxClass: function searchBoxClass() {
@@ -10537,11 +10531,14 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       return _ref = {}, _defineProperty(_ref, 'ms-SearchBox--' + this.type, !!this.type), _defineProperty(_ref, 'is-collapsed', this.collapsed), _ref;
     }
   },
-
   mounted: function mounted() {
-    new this.$fabric.SearchBox(this.$refs.searchBox);
+    this.searchBoxInstance = new this.$fabric.SearchBox(this.$refs.searchBox);
+    // Overwrite the default blur event on searchBoxField
+    // to prevent lose content when searchBox blur.
+    // You can see here https://github.com/OfficeDev/office-ui-fabric-js/issues/301
+    this.searchBoxInstance._searchBoxField.removeEventListener('blur', this.searchBoxInstance._boundHandleBlur, true);
+    this.searchBoxInstance._searchBoxField.addEventListener('blur', this.blurEvent, true);
   },
-
 
   methods: {
     updateValue: function updateValue(event) {
@@ -10549,6 +10546,22 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     },
     clearValue: function clearValue() {
       this.$emit('input', '');
+    },
+    blurEvent: function blurEvent() {
+      var self = this.searchBoxInstance;
+      if (!self._clearOnly) {
+        self._searchBox.removeEventListener('keyup', self._boundEnableClose);
+        setTimeout(function () {
+          if (!self._searchBox.contains(document.activeElement) && self._searchBoxField.value == '') {
+            self._clearSearchBox();
+            self._collapseSearchBox();
+            self.setCollapsedListeners();
+          }
+        }, 10);
+      } else {
+        self._searchBoxField.focus();
+      }
+      self._clearOnly = false;
     }
   }
 });
@@ -20063,8 +20076,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
       "value": _vm.value
     },
     on: {
-      "input": _vm.updateValue,
-      "blur": _vm.clearValue
+      "input": _vm.updateValue
     }
   }), _vm._v(" "), _vm._c('label', {
     staticClass: "ms-SearchBox-label"
