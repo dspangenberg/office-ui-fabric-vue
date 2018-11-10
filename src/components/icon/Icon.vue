@@ -62,6 +62,7 @@ export default {
             color={color}
             class={ctx.props.svgClass}
             is-stroke={true}
+            fill={false}
           />
         </i>
       )

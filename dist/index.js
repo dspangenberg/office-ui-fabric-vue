@@ -9681,7 +9681,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             height: size,
             color: color,
 
-            'is-stroke': true
+            'is-stroke': true,
+            fill: false
           },
           'class': ctx.props.svgClass })]
       );
