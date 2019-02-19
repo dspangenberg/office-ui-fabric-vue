@@ -8098,7 +8098,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/components/DocsContent.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/components/DocsContent.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] DocsContent.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -9722,12 +9722,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             icon: ctx.props.icon,
             width: size,
             height: size,
-            color: color,
-
-            'is-stroke': true,
-            fill: false
+            color: color
           },
-          'class': ctx.props.svgClass })]
+          'class': ctx.props.svgClass
+        })]
       );
     }
   }
@@ -17343,7 +17341,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/breadcrumb/Breadcrumb.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/breadcrumb/Breadcrumb.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Breadcrumb.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17383,7 +17381,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/breadcrumb/BreadcrumbItem.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/breadcrumb/BreadcrumbItem.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] BreadcrumbItem.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17423,7 +17421,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/button/Button.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/button/Button.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Button.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17463,7 +17461,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/callout/Callout.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/callout/Callout.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Callout.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17503,7 +17501,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/checkbox/Checkbox.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/checkbox/Checkbox.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Checkbox.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17543,7 +17541,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/choice_field_group/ChoiceField.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/choice_field_group/ChoiceField.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ChoiceField.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17583,7 +17581,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/choice_field_group/ChoiceFieldGroup.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/choice_field_group/ChoiceFieldGroup.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ChoiceFieldGroup.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17623,7 +17621,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/command_bar/CommandBar.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/command_bar/CommandBar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] CommandBar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17667,7 +17665,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/command_button/CommandButton.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/command_button/CommandButton.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] CommandButton.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17711,7 +17709,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/contextual_menu/ContextualMenu.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/contextual_menu/ContextualMenu.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ContextualMenu.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17755,7 +17753,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/contextual_menu/ContextualMenuItem.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/contextual_menu/ContextualMenuItem.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ContextualMenuItem.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17795,7 +17793,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/date_picker/DatePicker.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/date_picker/DatePicker.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] DatePicker.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17835,7 +17833,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/dialog/Dialog.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/dialog/Dialog.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Dialog.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17875,7 +17873,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/dropdown/Dropdown.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/dropdown/Dropdown.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Dropdown.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17915,7 +17913,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/dropdown/DropdownItem.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/dropdown/DropdownItem.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] DropdownItem.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -17959,7 +17957,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/icon/Icon.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/icon/Icon.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -17998,7 +17996,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/label/Label.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/label/Label.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Label.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18038,7 +18036,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/link/Link.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/link/Link.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Link.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18078,7 +18076,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/list/List.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/list/List.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] List.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18122,7 +18120,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/list/ListItem.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/list/ListItem.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ListItem.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18162,7 +18160,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/list/ListItemAction.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/list/ListItemAction.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ListItemAction.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18202,7 +18200,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/message_banner/MessageBanner.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/message_banner/MessageBanner.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] MessageBanner.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18242,7 +18240,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/message_bar/MessageBar.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/message_bar/MessageBar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] MessageBar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18282,7 +18280,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/org_chart/OrgChart.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/org_chart/OrgChart.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] OrgChart.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18322,7 +18320,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/org_chart/OrgChartGroup.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/org_chart/OrgChartGroup.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] OrgChartGroup.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18362,7 +18360,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/org_chart/OrgChartGroupItem.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/org_chart/OrgChartGroupItem.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] OrgChartGroupItem.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18402,7 +18400,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/overlay/Overlay.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/overlay/Overlay.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Overlay.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18442,7 +18440,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/panel/Panel.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/panel/Panel.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Panel.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18482,7 +18480,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/persona/Persona.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/persona/Persona.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Persona.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18522,7 +18520,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/pivot/Pivot.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/pivot/Pivot.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Pivot.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18562,7 +18560,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/pivot/PivotItem.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/pivot/PivotItem.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] PivotItem.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18602,7 +18600,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/progress_indicator/ProgressIndicator.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/progress_indicator/ProgressIndicator.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ProgressIndicator.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18642,7 +18640,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/search_box/SearchBox.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/search_box/SearchBox.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] SearchBox.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18682,7 +18680,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/spinner/Spinner.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/spinner/Spinner.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Spinner.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18722,7 +18720,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/table/Table.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/table/Table.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Table.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18762,7 +18760,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/table/TableColumn.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/table/TableColumn.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] TableColumn.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18802,7 +18800,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/text_field/TextField.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/text_field/TextField.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] TextField.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18842,7 +18840,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/src/components/toggle/Toggle.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/src/components/toggle/Toggle.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Toggle.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -24176,7 +24174,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/components/DocsNav.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/components/DocsNav.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] DocsNav.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -24511,7 +24509,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/app.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/app.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] app.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -24556,7 +24554,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/components/DocsCodeBlock.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/components/DocsCodeBlock.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] DocsCodeBlock.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -24600,7 +24598,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/components/DocsTable.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/components/DocsTable.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] DocsTable.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31634,7 +31632,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/components/ChangeLog.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/components/ChangeLog.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ChangeLog.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31678,7 +31676,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/components/DocsPanelNav.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/components/DocsPanelNav.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] DocsPanelNav.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31718,7 +31716,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/components/GetStarted.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/components/GetStarted.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] GetStarted.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31762,7 +31760,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/components/Home.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/components/Home.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Home.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31802,7 +31800,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Breadcrumb.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Breadcrumb.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Breadcrumb.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31842,7 +31840,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Button.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Button.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Button.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31882,7 +31880,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Callout.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Callout.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Callout.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31922,7 +31920,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Checkbox.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Checkbox.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Checkbox.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31962,7 +31960,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/ChoiceFieldGroup.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/ChoiceFieldGroup.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ChoiceFieldGroup.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32002,7 +32000,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/CommandBar.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/CommandBar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] CommandBar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32042,7 +32040,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/CommandButton.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/CommandButton.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] CommandButton.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32082,7 +32080,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/ContextualMenu.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/ContextualMenu.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ContextualMenu.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32122,7 +32120,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/DatePicker.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/DatePicker.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] DatePicker.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32162,7 +32160,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Dialog.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Dialog.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Dialog.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32202,7 +32200,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Dropdown.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Dropdown.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Dropdown.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32242,7 +32240,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Icon.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Icon.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Icon.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32282,7 +32280,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Label.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Label.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Label.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32322,7 +32320,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Link.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Link.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Link.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32362,7 +32360,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/List.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/List.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] List.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32402,7 +32400,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/ListItem.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/ListItem.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ListItem.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32442,7 +32440,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/MessageBanner.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/MessageBanner.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] MessageBanner.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32482,7 +32480,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/MessageBar.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/MessageBar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] MessageBar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32522,7 +32520,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/OrgChart.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/OrgChart.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] OrgChart.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32562,7 +32560,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Overlay.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Overlay.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Overlay.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32602,7 +32600,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Panel.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Panel.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Panel.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32642,7 +32640,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Persona.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Persona.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Persona.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32682,7 +32680,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Pivot.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Pivot.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Pivot.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32722,7 +32720,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/ProgressIndicator.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/ProgressIndicator.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ProgressIndicator.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32762,7 +32760,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/SearchBox.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/SearchBox.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] SearchBox.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32802,7 +32800,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Spinner.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Spinner.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Spinner.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32842,7 +32840,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Table.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Table.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Table.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32882,7 +32880,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/TextField.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/TextField.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] TextField.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32922,7 +32920,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/dspangenberg/Projects/twiceware-pro.de/os/office-ui-fabric-vue/docs/ui-components/Toggle.vue"
+Component.options.__file = "/Users/dspangenberg/Projects/tourismusnetz.com/oss/office-ui-fabric-vue/docs/ui-components/Toggle.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Toggle.vue: functional components are not supported with templates, they should use render functions.")}
 
