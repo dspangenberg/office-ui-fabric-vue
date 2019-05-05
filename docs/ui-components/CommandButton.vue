@@ -47,6 +47,23 @@
           </div>
         </ou-command-button>
       </docs-code-block>
+       <docs-code-block
+        :code="disabledCode"
+        title="Custom-Split CommandButton">
+        <ou-command-button
+          :is-split="true"
+          :is-split-has-icons="true"
+        >
+          Command
+          <div slot="split">
+            <button
+        class="ms-CommandButton-splitIcon"
+      >
+        <i class="ms-Icon ms-Icon--ChevronDown" />
+      </button>
+          </div>
+        </ou-command-button>
+      </docs-code-block>
       <docs-code-block
         :code="dropdownCode"
         title="Dropdown CommandButton">

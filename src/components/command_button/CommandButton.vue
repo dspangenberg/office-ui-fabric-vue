@@ -22,6 +22,7 @@
         <i class="ms-Icon ms-Icon--ChevronDown"/>
       </span>
     </button>
+    <slot name="split">
     <ou-contextual-menu v-if="isSplit" :has-icons="isSplitHasIcons">
       <button
         class="ms-CommandButton-splitIcon"
@@ -32,6 +33,7 @@
         <slot name="list" />
       </div>
     </ou-contextual-menu>
+    </slot>
   </div>
 </template>
 <script>
@@ -51,13 +53,13 @@ export default {
     icon
   ],
   props: {
-    isActive: {
-      type: Boolean,
-      default: false
-    },
     svgClass: {
       type: String,
       default: ''
+    },
+    isActive: {
+      type: Boolean,
+      default: false
     },
     isSplit: {
       type: Boolean,

@@ -10831,6 +10831,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 
 
@@ -10844,13 +10846,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   },
   mixins: [__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__mixins_props_type__["a" /* default */])('noLabel', 'inline', 'dropdown', 'dropdownNoLabel'), __WEBPACK_IMPORTED_MODULE_1__mixins_props_disabled__["a" /* default */], __WEBPACK_IMPORTED_MODULE_2__mixins_props_icon__["a" /* default */]],
   props: {
-    isActive: {
-      type: Boolean,
-      default: false
-    },
     svgClass: {
       type: String,
       default: ''
+    },
+    isActive: {
+      type: Boolean,
+      default: false
     },
     isSplit: {
       type: Boolean,
@@ -22179,7 +22181,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "ms-CommandButton-dropdownIcon"
   }, [_c('i', {
     staticClass: "ms-Icon ms-Icon--ChevronDown"
-  })]) : _vm._e()]), _vm._v(" "), (_vm.isSplit) ? _c('ou-contextual-menu', {
+  })]) : _vm._e()]), _vm._v(" "), _vm._t("split", [(_vm.isSplit) ? _c('ou-contextual-menu', {
     attrs: {
       "has-icons": _vm.isSplitHasIcons
     }
@@ -22192,7 +22194,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "slot": "list"
     },
     slot: "list"
-  }, [_vm._t("list")], 2)]) : _vm._e()], 1)
+  }, [_vm._t("list")], 2)]) : _vm._e()])], 2)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -32303,6 +32305,23 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -37581,6 +37600,25 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "name": "Sports"
     }
   })], 1)])], 1), _vm._v(" "), _c('docs-code-block', {
+    attrs: {
+      "code": _vm.disabledCode,
+      "title": "Custom-Split CommandButton"
+    }
+  }, [_c('ou-command-button', {
+    attrs: {
+      "is-split": true,
+      "is-split-has-icons": true
+    }
+  }, [_vm._v("\n        Command\n        "), _c('div', {
+    attrs: {
+      "slot": "split"
+    },
+    slot: "split"
+  }, [_c('button', {
+    staticClass: "ms-CommandButton-splitIcon"
+  }, [_c('i', {
+    staticClass: "ms-Icon ms-Icon--ChevronDown"
+  })])])])], 1), _vm._v(" "), _c('docs-code-block', {
     attrs: {
       "code": _vm.dropdownCode,
       "title": "Dropdown CommandButton"
