@@ -6,7 +6,7 @@
         <ou-icon icon="Mail" />
       </docs-code-block>
       <docs-code-block title='SVG Icon' :code='svgCode'>
-        <ou-icon type="svg" icon="add-user" />
+        <ou-icon type="svg" icon="add-user" svg-class="svg-red" />
         <div v-html="svgInstructionsContent"></div>
       </docs-code-block>
     </div>

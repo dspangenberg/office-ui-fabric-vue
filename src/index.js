@@ -1,5 +1,5 @@
-import fabric from '../lib/office-ui-fabric';
 import componentsInstaller from './install';
+import fabric from '../lib/office-ui-fabric';
 import svgicon from 'vue-svgicon';
 
 const OfficeUIFabricVue = {

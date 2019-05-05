@@ -20,7 +20,7 @@
           <div slot='list'>
             <ou-contextual-menu-item icon="cat-footprint" icon-type="svg" name='Animals' />
             <ou-contextual-menu-item icon="library" icon-type="svg"  name='Books' />
-            <ou-contextual-menu-item icon="puzzle" icon-type="svg" name='Education' />
+            <ou-contextual-menu-item icon="puzzle" svg-class="svg-red" icon-type="svg" name='Education' />
             <ou-contextual-menu-item icon="music" icon-type="svg" name='Music' />
             <ou-contextual-menu-item icon="trophy" icon-type="svg" name='Sports' disabled />
           </div>

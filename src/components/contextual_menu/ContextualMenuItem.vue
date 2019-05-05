@@ -7,7 +7,7 @@
       v-if='hasLink'>
       {{ name }}
     </a>
-    <ou-icon :disabled="disabled" v-if="icon" :icon="icon" :type="iconType" />
+    <ou-icon :disabled="disabled" v-if="icon" :icon="icon" :svg-class="svgClass" :type="iconType" />
     <i class='ms-ContextualMenu-subMenuIcon ms-Icon ms-Icon--ChevronRight' v-if='hasMenu'></i>
     <ul class='ms-ContextualMenu is-hidden' :class="{'ms-ContextualMenu--hasIcons': $parent.hasIcons}"  v-if='hasMenu'>
       <slot />
@@ -35,6 +35,7 @@
       name: String,
       value: [String, Number],
       icon: String,
+      svgClass: String,
       iconType: {
         type: String,
         default: 'ms'

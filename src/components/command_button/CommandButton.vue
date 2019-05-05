@@ -12,6 +12,7 @@
           :size="$parent.svgSize"
           :icon="icon"
           :type="iconType"
+          :svg-class="svgClass"
         />
       </span>
       <span :style="labelStyle" class="ms-CommandButton-label"><slot /></span>
@@ -53,6 +54,10 @@ export default {
     isActive: {
       type: Boolean,
       default: false
+    },
+    svgClass: {
+      type: String,
+      default: ''
     },
     isSplit: {
       type: Boolean,

@@ -656,6 +656,10 @@ pre[data-line] {
 	top: auto;
 }
 
+.svg-red {
+	color: red;
+}
+
 html {
   line-height: normal;
 }

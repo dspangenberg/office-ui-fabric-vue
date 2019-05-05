@@ -9,6 +9,7 @@
         title="Default CommandButton">
         <ou-command-button
           icon-type="svg"
+          svg-class="svg-red"
           icon="add-user">Command</ou-command-button>
       </docs-code-block>
       <docs-code-block
