@@ -92,7 +92,7 @@ export default {
   },
   computed: {
     getSize () {
-      return (this.size) ? this.size : $parent.size
+      return (this.size) ? this.size : this.$parent.size
     },
     hasDropdown () {
       return (this.type === 'dropdown' || this.type === 'dropdownNoLabel')
