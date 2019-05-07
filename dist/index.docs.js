@@ -10885,7 +10885,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   },
   computed: {
     getSize: function getSize() {
-      return this.size ? this.size : $parent.size;
+      return this.size ? this.size : this.$parent.size;
     },
     hasDropdown: function hasDropdown() {
       return this.type === 'dropdown' || this.type === 'dropdownNoLabel';
