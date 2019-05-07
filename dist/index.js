@@ -10811,6 +10811,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       type: Boolean,
       default: false
     },
+    size: {
+      type: Number,
+      default: 20
+    },
     isSplit: {
       type: Boolean,
       default: false
@@ -10837,6 +10841,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     }
   },
   computed: {
+    getSize: function getSize() {
+      return this.size ? this.size : $parent.size;
+    },
     hasDropdown: function hasDropdown() {
       return this.type === 'dropdown' || this.type === 'dropdownNoLabel';
     },
@@ -22126,7 +22133,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "ms-CommandButton-icon ms-fontColor-themePrimary"
   }, [_c('ou-icon', {
     attrs: {
-      "size": _vm.$parent.svgSize,
+      "size": _vm.getSize,
       "icon": _vm.icon,
       "type": _vm.iconType,
       "svg-class": _vm.svgClass

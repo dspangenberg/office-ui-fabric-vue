@@ -21,6 +21,7 @@
         <ou-command-button
           icon="add-user"
           icon-type="svg"
+          :size="30"
           type="noLabel"/>
       </docs-code-block>
       <docs-code-block

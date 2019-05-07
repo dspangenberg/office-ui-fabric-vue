@@ -9,7 +9,7 @@
         v-if="icon"
         class="ms-CommandButton-icon ms-fontColor-themePrimary">
         <ou-icon
-          :size="$parent.svgSize"
+          :size="getSize"
           :icon="icon"
           :type="iconType"
           :svg-class="svgClass"
@@ -61,6 +61,10 @@ export default {
       type: Boolean,
       default: false
     },
+    size: {
+      type: Number,
+      default: 20
+    },
     isSplit: {
       type: Boolean,
       default: false
@@ -87,6 +91,9 @@ export default {
     }
   },
   computed: {
+    getSize () {
+      return (this.size) ? this.size : $parent.size
+    },
     hasDropdown () {
       return (this.type === 'dropdown' || this.type === 'dropdownNoLabel')
     },
