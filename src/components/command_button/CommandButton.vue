@@ -12,6 +12,7 @@
           :size="getSize"
           :icon="icon"
           :type="iconType"
+          :dir="iconDir"
           :svg-class="svgClass"
         />
       </span>
@@ -64,6 +65,10 @@ export default {
     size: {
       type: Number,
       default: 20
+    },
+    iconDir: {
+      type: String,
+      default: ''
     },
     isSplit: {
       type: Boolean,

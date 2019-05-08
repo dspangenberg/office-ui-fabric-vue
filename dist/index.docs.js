@@ -10833,6 +10833,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 
 
@@ -10857,6 +10858,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     size: {
       type: Number,
       default: 20
+    },
+    iconDir: {
+      type: String,
+      default: ''
     },
     isSplit: {
       type: Boolean,
@@ -11495,6 +11500,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       type: String,
       default: ''
     },
+    dir: {
+      type: String,
+      default: ''
+    },
     disabled: {
       type: Boolean,
       default: false
@@ -11525,6 +11534,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     } else {
       var size = ctx.props.size + 'px';
       var color = ctx.props.disabled ? '#a6a6a6' : ctx.props.color;
+      console.log(ctx.props);
       return h(
         'i',
         { 'class': 'ms-Icon' },
@@ -11532,6 +11542,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
           attrs: {
             icon: ctx.props.icon,
             width: size,
+            dir: ctx.props.dir,
             height: size,
             color: color
           },
@@ -22179,6 +22190,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "size": _vm.getSize,
       "icon": _vm.icon,
       "type": _vm.iconType,
+      "dir": _vm.iconDir,
       "svg-class": _vm.svgClass
     }
   })], 1) : _vm._e(), _vm._v(" "), _c('span', {
@@ -32330,6 +32342,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 
 
@@ -37559,6 +37572,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "icon": "add-user",
       "icon-type": "svg",
       "size": 30,
+      "icon-dir": "left",
       "type": "noLabel"
     }
   })], 1), _vm._v(" "), _c('docs-code-block', {
@@ -37900,7 +37914,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "type": "svg",
       "icon": "add-user",
-      "svg-class": "svg-red"
+      "svg-class": "svg-red",
+      "dir": "right"
     }
   }), _vm._v(" "), _c('div', {
     domProps: {

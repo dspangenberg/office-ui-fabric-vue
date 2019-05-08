@@ -20,6 +20,10 @@ export default {
       type: String,
       default: ''
     },
+    dir: {
+      type: String,
+      default: ''
+    },
     disabled: {
       type: Boolean,
       default: false
@@ -53,11 +57,13 @@ export default {
     } else {
       const size = ctx.props.size + 'px'
       const color = (ctx.props.disabled) ? '#a6a6a6' : ctx.props.color
+      console.log(ctx.props)
       return (
         <i class="ms-Icon">
           <svgicon
             icon={ctx.props.icon}
             width={size}
+            dir={ctx.props.dir}
             height={size}
             color={color}
             class={ctx.props.svgClass}

@@ -1,2 +1,19 @@
 @import '../node_modules/office-ui-fabric-js/dist/css/fabric.min.css';
 @import '../node_modules/office-ui-fabric-js/dist/css/fabric.components.min.css';
+
+.svg-up {
+  /* default */
+  transform: rotate(0deg);
+}
+
+.svg-right {
+  transform: rotate(90deg);
+}
+
+.svg-down {
+  transform: rotate(180deg);
+}
+
+.svg-left {
+  transform: rotate(-90deg);
+}

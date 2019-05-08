@@ -22,6 +22,7 @@
           icon="add-user"
           icon-type="svg"
           :size="30"
+          icon-dir="left"
           type="noLabel"/>
       </docs-code-block>
       <docs-code-block
