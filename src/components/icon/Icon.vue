@@ -57,7 +57,6 @@ export default {
     } else {
       const size = ctx.props.size + 'px'
       const color = (ctx.props.disabled) ? '#a6a6a6' : ctx.props.color
-      console.log(ctx.props)
       return (
         <i class="ms-Icon">
           <svgicon

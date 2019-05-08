@@ -11491,7 +11491,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     } else {
       var size = ctx.props.size + 'px';
       var color = ctx.props.disabled ? '#a6a6a6' : ctx.props.color;
-      console.log(ctx.props);
       return h(
         'i',
         { 'class': 'ms-Icon' },
